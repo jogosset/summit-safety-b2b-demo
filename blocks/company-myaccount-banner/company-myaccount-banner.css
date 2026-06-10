@@ -1,0 +1,119 @@
+/* ============================================================
+   Company My Account Banner
+   ============================================================ */
+
+main .company-myaccount-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-medium);
+  padding-block: var(--spacing-small);
+  padding-inline: var(--spacing-medium);
+  background-color: var(--cmab-bgcolor, var(--color-neutral-100));
+  color: var(--cmab-text-color, var(--color-neutral-800));
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ============================================================
+   Logo
+   ============================================================ */
+
+main .company-myaccount-banner .cmab-logo {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+main .company-myaccount-banner .cmab-logo picture {
+  display: block;
+}
+
+main .company-myaccount-banner .cmab-logo picture > img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+/* Placeholder shown when no image is authored */
+main .company-myaccount-banner .cmab-logo-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-neutral-300);
+  border-radius: var(--shape-border-radius-1);
+}
+
+/* ============================================================
+   Rich text content area
+   ============================================================ */
+
+main .company-myaccount-banner .cmab-text {
+  flex: 1;
+  min-width: 0;
+  color: var(--cmab-text-color, var(--color-neutral-800));
+}
+
+/* Reset margins on block-level elements so they sit flush in the banner */
+main .company-myaccount-banner .cmab-text p,
+main .company-myaccount-banner .cmab-text h1,
+main .company-myaccount-banner .cmab-text h2,
+main .company-myaccount-banner .cmab-text h3,
+main .company-myaccount-banner .cmab-text h4,
+main .company-myaccount-banner .cmab-text h5,
+main .company-myaccount-banner .cmab-text h6,
+main .company-myaccount-banner .cmab-text ul,
+main .company-myaccount-banner .cmab-text ol {
+  color: inherit;
+  margin-block: var(--spacing-xxsmall);
+}
+
+main .company-myaccount-banner .cmab-text p:first-child,
+main .company-myaccount-banner .cmab-text h1:first-child,
+main .company-myaccount-banner .cmab-text h2:first-child,
+main .company-myaccount-banner .cmab-text h3:first-child {
+  margin-block-start: 0;
+}
+
+main .company-myaccount-banner .cmab-text p:last-child,
+main .company-myaccount-banner .cmab-text ul:last-child,
+main .company-myaccount-banner .cmab-text ol:last-child {
+  margin-block-end: 0;
+}
+
+/* Links inherit color so they remain visible on any background */
+main .company-myaccount-banner .cmab-text a:any-link {
+  color: inherit;
+}
+
+/* Strong / em passthrough */
+main .company-myaccount-banner .cmab-text strong {
+  font-weight: 700;
+}
+
+main .company-myaccount-banner .cmab-text em {
+  font-style: italic;
+}
+
+/* ============================================================
+   Tablet and up
+   ============================================================ */
+
+@media (min-width: 600px) {
+  main .company-myaccount-banner {
+    padding-inline: var(--spacing-big);
+    gap: var(--spacing-big);
+  }
+}
+
+/* ============================================================
+   Desktop and up
+   ============================================================ */
+
+@media (min-width: 900px) {
+  main .company-myaccount-banner {
+    padding-inline: var(--spacing-large);
+    gap: var(--spacing-xbig);
+  }
+}

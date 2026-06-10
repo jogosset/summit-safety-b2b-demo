@@ -1,0 +1,183 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Testimonials",
+      "id": "citisignal-showcase-testimonials",
+      "model": "citisignal-showcase-testimonials",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-testimonials",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "testimonials-eyebrow",
+          "label": "Testimonials Eyebrow",
+          "valueType": "string",
+          "value": "// Reviews"
+        },
+        {
+          "component": "text",
+          "name": "testimonials-title",
+          "label": "Testimonials Title",
+          "valueType": "string",
+          "value": "People love|CitiSignal."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-quote",
+          "label": "Testimonial 1 Quote",
+          "valueType": "string",
+          "value": "Switched from my old carrier three months ago. Better signal, better price, and the free music subscription is a nice bonus."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-initials",
+          "label": "Testimonial 1 Initials",
+          "valueType": "string",
+          "value": "JR"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-name",
+          "label": "Testimonial 1 Name",
+          "valueType": "string",
+          "value": "Jason Reeves"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-role-location",
+          "label": "Testimonial 1 Role Location",
+          "valueType": "string",
+          "value": "Austin, TX"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-quote",
+          "label": "Testimonial 2 Quote",
+          "valueType": "string",
+          "value": "The family plan saved us almost $80 a month. Four lines, unlimited data, and no surprises on the bill."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-initials",
+          "label": "Testimonial 2 Initials",
+          "valueType": "string",
+          "value": "MP"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-name",
+          "label": "Testimonial 2 Name",
+          "valueType": "string",
+          "value": "Maria Perez"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-role-location",
+          "label": "Testimonial 2 Role Location",
+          "valueType": "string",
+          "value": "Miami, FL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-quote",
+          "label": "Testimonial 3 Quote",
+          "valueType": "string",
+          "value": "I got the iPhone 16 deal with trade-in and it was seamless. In-store setup took ten minutes. Really impressed."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-initials",
+          "label": "Testimonial 3 Initials",
+          "valueType": "string",
+          "value": "DL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-name",
+          "label": "Testimonial 3 Name",
+          "valueType": "string",
+          "value": "David Lee"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-role-location",
+          "label": "Testimonial 3 Role Location",
+          "valueType": "string",
+          "value": "Seattle, WA"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-quote",
+          "label": "Testimonial 4 Quote",
+          "valueType": "string",
+          "value": "5G coverage at my office and at home finally. CitiSignal's network expansion has been a game changer for me."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-initials",
+          "label": "Testimonial 4 Initials",
+          "valueType": "string",
+          "value": "RK"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-name",
+          "label": "Testimonial 4 Name",
+          "valueType": "string",
+          "value": "Rachel Kim"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-role-location",
+          "label": "Testimonial 4 Role Location",
+          "valueType": "string",
+          "value": "Chicago, IL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-quote",
+          "label": "Testimonial 5 Quote",
+          "valueType": "string",
+          "value": "No contracts, no hidden fees. They actually mean it. My bill has been the exact same every month for a year."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-initials",
+          "label": "Testimonial 5 Initials",
+          "valueType": "string",
+          "value": "TC"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-name",
+          "label": "Testimonial 5 Name",
+          "valueType": "string",
+          "value": "Tyler Chen"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-role-location",
+          "label": "Testimonial 5 Role Location",
+          "valueType": "string",
+          "value": "Denver, CO"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

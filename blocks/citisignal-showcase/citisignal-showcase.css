@@ -1,0 +1,1422 @@
+/*
+ * Full-bleed for CitiSignal showcase blocks (split + monolithic).
+ * EDS adds `<block>-container` on `.section` and `<block>-wrapper` on the block parent (see scripts/aem.js decorateBlock).
+ */
+.citisignal-showcase-container .citisignal-showcase-wrapper,
+.citisignal-showcase-hero-container .citisignal-showcase-hero-wrapper,
+.citisignal-showcase-partners-container .citisignal-showcase-partners-wrapper,
+.citisignal-showcase-deals-container .citisignal-showcase-deals-wrapper,
+.citisignal-showcase-featured-container .citisignal-showcase-featured-wrapper,
+.citisignal-showcase-plans-container .citisignal-showcase-plans-wrapper,
+.citisignal-showcase-network-container .citisignal-showcase-network-wrapper,
+.citisignal-showcase-testimonials-container .citisignal-showcase-testimonials-wrapper,
+.citisignal-showcase-final-cta-container .citisignal-showcase-final-cta-wrapper {
+  box-sizing: border-box;
+  max-width: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.citisignal-showcase {
+  --cs-bg: #fafaf7;
+  --cs-bg-warm: #f5f3ee;
+  --cs-surface: #fff;
+  --cs-text: #111118;
+  --cs-text-muted: #64647a;
+  --cs-text-soft: #9e9eb0;
+  --cs-primary: #7c3aed;
+  --cs-primary-dark: #5b21b6;
+  --cs-primary-soft: #a78bfa;
+  --cs-accent: #06b6d4;
+  --cs-accent-warm: #f59e0b;
+  --cs-accent-green: #10b981;
+  --cs-border: rgb(17 17 24 / 8%);
+  --cs-shadow: 0 18px 50px rgb(17 17 24 / 10%);
+  --cs-radius: 2rem;
+  --cs-radius-sm: 1.2rem;
+  --cs-container: 128rem;
+  --cs-section-pad: clamp(6.4rem, 8vw, 11.2rem);
+  background: var(--cs-bg);
+  color: var(--cs-text);
+  font-family: var(--type-base-font-family);
+}
+
+.citisignal-showcase .cs-shell {
+  position: relative;
+  overflow: clip;
+}
+
+.citisignal-showcase .cs-section {
+  position: relative;
+}
+
+.citisignal-showcase .cs-container {
+  width: min(calc(100% - 4rem), var(--cs-container));
+  margin: 0 auto;
+}
+
+.citisignal-showcase .cs-eyebrow {
+  margin: 0 0 1.6rem;
+  color: var(--cs-primary);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-section-title,
+.citisignal-showcase .cs-hero-title {
+  margin: 0;
+  font-family: adobe-clean, roboto, roboto-fallback, system-ui, sans-serif;
+  font-size: clamp(3.6rem, 5vw, 7.2rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+}
+
+.citisignal-showcase .cs-section-title--light {
+  color: var(--cs-surface);
+}
+
+.citisignal-showcase .cs-title-line {
+  display: block;
+}
+
+.citisignal-showcase .cs-gradient-text {
+  background: linear-gradient(135deg, var(--cs-primary), var(--cs-accent));
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.citisignal-showcase .cs-section-description,
+.citisignal-showcase .cs-body-copy,
+.citisignal-showcase .cs-card-copy,
+.citisignal-showcase .cs-feature-copy,
+.citisignal-showcase .cs-testimonial-quote {
+  margin: 0;
+  color: var(--cs-text-muted);
+  font-size: clamp(1.6rem, 1.5vw, 1.9rem);
+  line-height: 1.7;
+}
+
+.citisignal-showcase .cs-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.citisignal-showcase .cs-button,
+.citisignal-showcase .cs-inline-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.citisignal-showcase .cs-button:hover,
+.citisignal-showcase .cs-inline-link:hover {
+  transform: translateY(-0.1rem);
+}
+
+.citisignal-showcase .cs-button {
+  min-height: 5.4rem;
+  padding: 0 2.8rem;
+  border-radius: 999px;
+  font: var(--type-body-2-strong-font);
+  letter-spacing: 0.02em;
+}
+
+.citisignal-showcase .cs-button--primary {
+  background: linear-gradient(135deg, var(--cs-primary), var(--cs-primary-dark));
+  color: var(--cs-surface);
+  box-shadow: 0 1.2rem 3rem rgb(124 58 237 / 24%);
+}
+
+.citisignal-showcase .cs-button--secondary,
+.citisignal-showcase .cs-button--ghost {
+  border: 1px solid rgb(17 17 24 / 10%);
+  background: rgb(255 255 255 / 70%);
+  color: var(--cs-text);
+  backdrop-filter: blur(1.2rem);
+}
+
+.citisignal-showcase .cs-button--light {
+  background: var(--cs-surface);
+  color: var(--cs-text);
+}
+
+.citisignal-showcase .cs-inline-link {
+  margin-top: auto;
+  color: var(--cs-primary);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-inline-link::after {
+  content: "→";
+  margin-left: 0.6rem;
+}
+
+.citisignal-showcase .cs-reveal {
+  opacity: 0;
+  transform: translateY(3.2rem);
+  transition:
+    opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.citisignal-showcase .cs-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.citisignal-showcase .cs-delay-1 {
+  transition-delay: 0.12s;
+}
+
+.citisignal-showcase .cs-delay-2 {
+  transition-delay: 0.24s;
+}
+
+.citisignal-showcase .cs-delay-3 {
+  transition-delay: 0.36s;
+}
+
+.citisignal-showcase .cs-hero {
+  min-height: calc(100vh - var(--nav-height));
+  padding: max(4rem, var(--nav-height)) 0 7.2rem;
+  background:
+    radial-gradient(circle at 18% 28%, rgb(224 215 250 / 80%), transparent 34%),
+    radial-gradient(circle at 78% 42%, rgb(196 224 249 / 70%), transparent 34%),
+    radial-gradient(circle at 45% 84%, rgb(253 232 208 / 70%), transparent 28%),
+    radial-gradient(circle at 10% 70%, rgb(209 250 229 / 60%), transparent 25%),
+    linear-gradient(180deg, var(--cs-bg), #f7f5f0);
+}
+
+.citisignal-showcase .cs-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgb(17 17 24 / 5%) 0.1rem, transparent 0.1rem);
+  background-size: 3.2rem 3.2rem;
+  mask-image: linear-gradient(180deg, rgb(0 0 0 / 70%), transparent);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.citisignal-showcase .cs-hero-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: clamp(3.2rem, 6vw, 8rem);
+  align-items: center;
+  min-height: calc(100vh - var(--nav-height));
+}
+
+.citisignal-showcase .cs-hero-copy {
+  display: grid;
+  gap: 2.4rem;
+  max-width: 58rem;
+}
+
+.citisignal-showcase .cs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: fit-content;
+  margin: 0;
+  padding: 0.9rem 1.5rem;
+  border: 1px solid rgb(17 17 24 / 8%);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 72%);
+  color: var(--cs-text-muted);
+  font: var(--type-body-2-strong-font);
+  backdrop-filter: blur(1.2rem);
+}
+
+.citisignal-showcase .cs-badge-dot,
+.citisignal-showcase .cs-hero-pill-dot,
+.citisignal-showcase .cs-marquee-mark {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: var(--cs-accent-green);
+  box-shadow: 0 0 0 0 rgb(16 185 129 / 36%);
+  animation: cs-pulse 2s ease infinite;
+}
+
+.citisignal-showcase .cs-proof {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.citisignal-showcase .cs-avatars {
+  display: flex;
+}
+
+.citisignal-showcase .cs-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-left: -0.8rem;
+  border: 2px solid var(--cs-bg);
+  border-radius: 50%;
+  font: var(--type-details-caption-1-font);
+  font-weight: 700;
+}
+
+.citisignal-showcase .cs-avatar:first-child {
+  margin-left: 0;
+}
+
+.citisignal-showcase .cs-avatar--1 {
+  background: #ede9fe;
+  color: var(--cs-primary);
+}
+
+.citisignal-showcase .cs-avatar--2 {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.citisignal-showcase .cs-avatar--3 {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.citisignal-showcase .cs-avatar--4 {
+  background: #cffafe;
+  color: #0891b2;
+}
+
+.citisignal-showcase .cs-proof-text {
+  margin: 0;
+  color: var(--cs-text-muted);
+  font-size: 1.5rem;
+}
+
+.citisignal-showcase .cs-proof-text strong {
+  color: var(--cs-text);
+}
+
+.citisignal-showcase .cs-hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.citisignal-showcase .cs-phone-scene {
+  position: relative;
+  width: min(100%, 44rem);
+  min-height: 56rem;
+}
+
+.citisignal-showcase .cs-signal-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgb(124 58 237 / 10%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.citisignal-showcase .cs-signal-ring--1 {
+  width: 30rem;
+  height: 30rem;
+}
+
+.citisignal-showcase .cs-signal-ring--2 {
+  width: 42rem;
+  height: 42rem;
+  border-color: rgb(124 58 237 / 6%);
+}
+
+.citisignal-showcase .cs-signal-ring--3 {
+  width: 54rem;
+  height: 54rem;
+  border-color: rgb(124 58 237 / 3%);
+}
+
+.citisignal-showcase .cs-phone {
+  position: relative;
+  width: 22rem;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid rgb(17 17 24 / 10%);
+  border-radius: 2.8rem;
+  background: var(--cs-surface);
+  box-shadow: var(--cs-shadow);
+}
+
+.citisignal-showcase .cs-phone-screen {
+  padding: 2rem 1.8rem 2.4rem;
+}
+
+.citisignal-showcase .cs-phone-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+  color: var(--cs-text-muted);
+  font: var(--type-details-caption-1-font);
+  font-weight: 700;
+}
+
+.citisignal-showcase .cs-phone-brand {
+  color: var(--cs-primary);
+  letter-spacing: 0.14em;
+}
+
+.citisignal-showcase .cs-phone-speed-wrap {
+  text-align: center;
+}
+
+.citisignal-showcase .cs-phone-speed {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.citisignal-showcase .cs-phone-speed-value {
+  font-size: 4.4rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.citisignal-showcase .cs-phone-speed-unit {
+  margin-bottom: 0.8rem;
+  color: var(--cs-text-soft);
+  font-size: 1.4rem;
+}
+
+.citisignal-showcase .cs-phone-speed-label {
+  margin: 0.8rem 0 0;
+  color: var(--cs-text-soft);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.citisignal-showcase .cs-phone-bar {
+  height: 0.4rem;
+  margin-top: 1.4rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(17 17 24 / 8%);
+}
+
+.citisignal-showcase .cs-phone-bar-fill {
+  display: block;
+  width: 84%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--cs-primary), var(--cs-accent));
+  animation: cs-bar-fill 1.2s ease-out;
+}
+
+.citisignal-showcase .cs-phone-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.citisignal-showcase .cs-phone-metric {
+  padding: 1rem 0.4rem;
+  border-radius: 1rem;
+  background: rgb(17 17 24 / 3%);
+  text-align: center;
+}
+
+.citisignal-showcase .cs-phone-metric-value {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.citisignal-showcase .cs-phone-metric-label {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--cs-text-soft);
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-hero-pill {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.9rem 1.4rem;
+  border: 1px solid rgb(17 17 24 / 8%);
+  border-radius: 999px;
+  background: var(--cs-surface);
+  box-shadow: 0 1rem 2.8rem rgb(17 17 24 / 8%);
+  font: var(--type-body-2-strong-font);
+  white-space: nowrap;
+}
+
+.citisignal-showcase .cs-hero-pill--1 {
+  top: 9%;
+  right: 0;
+}
+
+.citisignal-showcase .cs-hero-pill--2 {
+  bottom: 28%;
+  left: -4%;
+}
+
+.citisignal-showcase .cs-hero-pill--3 {
+  right: 6%;
+  bottom: 8%;
+}
+
+.citisignal-showcase .cs-hero-pill--2 .cs-hero-pill-dot {
+  background: var(--cs-primary);
+}
+
+.citisignal-showcase .cs-hero-pill--3 .cs-hero-pill-dot {
+  background: var(--cs-accent-warm);
+}
+
+.citisignal-showcase .cs-hero-scroll {
+  position: absolute;
+  bottom: 2.8rem;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  transform: translateX(-50%);
+  color: var(--cs-text-soft);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-hero-scroll-line {
+  width: 0.1rem;
+  height: 4rem;
+  background: linear-gradient(180deg, var(--cs-text-soft), transparent);
+  animation: cs-scroll-line 2s ease infinite;
+}
+
+.citisignal-showcase .cs-partners {
+  padding: 4.8rem 0;
+  border-top: 1px solid rgb(17 17 24 / 6%);
+  border-bottom: 1px solid rgb(17 17 24 / 6%);
+}
+
+.citisignal-showcase .cs-partners-label {
+  margin: 0 0 2.4rem;
+  color: var(--cs-text-soft);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.18em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-marquee {
+  display: flex;
+  overflow: hidden;
+  gap: 3.2rem;
+}
+
+.citisignal-showcase .cs-marquee-track {
+  display: flex;
+  flex: 0 0 max-content;
+  gap: clamp(3.2rem, 4vw, 6rem);
+  min-width: max-content;
+  animation: cs-marquee 28s linear infinite;
+}
+
+.citisignal-showcase .cs-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(17 17 24 / 56%);
+  font: var(--type-body-1-strong-font);
+  font-size: 1.8rem;
+  letter-spacing: 0.04em;
+}
+
+.citisignal-showcase .cs-deals,
+.citisignal-showcase .cs-plans,
+.citisignal-showcase .cs-testimonials,
+.citisignal-showcase .cs-final-cta {
+  padding: var(--cs-section-pad) 0;
+}
+
+.citisignal-showcase .cs-section-heading {
+  display: grid;
+  gap: 1.6rem;
+  max-width: 58rem;
+}
+
+.citisignal-showcase .cs-deals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 4.8rem;
+}
+
+.citisignal-showcase .cs-deal-card,
+.citisignal-showcase .cs-plan-card,
+.citisignal-showcase .cs-stat-card,
+.citisignal-showcase .cs-testimonial-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  height: 100%;
+  padding: 2.8rem;
+  border: 1px solid var(--cs-border);
+  border-radius: var(--cs-radius);
+  background: var(--cs-surface);
+  box-shadow: 0 0 0 rgb(17 17 24 / 0%);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.citisignal-showcase .cs-deal-card:hover,
+.citisignal-showcase .cs-plan-card:hover,
+.citisignal-showcase .cs-stat-card:hover,
+.citisignal-showcase .cs-testimonial-card:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 1.6rem 3.6rem rgb(17 17 24 / 8%);
+}
+
+.citisignal-showcase .cs-deal-icon {
+  display: inline-flex;
+  width: 4.8rem;
+  height: 4.8rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.4rem;
+  background: #ede9fe;
+}
+
+.citisignal-showcase .cs-icon {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.citisignal-showcase .cs-icon--music {
+  color: #d97706;
+}
+
+.citisignal-showcase .cs-icon--phone {
+  color: var(--cs-primary);
+}
+
+.citisignal-showcase .cs-icon--savings {
+  color: #059669;
+}
+
+.citisignal-showcase .cs-icon--watch,
+.citisignal-showcase .cs-icon--speed,
+.citisignal-showcase .cs-icon--bundle {
+  color: #0891b2;
+}
+
+.citisignal-showcase .cs-card-title {
+  margin: 0;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.citisignal-showcase .cs-featured {
+  padding: var(--cs-section-pad) 0;
+  background:
+    radial-gradient(circle at 26% 38%, rgb(124 58 237 / 22%), transparent 30%),
+    radial-gradient(circle at 74% 56%, rgb(6 182 212 / 16%), transparent 28%),
+    linear-gradient(180deg, #111118, #171726);
+  color: var(--cs-surface);
+}
+
+.citisignal-showcase .cs-featured-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(4rem, 6vw, 8rem);
+  align-items: center;
+}
+
+.citisignal-showcase .cs-device-scene {
+  position: relative;
+  width: min(100%, 32rem);
+  min-height: 56rem;
+  margin: 0 auto;
+}
+
+.citisignal-showcase .cs-device-glow {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 34rem;
+  height: 34rem;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(124 58 237 / 28%), rgb(6 182 212 / 14%), transparent 68%);
+  filter: blur(3.8rem);
+  animation: cs-float 6s ease-in-out infinite;
+}
+
+.citisignal-showcase .cs-orbit {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.citisignal-showcase .cs-orbit::after {
+  content: "";
+  position: absolute;
+  top: -0.4rem;
+  left: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: -0.4rem;
+  border-radius: 50%;
+  background: var(--cs-primary-soft);
+  box-shadow: 0 0 1.2rem rgb(124 58 237 / 70%);
+}
+
+.citisignal-showcase .cs-orbit--1 {
+  width: 36rem;
+  height: 36rem;
+  animation: cs-rotate 40s linear infinite;
+}
+
+.citisignal-showcase .cs-orbit--2 {
+  width: 48rem;
+  height: 48rem;
+  animation: cs-rotate 60s linear infinite reverse;
+}
+
+.citisignal-showcase .cs-device-shell {
+  position: relative;
+  z-index: 1;
+  width: 26rem;
+  height: 53rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 4.4rem;
+  background: linear-gradient(160deg, #1e1e2e, #111118);
+  box-shadow:
+    0 5rem 10rem rgb(0 0 0 / 50%),
+    inset 0 0.1rem 0 rgb(255 255 255 / 10%);
+}
+
+.citisignal-showcase .cs-device-notch {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  z-index: 2;
+  width: 9rem;
+  height: 2.6rem;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: #111118;
+}
+
+.citisignal-showcase .cs-device-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3.6rem;
+  background:
+    radial-gradient(circle at 28% 18%, rgb(255 255 255 / 20%), transparent 34%),
+    linear-gradient(160deg, #5b21b6, #7c3aed 54%, #38bdf8);
+  text-align: center;
+}
+
+.citisignal-showcase .cs-device-screen-brand {
+  color: rgb(255 255 255 / 60%);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-device-screen-time {
+  font-size: 7rem;
+  font-weight: 200;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.citisignal-showcase .cs-device-screen-copy {
+  color: rgb(255 255 255 / 72%);
+  font-size: 1.5rem;
+}
+
+.citisignal-showcase .cs-floating-card {
+  position: absolute;
+  z-index: 2;
+  padding: 1.4rem 1.8rem;
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 1.4rem;
+  background: rgb(255 255 255 / 10%);
+  color: var(--cs-surface);
+  backdrop-filter: blur(1.6rem);
+  box-shadow: 0 1rem 3.2rem rgb(0 0 0 / 22%);
+}
+
+.citisignal-showcase .cs-floating-card--1 {
+  top: 16%;
+  right: -5rem;
+  animation: cs-float-up 5s ease-in-out infinite;
+}
+
+.citisignal-showcase .cs-floating-card--2 {
+  bottom: 24%;
+  left: -4.6rem;
+  animation: cs-float-down 6s ease-in-out infinite;
+}
+
+.citisignal-showcase .cs-floating-card--3 {
+  right: -3.4rem;
+  bottom: 8%;
+  animation: cs-float-up 7s ease-in-out infinite 0.5s;
+}
+
+.citisignal-showcase .cs-floating-label {
+  display: block;
+  color: rgb(255 255 255 / 60%);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-floating-value {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 2.1rem;
+}
+
+.citisignal-showcase .cs-floating-meter {
+  display: block;
+  height: 0.4rem;
+  margin-top: 0.8rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 16%);
+}
+
+.citisignal-showcase .cs-floating-meter-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #34d399, #10b981);
+}
+
+.citisignal-showcase .cs-featured-copy {
+  display: grid;
+  gap: 1.8rem;
+}
+
+.citisignal-showcase .cs-feature-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: fit-content;
+  margin: 0;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid rgb(167 139 250 / 24%);
+  border-radius: 999px;
+  background: rgb(124 58 237 / 20%);
+  color: var(--cs-primary-soft);
+  font: var(--type-body-2-strong-font);
+}
+
+.citisignal-showcase .cs-feature-tag-icon {
+  color: var(--cs-accent-warm);
+}
+
+.citisignal-showcase .cs-feature-copy {
+  color: rgb(255 255 255 / 72%);
+}
+
+.citisignal-showcase .cs-feature-list,
+.citisignal-showcase .cs-plan-list {
+  display: grid;
+  gap: 1.2rem;
+  margin: 1rem 0 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+
+.citisignal-showcase .cs-feature-list li,
+.citisignal-showcase .cs-plan-list li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  color: rgb(255 255 255 / 88%);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.citisignal-showcase .cs-plan-list li {
+  color: var(--cs-text);
+}
+
+.citisignal-showcase .cs-check-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: rgb(124 58 237 / 18%);
+  color: var(--cs-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.citisignal-showcase .cs-plans-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.citisignal-showcase .cs-plans-toggle-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--cs-text-muted);
+}
+
+.citisignal-showcase .cs-toggle-label {
+  font: var(--type-body-2-strong-font);
+}
+
+.citisignal-showcase .cs-toggle-label.is-active {
+  color: var(--cs-text);
+}
+
+.citisignal-showcase .cs-plan-toggle {
+  position: relative;
+  width: 5.6rem;
+  height: 3rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: #e5e5ea;
+  cursor: pointer;
+}
+
+.citisignal-showcase .cs-plan-toggle-knob {
+  position: absolute;
+  top: 0.3rem;
+  left: 0.3rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: var(--cs-surface);
+  box-shadow: 0 0.2rem 0.8rem rgb(17 17 24 / 16%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.citisignal-showcase .cs-plan-toggle[aria-pressed="true"] {
+  background: var(--cs-primary);
+}
+
+.citisignal-showcase .cs-plan-toggle[aria-pressed="true"] .cs-plan-toggle-knob {
+  transform: translateX(2.6rem);
+}
+
+.citisignal-showcase .cs-saving-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.8rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+  color: #059669;
+  font: var(--type-details-caption-1-font);
+  font-weight: 700;
+}
+
+.citisignal-showcase .cs-plans-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.4rem;
+}
+
+.citisignal-showcase .cs-plan-card {
+  padding: clamp(2.8rem, 3vw, 4rem);
+}
+
+.citisignal-showcase .cs-plan-card.is-featured {
+  border-color: rgb(124 58 237 / 30%);
+  background: linear-gradient(180deg, rgb(124 58 237 / 4%), var(--cs-surface));
+}
+
+.citisignal-showcase .cs-plan-card.is-featured::before {
+  content: "Best Value";
+  align-self: flex-end;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  background: var(--cs-primary);
+  color: var(--cs-surface);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-plan-name {
+  margin: 0;
+  color: var(--cs-text-muted);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase .cs-plan-price {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.2rem;
+}
+
+.citisignal-showcase .cs-plan-currency {
+  margin-top: 0.8rem;
+  color: var(--cs-text-soft);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.citisignal-showcase .cs-plan-price-value {
+  font-size: clamp(4.8rem, 5vw, 6rem);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.citisignal-showcase .cs-plan-period {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  color: var(--cs-text-soft);
+  font-size: 1.5rem;
+}
+
+.citisignal-showcase .cs-network {
+  padding: var(--cs-section-pad) 0;
+  background:
+    radial-gradient(circle at 90% 10%, rgb(124 58 237 / 6%), transparent 36%),
+    var(--cs-bg-warm);
+}
+
+.citisignal-showcase .cs-network-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+  gap: clamp(4rem, 6vw, 8rem);
+  align-items: center;
+}
+
+.citisignal-showcase .cs-network-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.citisignal-showcase .cs-network-stats .cs-stat-card:first-child {
+  grid-column: 1 / -1;
+}
+
+.citisignal-showcase .cs-stat-number {
+  display: block;
+  font-size: clamp(4rem, 4vw, 5.8rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.citisignal-showcase .cs-stat-sub-label {
+  color: var(--cs-text-soft);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.1em;
+}
+
+.citisignal-showcase .cs-network-copy {
+  display: grid;
+  gap: 2rem;
+}
+
+.citisignal-showcase .cs-network-visual {
+  width: min(100%, 44rem);
+}
+
+.citisignal-showcase .cs-network-visual svg {
+  width: 100%;
+  height: auto;
+}
+
+.citisignal-showcase .cs-network-lines line {
+  stroke: rgb(124 58 237 / 16%);
+  stroke-width: 1.2;
+}
+
+.citisignal-showcase .cs-network-glow {
+  fill: rgb(124 58 237 / 8%);
+  animation: cs-pulse-soft 3.2s ease-in-out infinite;
+}
+
+.citisignal-showcase .cs-network-dot {
+  fill: rgb(124 58 237 / 40%);
+}
+
+.citisignal-showcase .cs-network-dot--primary {
+  fill: var(--cs-primary);
+  animation: cs-pulse-soft 2.6s ease-in-out infinite;
+}
+
+.citisignal-showcase .cs-testimonial-shell {
+  position: relative;
+  margin-top: 4.8rem;
+}
+
+.citisignal-showcase .cs-testimonial-track {
+  display: flex;
+  gap: 2.4rem;
+  overflow-x: auto;
+  padding: 0 2rem 0.8rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.citisignal-showcase .cs-testimonial-track::-webkit-scrollbar {
+  display: none;
+}
+
+.citisignal-showcase .cs-testimonial-card {
+  flex: 0 0 min(42rem, calc(100vw - 5.6rem));
+  scroll-snap-align: start;
+}
+
+.citisignal-showcase .cs-stars {
+  display: flex;
+  gap: 0.4rem;
+  color: var(--cs-accent-warm);
+  font-size: 1.8rem;
+}
+
+.citisignal-showcase .cs-testimonial-quote {
+  color: var(--cs-text);
+}
+
+.citisignal-showcase .cs-testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-top: auto;
+}
+
+.citisignal-showcase .cs-testimonial-avatar {
+  display: inline-flex;
+  width: 4.4rem;
+  height: 4.4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e0d7fa, #c4e0f9);
+  color: var(--cs-primary);
+  font: var(--type-body-2-strong-font);
+}
+
+.citisignal-showcase .cs-testimonial-name {
+  display: block;
+  font-size: 1.6rem;
+}
+
+.citisignal-showcase .cs-testimonial-role {
+  display: block;
+  color: var(--cs-text-muted);
+  font-size: 1.4rem;
+}
+
+.citisignal-showcase .cs-testimonial-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 3rem;
+}
+
+.citisignal-showcase .cs-testimonial-button {
+  display: inline-flex;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(17 17 24 / 12%);
+  border-radius: 50%;
+  background: var(--cs-surface);
+  color: var(--cs-text);
+  cursor: pointer;
+  font-size: 2rem;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.citisignal-showcase .cs-testimonial-button:hover {
+  border-color: var(--cs-primary);
+  background: var(--cs-primary);
+  color: var(--cs-surface);
+}
+
+.citisignal-showcase .cs-cta-panel {
+  display: grid;
+  gap: 1.8rem;
+  justify-items: center;
+  padding: clamp(4.8rem, 8vw, 9.6rem);
+  border-radius: 3rem;
+  background:
+    radial-gradient(circle at 18% 46%, rgb(124 58 237 / 28%), transparent 34%),
+    radial-gradient(circle at 80% 28%, rgb(6 182 212 / 18%), transparent 28%),
+    linear-gradient(180deg, #111118, #171726);
+  text-align: center;
+}
+
+.citisignal-showcase .cs-cta-panel .cs-feature-copy {
+  max-width: 54rem;
+}
+
+@keyframes cs-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(16 185 129 / 34%);
+  }
+
+  50% {
+    box-shadow: 0 0 0 0.7rem rgb(16 185 129 / 0%);
+  }
+}
+
+@keyframes cs-pulse-soft {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: scale(1.06);
+    opacity: 1;
+  }
+}
+
+@keyframes cs-bar-fill {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 84%;
+  }
+}
+
+@keyframes cs-scroll-line {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+
+  50% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+
+  51% {
+    transform-origin: bottom;
+  }
+
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+
+@keyframes cs-marquee {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes cs-rotate {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes cs-float {
+  0%,
+  100% {
+    opacity: 0.82;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.06);
+  }
+}
+
+@keyframes cs-float-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-0.8rem);
+  }
+}
+
+@keyframes cs-float-down {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(0.8rem);
+  }
+}
+
+@media (max-width: 1024px) {
+  .citisignal-showcase .cs-hero-grid,
+  .citisignal-showcase .cs-featured-grid,
+  .citisignal-showcase .cs-network-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .citisignal-showcase .cs-deals-grid,
+  .citisignal-showcase .cs-plans-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .citisignal-showcase .cs-network-copy {
+    order: -1;
+  }
+
+  .citisignal-showcase .cs-featured-copy {
+    order: 1;
+  }
+
+  .citisignal-showcase .cs-featured-visual {
+    order: 0;
+  }
+
+  .citisignal-showcase .cs-plans-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .citisignal-showcase .cs-container {
+    width: min(calc(100% - 3.2rem), var(--cs-container));
+  }
+
+  .citisignal-showcase .cs-hero {
+    min-height: auto;
+    padding-top: 4rem;
+  }
+
+  .citisignal-showcase .cs-hero-grid {
+    min-height: auto;
+  }
+
+  .citisignal-showcase .cs-hero-title,
+  .citisignal-showcase .cs-section-title {
+    font-size: clamp(3.2rem, 10vw, 5rem);
+  }
+
+  .citisignal-showcase .cs-phone-scene {
+    min-height: 42rem;
+  }
+
+  .citisignal-showcase .cs-phone {
+    width: 18rem;
+  }
+
+  .citisignal-showcase .cs-signal-ring--3,
+  .citisignal-showcase .cs-hero-pill--1,
+  .citisignal-showcase .cs-hero-pill--2,
+  .citisignal-showcase .cs-hero-pill--3,
+  .citisignal-showcase .cs-orbit--2,
+  .citisignal-showcase .cs-floating-card {
+    display: none;
+  }
+
+  .citisignal-showcase .cs-deals-grid,
+  .citisignal-showcase .cs-plans-grid,
+  .citisignal-showcase .cs-network-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .citisignal-showcase .cs-network-stats .cs-stat-card:first-child {
+    grid-column: auto;
+  }
+
+  .citisignal-showcase .cs-button-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .citisignal-showcase .cs-button {
+    width: 100%;
+  }
+
+  .citisignal-showcase .cs-device-scene {
+    min-height: 40rem;
+  }
+
+  .citisignal-showcase .cs-device-shell {
+    width: 22rem;
+    height: 46rem;
+  }
+
+  .citisignal-showcase .cs-device-screen-time {
+    font-size: 5.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .citisignal-showcase *,
+  .citisignal-showcase *::before,
+  .citisignal-showcase *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .citisignal-showcase .cs-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,111 @@
+/* ===================================================================
+   PDP Spec Accordion
+   =================================================================== */
+
+.pdp-spec-accordion {
+  padding: clamp(48px, 8vw, 96px) clamp(20px, 4vw, 40px);
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* Accordion item */
+.pdp-spec-item {
+  border: 1px solid rgb(0 0 0 / 8%);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pdp-spec-item:hover {
+  border-color: rgb(124 58 237 / 20%);
+}
+
+.pdp-spec-item[open] {
+  border-color: rgb(124 58 237 / 25%);
+  box-shadow: 0 2px 16px rgb(124 58 237 / 6%);
+}
+
+/* Summary */
+.pdp-spec-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 28px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.pdp-spec-summary::-webkit-details-marker {
+  display: none;
+}
+
+.pdp-spec-summary p {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--color-neutral-800, #111118);
+  letter-spacing: -0.01em;
+}
+
+.pdp-spec-item[open] .pdp-spec-summary p {
+  color: var(--color-brand-500, #7c3aed);
+}
+
+/* Chevron */
+.pdp-spec-chevron {
+  width: 18px;
+  height: 18px;
+  color: var(--color-neutral-500, #9e9eb0);
+  flex-shrink: 0;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pdp-spec-item[open] .pdp-spec-chevron {
+  transform: rotate(180deg);
+  color: var(--color-brand-500, #7c3aed);
+}
+
+/* Body */
+.pdp-spec-body {
+  border-top: 1px solid rgb(0 0 0 / 6%);
+  padding: 0;
+}
+
+/* Spec table */
+.pdp-spec-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pdp-spec-table tr {
+  border-bottom: 1px solid rgb(0 0 0 / 5%);
+}
+
+.pdp-spec-table tr:last-child {
+  border-bottom: none;
+}
+
+.pdp-spec-table tr:nth-child(even) {
+  background: rgb(0 0 0 / 1.5%);
+}
+
+.pdp-spec-table td {
+  padding: 15px 28px;
+  font-size: 1.45rem;
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+.pdp-spec-table td:first-child {
+  color: var(--color-neutral-600, #64647a);
+  font-weight: 400;
+  width: 40%;
+}
+
+.pdp-spec-table td:last-child {
+  color: var(--color-neutral-800, #111118);
+  font-weight: 500;
+}

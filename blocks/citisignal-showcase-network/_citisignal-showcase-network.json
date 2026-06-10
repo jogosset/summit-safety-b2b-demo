@@ -1,0 +1,190 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Network",
+      "id": "citisignal-showcase-network",
+      "model": "citisignal-showcase-network",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-network",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "network-eyebrow",
+          "label": "Network Eyebrow",
+          "valueType": "string",
+          "value": "// Network"
+        },
+        {
+          "component": "text",
+          "name": "network-title",
+          "label": "Network Title",
+          "valueType": "string",
+          "value": "Coverage you|can count on."
+        },
+        {
+          "component": "text",
+          "name": "network-description",
+          "label": "Network Description",
+          "valueType": "string",
+          "value": "Our 5G network keeps expanding. From downtown to the suburbs, from coast to coast, CitiSignal delivers speeds and reliability you can depend on every day."
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-value",
+          "label": "Network Stat 1 Value",
+          "valueType": "string",
+          "value": "99.9"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-suffix",
+          "label": "Network Stat 1 Suffix",
+          "valueType": "string",
+          "value": "%"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-decimals",
+          "label": "Network Stat 1 Decimals",
+          "valueType": "string",
+          "value": "1"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-label",
+          "label": "Network Stat 1 Label",
+          "valueType": "string",
+          "value": "Network reliability across all coverage areas, every quarter"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-sub-label",
+          "label": "Network Stat 1 Sub Label",
+          "valueType": "string",
+          "value": "INDUSTRY-LEADING UPTIME"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-value",
+          "label": "Network Stat 2 Value",
+          "valueType": "string",
+          "value": "320"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-suffix",
+          "label": "Network Stat 2 Suffix",
+          "valueType": "string",
+          "value": "M+"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-decimals",
+          "label": "Network Stat 2 Decimals",
+          "valueType": "string",
+          "value": "0"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-label",
+          "label": "Network Stat 2 Label",
+          "valueType": "string",
+          "value": "People covered by our 5G network"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-sub-label",
+          "label": "Network Stat 2 Sub Label",
+          "valueType": "string",
+          "value": "AND GROWING FAST"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-value",
+          "label": "Network Stat 3 Value",
+          "valueType": "string",
+          "value": "2.4"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-suffix",
+          "label": "Network Stat 3 Suffix",
+          "valueType": "string",
+          "value": "M"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-decimals",
+          "label": "Network Stat 3 Decimals",
+          "valueType": "string",
+          "value": "1"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-label",
+          "label": "Network Stat 3 Label",
+          "valueType": "string",
+          "value": "New subscribers in the last year"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-sub-label",
+          "label": "Network Stat 3 Sub Label",
+          "valueType": "string",
+          "value": "FASTEST-GROWING CARRIER"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-value",
+          "label": "Network Stat 4 Value",
+          "valueType": "string",
+          "value": "50"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-suffix",
+          "label": "Network Stat 4 Suffix",
+          "valueType": "string",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-decimals",
+          "label": "Network Stat 4 Decimals",
+          "valueType": "string",
+          "value": "0"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-label",
+          "label": "Network Stat 4 Label",
+          "valueType": "string",
+          "value": "States with full 5G coverage"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-sub-label",
+          "label": "Network Stat 4 Sub Label",
+          "valueType": "string",
+          "value": "COAST TO COAST"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

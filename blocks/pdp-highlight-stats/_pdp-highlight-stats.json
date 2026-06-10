@@ -1,0 +1,40 @@
+{
+  "definitions": [
+    {
+      "title": "PDP Highlight Stats",
+      "id": "pdp-highlight-stats",
+      "model": "pdp-highlight-stats",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "pdp-highlight-stats",
+      "fields": [
+        { "component": "text", "name": "headline", "label": "Headline", "valueType": "string", "value": "Built to perform." },
+        { "component": "text", "name": "subtitle", "label": "Subtitle", "valueType": "string", "value": "Every component engineered for speed, clarity, and endurance." },
+        { "component": "text", "name": "stat-1-value", "label": "Stat 1 — Value", "valueType": "string", "value": "6.1" },
+        { "component": "text", "name": "stat-1-unit", "label": "Stat 1 — Unit", "valueType": "string", "value": "\"" },
+        { "component": "text", "name": "stat-1-label", "label": "Stat 1 — Label", "valueType": "string", "value": "Super Retina XDR OLED display" },
+        { "component": "text", "name": "stat-1-sub", "label": "Stat 1 — Sub-label", "valueType": "string", "value": "2556 × 1179 px · 460 ppi" },
+        { "component": "text", "name": "stat-2-value", "label": "Stat 2 — Value", "valueType": "string", "value": "48" },
+        { "component": "text", "name": "stat-2-unit", "label": "Stat 2 — Unit", "valueType": "string", "value": "MP" },
+        { "component": "text", "name": "stat-2-label", "label": "Stat 2 — Label", "valueType": "string", "value": "Advanced dual camera with Smart HDR 5" },
+        { "component": "text", "name": "stat-2-sub", "label": "Stat 2 — Sub-label", "valueType": "string", "value": "ƒ/1.6 aperture · 2x optical zoom" },
+        { "component": "text", "name": "stat-3-value", "label": "Stat 3 — Value", "valueType": "string", "value": "A16" },
+        { "component": "text", "name": "stat-3-unit", "label": "Stat 3 — Unit", "valueType": "string", "value": " Bionic" },
+        { "component": "text", "name": "stat-3-label", "label": "Stat 3 — Label", "valueType": "string", "value": "6-core CPU, 5-core GPU, 16-core Neural Engine" },
+        { "component": "text", "name": "stat-3-sub", "label": "Stat 3 — Sub-label", "valueType": "string", "value": "4nm process · 15.8B transistors" },
+        { "component": "text", "name": "stat-4-value", "label": "Stat 4 — Value", "valueType": "string", "value": "26" },
+        { "component": "text", "name": "stat-4-unit", "label": "Stat 4 — Unit", "valueType": "string", "value": "hr" },
+        { "component": "text", "name": "stat-4-label", "label": "Stat 4 — Label", "valueType": "string", "value": "Video playback on a single charge" },
+        { "component": "text", "name": "stat-4-sub", "label": "Stat 4 — Sub-label", "valueType": "string", "value": "USB-C fast charge · MagSafe wireless" }
+      ]
+    }
+  ],
+  "filters": []
+}

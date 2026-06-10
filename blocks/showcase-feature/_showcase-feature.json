@@ -1,0 +1,167 @@
+{
+  "definitions": [
+    {
+      "title": "Showcase Feature",
+      "id": "showcase-feature",
+      "model": "showcase-feature",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "showcase-feature",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "description": "Unique ID used to anchor this block on the page",
+          "value": "showcase-feature"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "badge-label",
+          "label": "Badge Label",
+          "description": "Small pill badge displayed above the title (e.g. 'Capability Spotlight')",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "title",
+          "label": "Title",
+          "description": "Main headline text",
+          "value": ""
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "description-1",
+          "label": "Description (Primary)",
+          "description": "First body paragraph below the title",
+          "value": ""
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "description-2",
+          "label": "Description (Secondary)",
+          "description": "Optional second body paragraph",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "feature-1",
+          "label": "Feature 1",
+          "description": "First bullet-point feature item",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "feature-2",
+          "label": "Feature 2",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "feature-3",
+          "label": "Feature 3",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "feature-4",
+          "label": "Feature 4",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "cta-label",
+          "label": "CTA Button Label",
+          "description": "Text for the call-to-action button",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "cta-url",
+          "label": "CTA Button URL",
+          "description": "Link for the call-to-action button",
+          "value": "#"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "background-image",
+          "label": "Background Image",
+          "description": "Optional image displayed in the media panel behind the metric cards. Select from AEM Assets.",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "background-image-alt",
+          "label": "Background Image Alt Text",
+          "description": "Accessibility alt text for the background image",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card-1-value",
+          "label": "Metric Card 1 — Value",
+          "description": "Value shown in the first frosted-glass metric card (e.g. '862 Days')",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card-1-label",
+          "label": "Metric Card 1 — Label",
+          "description": "Label shown below the value in card 1 (e.g. 'Average TAT')",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card-2-value",
+          "label": "Metric Card 2 — Value",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card-2-label",
+          "label": "Metric Card 2 — Label",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card-3-value",
+          "label": "Metric Card 3 — Value",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "card-3-label",
+          "label": "Metric Card 3 — Label",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

@@ -44,7 +44,30 @@
       "product-list-page",
       "product-recommendations",
       "targeted-block",
-      "text"
+      "text",
+      "hero-v2",
+      "product-teaser",
+      "quote",
+      "tabs",
+      "video",
+      "product-skew-reveal",
+      "pdp-highlight-stats",
+      "pdp-feature-showcase",
+      "pdp-spec-accordion",
+      "pdp-reviews",
+      "blog-post",
+      "blog-tiles",
+      "circle-carousel",
+      "hero-cta",
+      "newsletter",
+      "promotional-hero",
+      "store-locator",
+      "top-banner",
+      "company-myaccount-banner",
+      "promotional-hero-v2",
+      "product-teaser-v2",
+      "product-hero",
+      "site-nav-jg"
     ]
   },
   {
@@ -80,6 +103,59 @@
     "components": [
       "text",
       "image"
+    ]
+  },
+  {
+    "id": "tabs",
+    "components": [
+      "tabs-item"
+    ]
+  },
+  {
+    "id": "cards-jg",
+    "components": [
+      "card-jg"
+    ]
+  },
+  {
+    "id": "pdp-feature-showcase",
+    "components": [
+      "pdp-feature-showcase-item"
+    ]
+  },
+  {
+    "id": "pdp-spec-accordion",
+    "components": [
+      "pdp-spec-accordion-item"
+    ]
+  },
+  {
+    "id": "product-skew-reveal",
+    "components": [
+      "product-skew-reveal-header",
+      "product-skew-reveal-tile"
+    ]
+  },
+  {
+    "id": "search-bar",
+    "components": []
+  },
+  {
+    "id": "circle-carousel",
+    "components": [
+      "circle-carousel-item"
+    ]
+  },
+  {
+    "id": "store-locator",
+    "components": [
+      "store-locator-item"
+    ]
+  },
+  {
+    "id": "site-nav-jg",
+    "components": [
+      "site-nav-jg-item"
     ]
   }
 ]

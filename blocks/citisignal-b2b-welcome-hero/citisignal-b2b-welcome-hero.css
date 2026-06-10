@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap');
+
+/*
+ * Full-bleed: EDS adds `<block>-container` on `.section` and `<block>-wrapper` on the block parent
+ * (see scripts/aem.js decorateBlock). Reset the default 1200px / padded wrapper from styles/styles.css.
+ */
+.citisignal-b2b-welcome-hero-container .citisignal-b2b-welcome-hero-wrapper {
+  box-sizing: border-box;
+  max-width: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.citisignal-b2b-welcome-hero {
+  --cb2b-bg: #fafaf7;
+  --cb2b-surface: #fff;
+  --cb2b-text: #111118;
+  --cb2b-text-secondary: #64647a;
+  --cb2b-text-tertiary: #9e9eb0;
+  --cb2b-primary: #7c3aed;
+  --cb2b-primary-dark: #5b21b6;
+  --cb2b-accent: #06b6d4;
+  --cb2b-accent-green: #10b981;
+  --cb2b-glass-bg: rgb(255 255 255 / 70%);
+  --cb2b-glass-border: rgb(0 0 0 / 6%);
+  --cb2b-radius: 20px;
+  --cb2b-radius-sm: 12px;
+  --cb2b-font: outfit, system-ui, sans-serif;
+  --cb2b-mono: 'dm mono', monospace;
+  --cb2b-nav-h: 80px;
+
+  /* ~1440px cap; inner column uses min() like CitiSignal showcase */
+  --cb2b-container: 90rem;
+
+  position: relative;
+  font-family: var(--cb2b-font);
+  background: var(--cb2b-bg);
+  color: var(--cb2b-text);
+  line-height: 1.6;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+.citisignal-b2b-welcome-hero *::selection {
+  background: var(--cb2b-primary);
+  color: #fff;
+}
+
+.citisignal-b2b-welcome-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.citisignal-b2b-welcome-hero .cb2b-welcome {
+  position: relative;
+  z-index: 1;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--cb2b-nav-h);
+  display: flex;
+  align-items: center;
+  background: rgb(250 250 247 / 88%);
+  backdrop-filter: blur(20px) saturate(1.8);
+  border-bottom: 1px solid var(--cb2b-glass-border);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--cb2b-container);
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 48px);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-logo {
+  font-weight: 800;
+  font-size: 1.55rem;
+  letter-spacing: -0.01em;
+  color: var(--cb2b-text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-logo-icon {
+  width: 32px;
+  height: 32px;
+  background: var(--cb2b-primary);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-logo-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-links {
+  display: flex;
+  gap: clamp(16px, 2.5vw, 36px);
+  align-items: center;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-link {
+  text-decoration: none;
+  color: var(--cb2b-text-secondary);
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: color 0.3s;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-link:hover {
+  color: var(--cb2b-text);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-cta {
+  background: var(--cb2b-primary);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 100px;
+  font-family: var(--cb2b-font);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-nav-cta:hover {
+  background: var(--cb2b-primary-dark);
+  box-shadow: 0 4px 16px rgb(124 58 237 / 25%);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: var(--cb2b-nav-h);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-dots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgb(0 0 0 / 3.5%) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-split {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px, 6vw, 80px);
+  align-items: center;
+  min-height: calc(100vh - var(--cb2b-nav-h));
+  padding: 40px 0 80px;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-container {
+  width: min(calc(100% - 4rem), var(--cb2b-container));
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 48px);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-left {
+  max-width: 38rem;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-welcome-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: clamp(20px, 3vw, 28px);
+  animation: cb2b-fu 0.8s ease-out both;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-welcome-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cb2b-primary), var(--cb2b-accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-welcome-text {
+  font-size: 1.05rem;
+  color: var(--cb2b-text-secondary);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-welcome-text strong {
+  color: var(--cb2b-text);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-title {
+  font-size: clamp(3.6rem, 5vw, 7.2rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  margin: 0 0 clamp(14px, 2vw, 20px);
+  animation: cb2b-fu 0.8s 0.15s ease-out both;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-gradient-text {
+  background: linear-gradient(135deg, var(--cb2b-primary), var(--cb2b-accent));
+  background-clip: text;
+  color: transparent;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-desc {
+  font-size: clamp(1.6rem, 1.5vw, 1.9rem);
+  color: var(--cb2b-text-secondary);
+  max-width: 32rem;
+  margin: 0 0 clamp(24px, 3vw, 36px);
+  font-weight: 300;
+  line-height: 1.7;
+  animation: cb2b-fu 0.8s 0.3s ease-out both;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  animation: cb2b-fu 0.8s 0.45s ease-out both;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn {
+  padding: 18px 40px;
+  border-radius: 100px;
+  font-family: var(--cb2b-font);
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.4s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  box-sizing: border-box;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--primary {
+  background: var(--cb2b-primary);
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  line-height: 1.2;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--cb2b-primary-dark), var(--cb2b-primary), var(--cb2b-accent));
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 0;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--primary:hover {
+  box-shadow: 0 4px 20px rgb(124 58 237 / 30%);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--primary:hover::before {
+  opacity: 1;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--primary span {
+  position: relative;
+  z-index: 1;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--ghost {
+  background: var(--cb2b-glass-bg);
+  backdrop-filter: blur(12px);
+  color: var(--cb2b-text);
+  border: 1px solid var(--cb2b-glass-border);
+  font-weight: 500;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-btn--ghost:hover {
+  background: rgb(255 255 255 / 90%);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 6%);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-hero-right {
+  animation: cb2b-fu 1s 0.4s ease-out both;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-account-dash {
+  background: var(--cb2b-surface);
+  border: 1px solid rgb(0 0 0 / 6%);
+  border-radius: 24px;
+  padding: clamp(24px, 3vw, 36px);
+  box-shadow: 0 20px 60px rgb(0 0 0 / 6%);
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dash-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgb(0 0 0 / 6%);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dh-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dh-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--cb2b-primary), var(--cb2b-accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dh-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dh-plan {
+  font-size: 0.85rem;
+  color: var(--cb2b-text-tertiary);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dash-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: rgb(124 58 237 / 8%);
+  color: var(--cb2b-primary);
+  padding: 4px 10px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dash-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds {
+  background: rgb(0 0 0 / 2%);
+  border-radius: var(--cb2b-radius-sm);
+  padding: 16px 12px;
+  text-align: center;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds-val {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds-val--purple {
+  color: var(--cb2b-primary);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds-val--cyan {
+  color: var(--cb2b-accent);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds-val--green {
+  color: var(--cb2b-accent-green);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds-suffix {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-ds-label {
+  font-size: 0.72rem;
+  color: var(--cb2b-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dash-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: rgb(0 0 0 / 1.5%);
+  border-radius: var(--cb2b-radius-sm);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dl-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dl-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgb(124 58 237 / 6%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dl-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dl-number {
+  font-size: 0.8rem;
+  color: var(--cb2b-text-tertiary);
+  font-family: var(--cb2b-mono);
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dl-usage {
+  font-size: 0.88rem;
+  color: var(--cb2b-accent-green);
+  font-weight: 600;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dash-cta {
+  width: 100%;
+  padding: 14px;
+  border-radius: var(--cb2b-radius-sm);
+  background: rgb(124 58 237 / 6%);
+  border: 1px solid rgb(124 58 237 / 10%);
+  color: var(--cb2b-primary);
+  font-family: var(--cb2b-font);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+}
+
+.citisignal-b2b-welcome-hero .cb2b-dash-cta:hover {
+  background: var(--cb2b-primary);
+  color: #fff;
+}
+
+@keyframes cb2b-fu {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .citisignal-b2b-welcome-hero .cb2b-hero-split {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-hero-left {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-hero-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-hero-buttons {
+    justify-content: center;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-welcome-bar {
+    justify-content: center;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-account-dash {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .citisignal-b2b-welcome-hero .cb2b-nav-links {
+    display: none;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-hero-title {
+    font-size: clamp(3.2rem, 10vw, 5rem);
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 20px;
+  }
+
+  .citisignal-b2b-welcome-hero .cb2b-hero-buttons .cb2b-btn {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .citisignal-b2b-welcome-hero .cb2b-welcome-bar,
+  .citisignal-b2b-welcome-hero .cb2b-hero-title,
+  .citisignal-b2b-welcome-hero .cb2b-hero-desc,
+  .citisignal-b2b-welcome-hero .cb2b-hero-buttons,
+  .citisignal-b2b-welcome-hero .cb2b-hero-right {
+    animation: none;
+  }
+}

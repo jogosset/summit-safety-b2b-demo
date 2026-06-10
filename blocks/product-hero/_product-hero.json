@@ -1,0 +1,84 @@
+{
+  "definitions": [
+    {
+      "title": "Product Hero",
+      "id": "product-hero",
+      "model": "product-hero",
+      "plugins": {
+        "da": {
+          "rows": 2,
+          "columns": 2,
+          "fields": [
+            { "name": "sku", "selector": "div:nth-child(1)>div:nth-child(2)" },
+            { "name": "image", "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[src]" },
+            { "name": "alt", "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[alt]" },
+            { "name": "cta-text", "selector": "div:nth-child(2)>div:nth-child(2)>p>a" },
+            { "name": "cta-href", "selector": "div:nth-child(2)>div:nth-child(2)>p>a[href]" }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Product Hero (Dark)",
+      "id": "product-hero-dark",
+      "model": "product-hero",
+      "plugins": {
+        "da": {
+          "rows": 2,
+          "columns": 2,
+          "fields": [
+            { "name": "sku", "selector": "div:nth-child(1)>div:nth-child(2)" },
+            { "name": "image", "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[src]" },
+            { "name": "alt", "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[alt]" },
+            { "name": "cta-text", "selector": "div:nth-child(2)>div:nth-child(2)>p>a" },
+            { "name": "cta-href", "selector": "div:nth-child(2)>div:nth-child(2)>p>a[href]" }
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "product-hero",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "sku",
+          "label": "Product SKU",
+          "value": "",
+          "description": "SKU used to fetch name, price, and description from the catalog. Not displayed on the page."
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Product Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "alt",
+          "label": "Image Alt Text",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "cta-text",
+          "label": "CTA Button Text",
+          "value": "Shop Now"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "cta-href",
+          "label": "CTA Button URL",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

@@ -1,0 +1,295 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal B2B VIP Hero",
+      "id": "citisignal-b2b-vip-hero",
+      "model": "citisignal-b2b-vip-hero",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-b2b-vip-hero",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "nav-brand",
+          "label": "Nav Brand",
+          "valueType": "string",
+          "value": "CitiSignal"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-1-label",
+          "label": "Nav Link 1 Label",
+          "valueType": "string",
+          "value": "Deals"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-1-url",
+          "label": "Nav Link 1 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-2-label",
+          "label": "Nav Link 2 Label",
+          "valueType": "string",
+          "value": "Devices"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-2-url",
+          "label": "Nav Link 2 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-3-label",
+          "label": "Nav Link 3 Label",
+          "valueType": "string",
+          "value": "Plans"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-3-url",
+          "label": "Nav Link 3 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-4-label",
+          "label": "Nav Link 4 Label",
+          "valueType": "string",
+          "value": "Network"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-4-url",
+          "label": "Nav Link 4 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-cta-label",
+          "label": "Nav Cta Label",
+          "valueType": "string",
+          "value": "VIP Perks"
+        },
+        {
+          "component": "text",
+          "name": "nav-cta-url",
+          "label": "Nav Cta Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "vip-badge-label",
+          "label": "Vip Badge Label",
+          "valueType": "string",
+          "value": "Platinum Member Exclusive"
+        },
+        {
+          "component": "text",
+          "name": "hero-title-line-1",
+          "label": "Hero Title Line 1",
+          "valueType": "string",
+          "value": "You've earned"
+        },
+        {
+          "component": "text",
+          "name": "hero-title-gradient",
+          "label": "Hero Title Gradient",
+          "valueType": "string",
+          "value": "early access."
+        },
+        {
+          "component": "text",
+          "name": "hero-description",
+          "label": "Hero Description",
+          "valueType": "string",
+          "value": "As a Platinum VIP, you get first look at our newest devices, exclusive plan upgrades, and members-only pricing before anyone else."
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-label",
+          "label": "Hero Primary Cta Label",
+          "valueType": "string",
+          "value": "Shop VIP Collection"
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-url",
+          "label": "Hero Primary Cta Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-label",
+          "label": "Hero Secondary Cta Label",
+          "valueType": "string",
+          "value": "Redeem Rewards"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-url",
+          "label": "Hero Secondary Cta Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "member-avatar-initials",
+          "label": "Member Avatar Initials",
+          "valueType": "string",
+          "value": "JH"
+        },
+        {
+          "component": "text",
+          "name": "member-name",
+          "label": "Member Name",
+          "valueType": "string",
+          "value": "Jenifer Hanki"
+        },
+        {
+          "component": "text",
+          "name": "member-tier",
+          "label": "Member Tier",
+          "valueType": "string",
+          "value": "Platinum Member"
+        },
+        {
+          "component": "text",
+          "name": "member-badge",
+          "label": "Member Badge",
+          "valueType": "string",
+          "value": "VIP"
+        },
+        {
+          "component": "text",
+          "name": "member-stat-1-value",
+          "label": "Member Stat 1 Value",
+          "valueType": "string",
+          "value": "24.8k"
+        },
+        {
+          "component": "text",
+          "name": "member-stat-1-label",
+          "label": "Member Stat 1 Label",
+          "valueType": "string",
+          "value": "Points"
+        },
+        {
+          "component": "text",
+          "name": "member-stat-2-value",
+          "label": "Member Stat 2 Value",
+          "valueType": "string",
+          "value": "6 yrs"
+        },
+        {
+          "component": "text",
+          "name": "member-stat-2-label",
+          "label": "Member Stat 2 Label",
+          "valueType": "string",
+          "value": "Member"
+        },
+        {
+          "component": "text",
+          "name": "member-stat-3-value",
+          "label": "Member Stat 3 Value",
+          "valueType": "string",
+          "value": "$2,140"
+        },
+        {
+          "component": "text",
+          "name": "member-stat-3-label",
+          "label": "Member Stat 3 Label",
+          "valueType": "string",
+          "value": "Saved"
+        },
+        {
+          "component": "text",
+          "name": "perk-1-icon",
+          "label": "Perk 1 Icon",
+          "valueType": "string",
+          "value": "★"
+        },
+        {
+          "component": "text",
+          "name": "perk-1-title",
+          "label": "Perk 1 Title",
+          "valueType": "string",
+          "value": "Priority Device Access"
+        },
+        {
+          "component": "text",
+          "name": "perk-1-desc",
+          "label": "Perk 1 Desc",
+          "valueType": "string",
+          "value": "New devices 48 hours before public launch"
+        },
+        {
+          "component": "text",
+          "name": "perk-2-icon",
+          "label": "Perk 2 Icon",
+          "valueType": "string",
+          "value": "♦"
+        },
+        {
+          "component": "text",
+          "name": "perk-2-title",
+          "label": "Perk 2 Title",
+          "valueType": "string",
+          "value": "Exclusive Pricing"
+        },
+        {
+          "component": "text",
+          "name": "perk-2-desc",
+          "label": "Perk 2 Desc",
+          "valueType": "string",
+          "value": "Up to 30% off select plans and accessories"
+        },
+        {
+          "component": "text",
+          "name": "perk-3-icon",
+          "label": "Perk 3 Icon",
+          "valueType": "string",
+          "value": "☎"
+        },
+        {
+          "component": "text",
+          "name": "perk-3-title",
+          "label": "Perk 3 Title",
+          "valueType": "string",
+          "value": "Concierge Support"
+        },
+        {
+          "component": "text",
+          "name": "perk-3-desc",
+          "label": "Perk 3 Desc",
+          "valueType": "string",
+          "value": "Dedicated VIP line with zero wait times"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

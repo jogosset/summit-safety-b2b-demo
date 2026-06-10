@@ -1,0 +1,127 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Featured Product",
+      "id": "citisignal-showcase-featured",
+      "model": "citisignal-showcase-featured",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-featured",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "featured-tag",
+          "label": "Featured Tag",
+          "valueType": "string",
+          "value": "New Arrival"
+        },
+        {
+          "component": "text",
+          "name": "featured-title",
+          "label": "Featured Title",
+          "valueType": "string",
+          "value": "Get the latest|technology."
+        },
+        {
+          "component": "text",
+          "name": "featured-description-1",
+          "label": "Featured Description 1",
+          "valueType": "string",
+          "value": "Check out the latest technology with the iPhone 16. Filled with modern features like an upgraded camera and blazing speed."
+        },
+        {
+          "component": "text",
+          "name": "featured-description-2",
+          "label": "Featured Description 2",
+          "valueType": "string",
+          "value": "Get the newest phone for your everyday life, now available at CitiSignal with exclusive offers for new and existing members."
+        },
+        {
+          "component": "text",
+          "name": "featured-feature-list",
+          "label": "Featured Feature List",
+          "valueType": "string",
+          "value": "48MP camera system with 5x optical zoom|A18 Pro chip for all-day performance|Titanium design, lighter than ever|Free with eligible trade-in at CitiSignal"
+        },
+        {
+          "component": "text",
+          "name": "featured-cta-label",
+          "label": "Featured CTA Label",
+          "valueType": "string",
+          "value": "Shop iPhone 16"
+        },
+        {
+          "component": "text",
+          "name": "featured-cta-url",
+          "label": "Featured CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-1-label",
+          "label": "Featured Card 1 Label",
+          "valueType": "string",
+          "value": "Download"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-1-value",
+          "label": "Featured Card 1 Value",
+          "valueType": "string",
+          "value": "4.2 Gbps"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-2-label",
+          "label": "Featured Card 2 Label",
+          "valueType": "string",
+          "value": "Coverage"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-2-value",
+          "label": "Featured Card 2 Value",
+          "valueType": "string",
+          "value": "Strong"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-2-meter",
+          "label": "Featured Card 2 Meter",
+          "valueType": "string",
+          "value": "92"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-3-label",
+          "label": "Featured Card 3 Label",
+          "valueType": "string",
+          "value": "Latency"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-3-value",
+          "label": "Featured Card 3 Value",
+          "valueType": "string",
+          "value": "2ms"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

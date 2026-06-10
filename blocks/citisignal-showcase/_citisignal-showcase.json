@@ -1,0 +1,1002 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase",
+      "id": "citisignal-showcase",
+      "model": "citisignal-showcase",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase",
+      "fields": [
+        {
+          "component": "text",
+          "name": "hero-badge",
+          "label": "Hero Badge",
+          "valueType": "string",
+          "value": "5G coverage just expanded"
+        },
+        {
+          "component": "text",
+          "name": "hero-title",
+          "label": "Hero Title",
+          "valueType": "string",
+          "value": "Stay Connected.|Stay"
+        },
+        {
+          "component": "text",
+          "name": "hero-highlighted-title",
+          "label": "Hero Highlighted Title",
+          "valueType": "string",
+          "value": "Ahead."
+        },
+        {
+          "component": "text",
+          "name": "hero-description",
+          "label": "Hero Description",
+          "valueType": "string",
+          "value": "Discover the expanded reach of CitiSignal's 5G network. Faster speeds, wider coverage, and smarter plans are just a click away."
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-label",
+          "label": "Hero Primary CTA Label",
+          "valueType": "string",
+          "value": "Find Your 5G Phone"
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-url",
+          "label": "Hero Primary CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-label",
+          "label": "Hero Secondary CTA Label",
+          "valueType": "string",
+          "value": "Explore Coverage"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-url",
+          "label": "Hero Secondary CTA URL",
+          "valueType": "string",
+          "value": "#network"
+        },
+        {
+          "component": "text",
+          "name": "hero-proof-stat-value",
+          "label": "Hero Proof Stat Value",
+          "valueType": "string",
+          "value": "2.4M+"
+        },
+        {
+          "component": "text",
+          "name": "hero-proof-stat-text",
+          "label": "Hero Proof Stat Text",
+          "valueType": "string",
+          "value": "new subscribers this year"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-1",
+          "label": "Hero Pill 1",
+          "valueType": "string",
+          "value": "5G Ultra Fast"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-2",
+          "label": "Hero Pill 2",
+          "valueType": "string",
+          "value": "Nationwide"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-3",
+          "label": "Hero Pill 3",
+          "valueType": "string",
+          "value": "No Contracts"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-speed",
+          "label": "Hero Phone Speed",
+          "valueType": "string",
+          "value": "2.8"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-speed-unit",
+          "label": "Hero Phone Speed Unit",
+          "valueType": "string",
+          "value": "Gbps"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-label",
+          "label": "Hero Phone Label",
+          "valueType": "string",
+          "value": "Download speed"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-1-value",
+          "label": "Hero Phone Metric 1 Value",
+          "valueType": "string",
+          "value": "8ms"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-1-label",
+          "label": "Hero Phone Metric 1 Label",
+          "valueType": "string",
+          "value": "Ping"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-2-value",
+          "label": "Hero Phone Metric 2 Value",
+          "valueType": "string",
+          "value": "99.9%"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-2-label",
+          "label": "Hero Phone Metric 2 Label",
+          "valueType": "string",
+          "value": "Uptime"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-3-value",
+          "label": "Hero Phone Metric 3 Value",
+          "valueType": "string",
+          "value": "5G+"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-3-label",
+          "label": "Hero Phone Metric 3 Label",
+          "valueType": "string",
+          "value": "Band"
+        },
+        {
+          "component": "text",
+          "name": "partners-label",
+          "label": "Partners Label",
+          "valueType": "string",
+          "value": "Partnered with top brands"
+        },
+        {
+          "component": "text",
+          "name": "partner-names",
+          "label": "Partner Names",
+          "valueType": "string",
+          "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+        },
+        {
+          "component": "text",
+          "name": "deals-eyebrow",
+          "label": "Deals Eyebrow",
+          "valueType": "string",
+          "value": "// Deals"
+        },
+        {
+          "component": "text",
+          "name": "deals-title",
+          "label": "Deals Title",
+          "valueType": "string",
+          "value": "Save more, spend less."
+        },
+        {
+          "component": "text",
+          "name": "deals-description",
+          "label": "Deals Description",
+          "valueType": "string",
+          "value": "Exclusive offers on phones, accessories, and subscriptions. Only at CitiSignal."
+        },
+        {
+          "component": "text",
+          "name": "deal-1-icon-token",
+          "label": "Deal 1 Icon Token",
+          "valueType": "string",
+          "value": "music"
+        },
+        {
+          "component": "text",
+          "name": "deal-1-title",
+          "label": "Deal 1 Title",
+          "valueType": "string",
+          "value": "90 days of free music"
+        },
+        {
+          "component": "text",
+          "name": "deal-1-description",
+          "label": "Deal 1 Description",
+          "valueType": "string",
+          "value": "Stream your favorite artists with a free 90-day music subscription when you sign up for any plan."
+        },
+        {
+          "component": "text",
+          "name": "deal-1-cta-label",
+          "label": "Deal 1 CTA Label",
+          "valueType": "string",
+          "value": "Learn More"
+        },
+        {
+          "component": "text",
+          "name": "deal-1-cta-url",
+          "label": "Deal 1 CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "deal-2-icon-token",
+          "label": "Deal 2 Icon Token",
+          "valueType": "string",
+          "value": "phone"
+        },
+        {
+          "component": "text",
+          "name": "deal-2-title",
+          "label": "Deal 2 Title",
+          "valueType": "string",
+          "value": "New line? New phone on us."
+        },
+        {
+          "component": "text",
+          "name": "deal-2-description",
+          "label": "Deal 2 Description",
+          "valueType": "string",
+          "value": "Getting a new line? Get the latest smartphone on us with qualifying trade-in. Limited time offer."
+        },
+        {
+          "component": "text",
+          "name": "deal-2-cta-label",
+          "label": "Deal 2 CTA Label",
+          "valueType": "string",
+          "value": "See Offer"
+        },
+        {
+          "component": "text",
+          "name": "deal-2-cta-url",
+          "label": "Deal 2 CTA URL",
+          "valueType": "string",
+          "value": "#devices"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-icon-token",
+          "label": "Deal 3 Icon Token",
+          "valueType": "string",
+          "value": "savings"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-title",
+          "label": "Deal 3 Title",
+          "valueType": "string",
+          "value": "Family savings bundle"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-description",
+          "label": "Deal 3 Description",
+          "valueType": "string",
+          "value": "Add lines and save bigger. Our family plans give you more data and bigger discounts the more you add."
+        },
+        {
+          "component": "text",
+          "name": "deal-3-cta-label",
+          "label": "Deal 3 CTA Label",
+          "valueType": "string",
+          "value": "View Plans"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-cta-url",
+          "label": "Deal 3 CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-icon-token",
+          "label": "Deal 4 Icon Token",
+          "valueType": "string",
+          "value": "watch"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-title",
+          "label": "Deal 4 Title",
+          "valueType": "string",
+          "value": "Exclusive smartwatch bundles"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-description",
+          "label": "Deal 4 Description",
+          "valueType": "string",
+          "value": "Pair your new phone with a connected smartwatch. Exclusive bundle pricing for CitiSignal members."
+        },
+        {
+          "component": "text",
+          "name": "deal-4-cta-label",
+          "label": "Deal 4 CTA Label",
+          "valueType": "string",
+          "value": "Shop Bundles"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-cta-url",
+          "label": "Deal 4 CTA URL",
+          "valueType": "string",
+          "value": "#devices"
+        },
+        {
+          "component": "text",
+          "name": "featured-tag",
+          "label": "Featured Tag",
+          "valueType": "string",
+          "value": "New Arrival"
+        },
+        {
+          "component": "text",
+          "name": "featured-title",
+          "label": "Featured Title",
+          "valueType": "string",
+          "value": "Get the latest|technology."
+        },
+        {
+          "component": "text",
+          "name": "featured-description-1",
+          "label": "Featured Description 1",
+          "valueType": "string",
+          "value": "Check out the latest technology with the iPhone 16. Filled with modern features like an upgraded camera and blazing speed."
+        },
+        {
+          "component": "text",
+          "name": "featured-description-2",
+          "label": "Featured Description 2",
+          "valueType": "string",
+          "value": "Get the newest phone for your everyday life, now available at CitiSignal with exclusive offers for new and existing members."
+        },
+        {
+          "component": "text",
+          "name": "featured-feature-list",
+          "label": "Featured Feature List",
+          "valueType": "string",
+          "value": "48MP camera system with 5x optical zoom|A18 Pro chip for all-day performance|Titanium design, lighter than ever|Free with eligible trade-in at CitiSignal"
+        },
+        {
+          "component": "text",
+          "name": "featured-cta-label",
+          "label": "Featured CTA Label",
+          "valueType": "string",
+          "value": "Shop iPhone 16"
+        },
+        {
+          "component": "text",
+          "name": "featured-cta-url",
+          "label": "Featured CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-1-label",
+          "label": "Featured Card 1 Label",
+          "valueType": "string",
+          "value": "Download"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-1-value",
+          "label": "Featured Card 1 Value",
+          "valueType": "string",
+          "value": "4.2 Gbps"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-2-label",
+          "label": "Featured Card 2 Label",
+          "valueType": "string",
+          "value": "Coverage"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-2-value",
+          "label": "Featured Card 2 Value",
+          "valueType": "string",
+          "value": "Strong"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-2-meter",
+          "label": "Featured Card 2 Meter",
+          "valueType": "string",
+          "value": "92"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-3-label",
+          "label": "Featured Card 3 Label",
+          "valueType": "string",
+          "value": "Latency"
+        },
+        {
+          "component": "text",
+          "name": "featured-card-3-value",
+          "label": "Featured Card 3 Value",
+          "valueType": "string",
+          "value": "2ms"
+        },
+        {
+          "component": "text",
+          "name": "plans-eyebrow",
+          "label": "Plans Eyebrow",
+          "valueType": "string",
+          "value": "// Plans"
+        },
+        {
+          "component": "text",
+          "name": "plans-title",
+          "label": "Plans Title",
+          "valueType": "string",
+          "value": "Plans that fit|your life."
+        },
+        {
+          "component": "text",
+          "name": "plans-description",
+          "label": "Plans Description",
+          "valueType": "string",
+          "value": "No hidden fees. No annual contracts. Switch, upgrade, or cancel anytime."
+        },
+        {
+          "component": "text",
+          "name": "plans-monthly-label",
+          "label": "Plans Monthly Label",
+          "valueType": "string",
+          "value": "Monthly"
+        },
+        {
+          "component": "text",
+          "name": "plans-annual-label",
+          "label": "Plans Annual Label",
+          "valueType": "string",
+          "value": "Annual"
+        },
+        {
+          "component": "text",
+          "name": "plans-saving-label",
+          "label": "Plans Saving Label",
+          "valueType": "string",
+          "value": "Save 20%"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-name",
+          "label": "Plan 1 Name",
+          "valueType": "string",
+          "value": "Essential"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-monthly-price",
+          "label": "Plan 1 Monthly Price",
+          "valueType": "string",
+          "value": "35"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-annual-price",
+          "label": "Plan 1 Annual Price",
+          "valueType": "string",
+          "value": "28"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-description",
+          "label": "Plan 1 Description",
+          "valueType": "string",
+          "value": "Reliable coverage and solid speeds for everyday use."
+        },
+        {
+          "component": "text",
+          "name": "plan-1-feature-list",
+          "label": "Plan 1 Feature List",
+          "valueType": "string",
+          "value": "50 GB high-speed data|5G access included|Spam call blocking|5 GB mobile hotspot"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-cta-label",
+          "label": "Plan 1 CTA Label",
+          "valueType": "string",
+          "value": "Choose Essential"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-cta-url",
+          "label": "Plan 1 CTA URL",
+          "valueType": "string",
+          "value": "#cta"
+        },
+        {
+          "component": "boolean",
+          "name": "plan-1-featured",
+          "label": "Plan 1 Featured",
+          "valueType": "boolean",
+          "value": false
+        },
+        {
+          "component": "text",
+          "name": "plan-2-name",
+          "label": "Plan 2 Name",
+          "valueType": "string",
+          "value": "Unlimited"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-monthly-price",
+          "label": "Plan 2 Monthly Price",
+          "valueType": "string",
+          "value": "55"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-annual-price",
+          "label": "Plan 2 Annual Price",
+          "valueType": "string",
+          "value": "44"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-description",
+          "label": "Plan 2 Description",
+          "valueType": "string",
+          "value": "Our most popular plan. More data, more perks, more freedom."
+        },
+        {
+          "component": "text",
+          "name": "plan-2-feature-list",
+          "label": "Plan 2 Feature List",
+          "valueType": "string",
+          "value": "Unlimited premium data|5G Ultra Wideband|25 GB hotspot|90-day free music subscription|International texting 30+ countries"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-cta-label",
+          "label": "Plan 2 CTA Label",
+          "valueType": "string",
+          "value": "Choose Unlimited"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-cta-url",
+          "label": "Plan 2 CTA URL",
+          "valueType": "string",
+          "value": "#cta"
+        },
+        {
+          "component": "boolean",
+          "name": "plan-2-featured",
+          "label": "Plan 2 Featured",
+          "valueType": "boolean",
+          "value": true
+        },
+        {
+          "component": "text",
+          "name": "plan-3-name",
+          "label": "Plan 3 Name",
+          "valueType": "string",
+          "value": "Unlimited+"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-monthly-price",
+          "label": "Plan 3 Monthly Price",
+          "valueType": "string",
+          "value": "75"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-annual-price",
+          "label": "Plan 3 Annual Price",
+          "valueType": "string",
+          "value": "60"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-description",
+          "label": "Plan 3 Description",
+          "valueType": "string",
+          "value": "The complete experience. Premium everything, no compromises."
+        },
+        {
+          "component": "text",
+          "name": "plan-3-feature-list",
+          "label": "Plan 3 Feature List",
+          "valueType": "string",
+          "value": "Truly unlimited everything|5G+ with priority access|Unlimited hotspot|Global roaming 60+ countries|Smartwatch bundle + device protection"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-cta-label",
+          "label": "Plan 3 CTA Label",
+          "valueType": "string",
+          "value": "Choose Unlimited+"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-cta-url",
+          "label": "Plan 3 CTA URL",
+          "valueType": "string",
+          "value": "#cta"
+        },
+        {
+          "component": "boolean",
+          "name": "plan-3-featured",
+          "label": "Plan 3 Featured",
+          "valueType": "boolean",
+          "value": false
+        },
+        {
+          "component": "text",
+          "name": "network-eyebrow",
+          "label": "Network Eyebrow",
+          "valueType": "string",
+          "value": "// Network"
+        },
+        {
+          "component": "text",
+          "name": "network-title",
+          "label": "Network Title",
+          "valueType": "string",
+          "value": "Coverage you|can count on."
+        },
+        {
+          "component": "text",
+          "name": "network-description",
+          "label": "Network Description",
+          "valueType": "string",
+          "value": "Our 5G network keeps expanding. From downtown to the suburbs, from coast to coast, CitiSignal delivers speeds and reliability you can depend on every day."
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-value",
+          "label": "Network Stat 1 Value",
+          "valueType": "string",
+          "value": "99.9"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-suffix",
+          "label": "Network Stat 1 Suffix",
+          "valueType": "string",
+          "value": "%"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-decimals",
+          "label": "Network Stat 1 Decimals",
+          "valueType": "string",
+          "value": "1"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-label",
+          "label": "Network Stat 1 Label",
+          "valueType": "string",
+          "value": "Network reliability across all coverage areas, every quarter"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-1-sub-label",
+          "label": "Network Stat 1 Sub Label",
+          "valueType": "string",
+          "value": "INDUSTRY-LEADING UPTIME"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-value",
+          "label": "Network Stat 2 Value",
+          "valueType": "string",
+          "value": "320"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-suffix",
+          "label": "Network Stat 2 Suffix",
+          "valueType": "string",
+          "value": "M+"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-decimals",
+          "label": "Network Stat 2 Decimals",
+          "valueType": "string",
+          "value": "0"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-label",
+          "label": "Network Stat 2 Label",
+          "valueType": "string",
+          "value": "People covered by our 5G network"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-2-sub-label",
+          "label": "Network Stat 2 Sub Label",
+          "valueType": "string",
+          "value": "AND GROWING FAST"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-value",
+          "label": "Network Stat 3 Value",
+          "valueType": "string",
+          "value": "2.4"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-suffix",
+          "label": "Network Stat 3 Suffix",
+          "valueType": "string",
+          "value": "M"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-decimals",
+          "label": "Network Stat 3 Decimals",
+          "valueType": "string",
+          "value": "1"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-label",
+          "label": "Network Stat 3 Label",
+          "valueType": "string",
+          "value": "New subscribers in the last year"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-3-sub-label",
+          "label": "Network Stat 3 Sub Label",
+          "valueType": "string",
+          "value": "FASTEST-GROWING CARRIER"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-value",
+          "label": "Network Stat 4 Value",
+          "valueType": "string",
+          "value": "50"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-suffix",
+          "label": "Network Stat 4 Suffix",
+          "valueType": "string",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-decimals",
+          "label": "Network Stat 4 Decimals",
+          "valueType": "string",
+          "value": "0"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-label",
+          "label": "Network Stat 4 Label",
+          "valueType": "string",
+          "value": "States with full 5G coverage"
+        },
+        {
+          "component": "text",
+          "name": "network-stat-4-sub-label",
+          "label": "Network Stat 4 Sub Label",
+          "valueType": "string",
+          "value": "COAST TO COAST"
+        },
+        {
+          "component": "text",
+          "name": "testimonials-eyebrow",
+          "label": "Testimonials Eyebrow",
+          "valueType": "string",
+          "value": "// Reviews"
+        },
+        {
+          "component": "text",
+          "name": "testimonials-title",
+          "label": "Testimonials Title",
+          "valueType": "string",
+          "value": "People love|CitiSignal."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-quote",
+          "label": "Testimonial 1 Quote",
+          "valueType": "string",
+          "value": "Switched from my old carrier three months ago. Better signal, better price, and the free music subscription is a nice bonus."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-initials",
+          "label": "Testimonial 1 Initials",
+          "valueType": "string",
+          "value": "JR"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-name",
+          "label": "Testimonial 1 Name",
+          "valueType": "string",
+          "value": "Jason Reeves"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-role-location",
+          "label": "Testimonial 1 Role Location",
+          "valueType": "string",
+          "value": "Austin, TX"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-quote",
+          "label": "Testimonial 2 Quote",
+          "valueType": "string",
+          "value": "The family plan saved us almost $80 a month. Four lines, unlimited data, and no surprises on the bill."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-initials",
+          "label": "Testimonial 2 Initials",
+          "valueType": "string",
+          "value": "MP"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-name",
+          "label": "Testimonial 2 Name",
+          "valueType": "string",
+          "value": "Maria Perez"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-role-location",
+          "label": "Testimonial 2 Role Location",
+          "valueType": "string",
+          "value": "Miami, FL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-quote",
+          "label": "Testimonial 3 Quote",
+          "valueType": "string",
+          "value": "I got the iPhone 16 deal with trade-in and it was seamless. In-store setup took ten minutes. Really impressed."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-initials",
+          "label": "Testimonial 3 Initials",
+          "valueType": "string",
+          "value": "DL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-name",
+          "label": "Testimonial 3 Name",
+          "valueType": "string",
+          "value": "David Lee"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-role-location",
+          "label": "Testimonial 3 Role Location",
+          "valueType": "string",
+          "value": "Seattle, WA"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-quote",
+          "label": "Testimonial 4 Quote",
+          "valueType": "string",
+          "value": "5G coverage at my office and at home finally. CitiSignal's network expansion has been a game changer for me."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-initials",
+          "label": "Testimonial 4 Initials",
+          "valueType": "string",
+          "value": "RK"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-name",
+          "label": "Testimonial 4 Name",
+          "valueType": "string",
+          "value": "Rachel Kim"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-role-location",
+          "label": "Testimonial 4 Role Location",
+          "valueType": "string",
+          "value": "Chicago, IL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-quote",
+          "label": "Testimonial 5 Quote",
+          "valueType": "string",
+          "value": "No contracts, no hidden fees. They actually mean it. My bill has been the exact same every month for a year."
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-initials",
+          "label": "Testimonial 5 Initials",
+          "valueType": "string",
+          "value": "TC"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-name",
+          "label": "Testimonial 5 Name",
+          "valueType": "string",
+          "value": "Tyler Chen"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-5-role-location",
+          "label": "Testimonial 5 Role Location",
+          "valueType": "string",
+          "value": "Denver, CO"
+        },
+        {
+          "component": "text",
+          "name": "final-cta-heading",
+          "label": "Final CTA Heading",
+          "valueType": "string",
+          "value": "Ready to make|the switch?"
+        },
+        {
+          "component": "text",
+          "name": "final-cta-body",
+          "label": "Final CTA Body",
+          "valueType": "string",
+          "value": "Join 2.4 million people who chose better coverage and honest pricing. Setup takes five minutes."
+        },
+        {
+          "component": "text",
+          "name": "final-cta-label",
+          "label": "Final CTA Label",
+          "valueType": "string",
+          "value": "Get Started Today"
+        },
+        {
+          "component": "text",
+          "name": "final-cta-url",
+          "label": "Final CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

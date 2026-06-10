@@ -1,0 +1,218 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Hero",
+      "id": "citisignal-showcase-hero",
+      "model": "citisignal-showcase-hero",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-hero",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "hero-badge",
+          "label": "Hero Badge",
+          "valueType": "string",
+          "value": "5G coverage just expanded"
+        },
+        {
+          "component": "text",
+          "name": "hero-title",
+          "label": "Hero Title",
+          "valueType": "string",
+          "value": "Stay Connected.|Stay"
+        },
+        {
+          "component": "text",
+          "name": "hero-highlighted-title",
+          "label": "Hero Highlighted Title",
+          "valueType": "string",
+          "value": "Ahead."
+        },
+        {
+          "component": "text",
+          "name": "hero-description",
+          "label": "Hero Description",
+          "valueType": "string",
+          "value": "Discover the expanded reach of CitiSignal's 5G network. Faster speeds, wider coverage, and smarter plans are just a click away."
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-label",
+          "label": "Hero Primary CTA Label",
+          "valueType": "string",
+          "value": "Find Your 5G Phone"
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-url",
+          "label": "Hero Primary CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-label",
+          "label": "Hero Secondary CTA Label",
+          "valueType": "string",
+          "value": "Explore Coverage"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-url",
+          "label": "Hero Secondary CTA URL",
+          "valueType": "string",
+          "value": "#network"
+        },
+        {
+          "component": "text",
+          "name": "hero-proof-stat-value",
+          "label": "Hero Proof Stat Value",
+          "valueType": "string",
+          "value": "2.4M+"
+        },
+        {
+          "component": "text",
+          "name": "hero-proof-stat-text",
+          "label": "Hero Proof Stat Text",
+          "valueType": "string",
+          "value": "new subscribers this year"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-1",
+          "label": "Hero Pill 1",
+          "valueType": "string",
+          "value": "5G Ultra Fast"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-2",
+          "label": "Hero Pill 2",
+          "valueType": "string",
+          "value": "Nationwide"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-3",
+          "label": "Hero Pill 3",
+          "valueType": "string",
+          "value": "No Contracts"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-speed",
+          "label": "Hero Phone Speed",
+          "valueType": "string",
+          "value": "2.8"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-speed-unit",
+          "label": "Hero Phone Speed Unit",
+          "valueType": "string",
+          "value": "Gbps"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-label",
+          "label": "Hero Phone Label",
+          "valueType": "string",
+          "value": "Download speed"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-1-value",
+          "label": "Hero Phone Metric 1 Value",
+          "valueType": "string",
+          "value": "8ms"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-1-label",
+          "label": "Hero Phone Metric 1 Label",
+          "valueType": "string",
+          "value": "Ping"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-2-value",
+          "label": "Hero Phone Metric 2 Value",
+          "valueType": "string",
+          "value": "99.9%"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-2-label",
+          "label": "Hero Phone Metric 2 Label",
+          "valueType": "string",
+          "value": "Uptime"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-3-value",
+          "label": "Hero Phone Metric 3 Value",
+          "valueType": "string",
+          "value": "5G+"
+        },
+        {
+          "component": "text",
+          "name": "hero-phone-metric-3-label",
+          "label": "Hero Phone Metric 3 Label",
+          "valueType": "string",
+          "value": "Band"
+        },
+        {
+          "component": "text",
+          "name": "partner-names",
+          "label": "Partner Names",
+          "valueType": "string",
+          "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-initials",
+          "label": "Testimonial 1 Initials",
+          "valueType": "string",
+          "value": "JR"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-initials",
+          "label": "Testimonial 2 Initials",
+          "valueType": "string",
+          "value": "MP"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-initials",
+          "label": "Testimonial 3 Initials",
+          "valueType": "string",
+          "value": "DL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-initials",
+          "label": "Testimonial 4 Initials",
+          "valueType": "string",
+          "value": "RK"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

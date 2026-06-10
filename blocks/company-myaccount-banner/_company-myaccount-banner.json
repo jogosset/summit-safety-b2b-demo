@@ -1,0 +1,83 @@
+{
+  "definitions": [
+    {
+      "title": "Company My Account Banner",
+      "id": "company-myaccount-banner",
+      "model": "company-myaccount-banner",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div class=\"company-myaccount-banner\"><div><div>bgcolor</div><div>#f5f5f5</div></div><div><div>text-color</div><div>#2b2b2b</div></div><div><div><p>Logo image here</p></div><div><p>Enter your banner text here</p></div></div></div>",
+          "fields": [
+            {
+              "name": "bgcolor",
+              "selector": "div:nth-child(1)>div:nth-child(2)"
+            },
+            {
+              "name": "text-color",
+              "selector": "div:nth-child(2)>div:nth-child(2)"
+            },
+            {
+              "name": "logo",
+              "selector": "div:nth-child(3)>div:nth-child(1)>picture>img[src]"
+            },
+            {
+              "name": "logo-alt",
+              "selector": "div:nth-child(3)>div:nth-child(1)>picture>img[alt]"
+            },
+            {
+              "name": "content",
+              "selector": "div:nth-child(3)>div:nth-child(2)"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "company-myaccount-banner",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "bgcolor",
+          "label": "Background Color",
+          "value": "#f5f5f5",
+          "description": "Any valid CSS color (e.g. #003087, white, rgb(0,48,135))"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "text-color",
+          "label": "Text Color",
+          "value": "#2b2b2b",
+          "description": "Any valid CSS color for all text in the banner"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "logo",
+          "label": "Logo Image",
+          "multi": false,
+          "rootPath": "https://author-p158081-e1683323.adobeaemcloud.com/content/dam",
+          "description": "Select a logo from the AEM Assets repository. Banner height follows the image height."
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "logo-alt",
+          "label": "Logo Alt Text",
+          "value": ""
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "content",
+          "label": "Banner Text",
+          "description": "Freeform rich text — supports bold, italic, alignment, headings, and links"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

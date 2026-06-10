@@ -1,0 +1,232 @@
+/* ─── Showcase Feature Block ─────────────────────────────────────── */
+
+.showcase-feature {
+  background: var(--sf-bg, #070d19);
+  color: var(--sf-text, #fff);
+  padding: 0;
+}
+
+/* ── Root layout wrapper ─────────────────────────────────────────── */
+.showcase-feature .sf {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 480px;
+}
+
+/* ── Media panel (left) ──────────────────────────────────────────── */
+.showcase-feature .sf__media {
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+  min-height: 300px;
+  overflow: hidden;
+  background: #0d1a2e;
+}
+
+.showcase-feature .sf__image-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+/* Background image — fills the panel, behind all cards */
+.showcase-feature .sf__bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.showcase-feature .sf__bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Frosted-glass metric cards ──────────────────────────────────── */
+.showcase-feature .sf__card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgb(255 255 255 / 18%);
+  z-index: 1;
+  min-width: 110px;
+}
+
+/* Card positions — top-left, center, bottom-right */
+.showcase-feature .sf__card--1 {
+  top: 14%;
+  left: 8%;
+}
+
+.showcase-feature .sf__card--2 {
+  top: 42%;
+  left: 28%;
+  transform: translateX(-50%);
+}
+
+.showcase-feature .sf__card--3 {
+  bottom: 14%;
+  right: 8%;
+}
+
+.showcase-feature .sf__card-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+.showcase-feature .sf__card-label {
+  font-size: 0.7rem;
+  color: rgb(255 255 255 / 75%);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+/* ── Content panel (right) ───────────────────────────────────────── */
+.showcase-feature .sf__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 48px 32px;
+}
+
+/* Badge pill */
+.showcase-feature .sf__badge {
+  display: inline-block;
+  width: fit-content;
+  padding: 6px 16px;
+  border: 1px solid rgb(255 255 255 / 50%);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 85%);
+}
+
+/* Title */
+.showcase-feature .sf__title {
+  margin: 0;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #fff;
+}
+
+/* Descriptions */
+.showcase-feature .sf__description {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgb(255 255 255 / 75%);
+  max-width: 52ch;
+}
+
+/* Feature list */
+.showcase-feature .sf__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.showcase-feature .sf__feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: rgb(255 255 255 / 90%);
+  line-height: 1.5;
+}
+
+/* Checkmark icon via CSS */
+.showcase-feature .sf__feature-icon {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border-radius: 50%;
+  background: rgb(99 179 120 / 20%);
+  border: 1.5px solid #63b378;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-feature .sf__feature-icon::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 9px;
+  border-right: 2px solid #63b378;
+  border-bottom: 2px solid #63b378;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+/* CTA button */
+.showcase-feature .sf__cta {
+  display: inline-block;
+  width: fit-content;
+  padding: 12px 28px;
+  border: 2px solid rgb(255 255 255 / 70%);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.showcase-feature .sf__cta:hover {
+  background: rgb(255 255 255 / 10%);
+  border-color: #fff;
+}
+
+/* ── Responsive: tablet + desktop ────────────────────────────────── */
+@media (min-width: 768px) {
+  .showcase-feature .sf {
+    flex-direction: row;
+    min-height: 520px;
+  }
+
+  .showcase-feature .sf__media {
+    flex: 0 0 45%;
+    min-height: 0;
+  }
+
+  .showcase-feature .sf__image-wrap {
+    min-height: 100%;
+  }
+
+  .showcase-feature .sf__content {
+    flex: 0 0 55%;
+    padding: 60px 56px;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .showcase-feature .sf__content {
+    padding: 72px;
+  }
+
+  .showcase-feature .sf__title {
+    font-size: 2.75rem;
+  }
+}

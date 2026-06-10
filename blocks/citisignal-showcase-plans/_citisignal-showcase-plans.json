@@ -1,0 +1,239 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Plans",
+      "id": "citisignal-showcase-plans",
+      "model": "citisignal-showcase-plans",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-plans",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "plans-eyebrow",
+          "label": "Plans Eyebrow",
+          "valueType": "string",
+          "value": "// Plans"
+        },
+        {
+          "component": "text",
+          "name": "plans-title",
+          "label": "Plans Title",
+          "valueType": "string",
+          "value": "Plans that fit|your life."
+        },
+        {
+          "component": "text",
+          "name": "plans-description",
+          "label": "Plans Description",
+          "valueType": "string",
+          "value": "No hidden fees. No annual contracts. Switch, upgrade, or cancel anytime."
+        },
+        {
+          "component": "text",
+          "name": "plans-monthly-label",
+          "label": "Plans Monthly Label",
+          "valueType": "string",
+          "value": "Monthly"
+        },
+        {
+          "component": "text",
+          "name": "plans-annual-label",
+          "label": "Plans Annual Label",
+          "valueType": "string",
+          "value": "Annual"
+        },
+        {
+          "component": "text",
+          "name": "plans-saving-label",
+          "label": "Plans Saving Label",
+          "valueType": "string",
+          "value": "Save 20%"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-name",
+          "label": "Plan 1 Name",
+          "valueType": "string",
+          "value": "Essential"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-monthly-price",
+          "label": "Plan 1 Monthly Price",
+          "valueType": "string",
+          "value": "35"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-annual-price",
+          "label": "Plan 1 Annual Price",
+          "valueType": "string",
+          "value": "28"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-description",
+          "label": "Plan 1 Description",
+          "valueType": "string",
+          "value": "Reliable coverage and solid speeds for everyday use."
+        },
+        {
+          "component": "text",
+          "name": "plan-1-feature-list",
+          "label": "Plan 1 Feature List",
+          "valueType": "string",
+          "value": "50 GB high-speed data|5G access included|Spam call blocking|5 GB mobile hotspot"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-cta-label",
+          "label": "Plan 1 CTA Label",
+          "valueType": "string",
+          "value": "Choose Essential"
+        },
+        {
+          "component": "text",
+          "name": "plan-1-cta-url",
+          "label": "Plan 1 CTA URL",
+          "valueType": "string",
+          "value": "#cta"
+        },
+        {
+          "component": "boolean",
+          "name": "plan-1-featured",
+          "label": "Plan 1 Featured",
+          "valueType": "boolean",
+          "value": false
+        },
+        {
+          "component": "text",
+          "name": "plan-2-name",
+          "label": "Plan 2 Name",
+          "valueType": "string",
+          "value": "Unlimited"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-monthly-price",
+          "label": "Plan 2 Monthly Price",
+          "valueType": "string",
+          "value": "55"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-annual-price",
+          "label": "Plan 2 Annual Price",
+          "valueType": "string",
+          "value": "44"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-description",
+          "label": "Plan 2 Description",
+          "valueType": "string",
+          "value": "Our most popular plan. More data, more perks, more freedom."
+        },
+        {
+          "component": "text",
+          "name": "plan-2-feature-list",
+          "label": "Plan 2 Feature List",
+          "valueType": "string",
+          "value": "Unlimited premium data|5G Ultra Wideband|25 GB hotspot|90-day free music subscription|International texting 30+ countries"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-cta-label",
+          "label": "Plan 2 CTA Label",
+          "valueType": "string",
+          "value": "Choose Unlimited"
+        },
+        {
+          "component": "text",
+          "name": "plan-2-cta-url",
+          "label": "Plan 2 CTA URL",
+          "valueType": "string",
+          "value": "#cta"
+        },
+        {
+          "component": "boolean",
+          "name": "plan-2-featured",
+          "label": "Plan 2 Featured",
+          "valueType": "boolean",
+          "value": true
+        },
+        {
+          "component": "text",
+          "name": "plan-3-name",
+          "label": "Plan 3 Name",
+          "valueType": "string",
+          "value": "Unlimited+"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-monthly-price",
+          "label": "Plan 3 Monthly Price",
+          "valueType": "string",
+          "value": "75"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-annual-price",
+          "label": "Plan 3 Annual Price",
+          "valueType": "string",
+          "value": "60"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-description",
+          "label": "Plan 3 Description",
+          "valueType": "string",
+          "value": "The complete experience. Premium everything, no compromises."
+        },
+        {
+          "component": "text",
+          "name": "plan-3-feature-list",
+          "label": "Plan 3 Feature List",
+          "valueType": "string",
+          "value": "Truly unlimited everything|5G+ with priority access|Unlimited hotspot|Global roaming 60+ countries|Smartwatch bundle + device protection"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-cta-label",
+          "label": "Plan 3 CTA Label",
+          "valueType": "string",
+          "value": "Choose Unlimited+"
+        },
+        {
+          "component": "text",
+          "name": "plan-3-cta-url",
+          "label": "Plan 3 CTA URL",
+          "valueType": "string",
+          "value": "#cta"
+        },
+        {
+          "component": "boolean",
+          "name": "plan-3-featured",
+          "label": "Plan 3 Featured",
+          "valueType": "boolean",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

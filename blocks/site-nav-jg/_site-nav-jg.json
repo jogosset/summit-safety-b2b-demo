@@ -1,0 +1,181 @@
+{
+  "definitions": [
+    {
+      "title": "Site Nav (JG)",
+      "id": "site-nav-jg",
+      "model": "site-nav-jg",
+      "filter": "site-nav-jg",
+      "plugins": {
+        "da": {
+          "title": "Site Nav (JG)",
+          "rows": 10,
+          "columns": 2
+        }
+      }
+    },
+    {
+      "title": "Site Nav Item (JG)",
+      "id": "site-nav-jg-item",
+      "model": "site-nav-jg-item",
+      "plugins": {
+        "da": {
+          "title": "Site Nav Item (JG)",
+          "rows": 1,
+          "columns": 2,
+          "fields": [
+            {
+              "name": "categoryName",
+              "selector": "div:nth-child(1)"
+            },
+            {
+              "name": "subLinks",
+              "selector": "div:nth-child(2)"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "site-nav-jg",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "backgroundColor",
+          "label": "Background Color",
+          "description": "Hex color for the navigation bar background (e.g., #000000)",
+          "value": "#000000"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "textColor",
+          "label": "Text Color",
+          "description": "Hex color for the navigation text (e.g., #ffffff)",
+          "value": "#ffffff"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "hoverAccentColor",
+          "label": "Hover Accent Color",
+          "description": "Hex color for the hover underline accent (e.g., #fefefe)",
+          "value": "#fefefe"
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "breadcrumb",
+          "label": "Breadcrumb",
+          "description": "Optional breadcrumb trail with links separated by >. Example: Home > Category > Page"
+        }
+      ]
+    },
+    {
+      "id": "site-nav-jg-item",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "categoryName",
+          "label": "Category Name",
+          "description": "Top-level navigation category name (e.g., Aviation Parts)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink1Label",
+          "label": "Sub-Link 1 Label",
+          "description": "Label for the first sub-navigation link"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink1Url",
+          "label": "Sub-Link 1 URL",
+          "description": "URL path for the first sub-navigation link (e.g., /plp/tires)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink2Label",
+          "label": "Sub-Link 2 Label",
+          "description": "Label for the second sub-navigation link (optional)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink2Url",
+          "label": "Sub-Link 2 URL",
+          "description": "URL path for the second sub-navigation link"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink3Label",
+          "label": "Sub-Link 3 Label",
+          "description": "Label for the third sub-navigation link (optional)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink3Url",
+          "label": "Sub-Link 3 URL",
+          "description": "URL path for the third sub-navigation link"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink4Label",
+          "label": "Sub-Link 4 Label",
+          "description": "Label for the fourth sub-navigation link (optional)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink4Url",
+          "label": "Sub-Link 4 URL",
+          "description": "URL path for the fourth sub-navigation link"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink5Label",
+          "label": "Sub-Link 5 Label",
+          "description": "Label for the fifth sub-navigation link (optional)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink5Url",
+          "label": "Sub-Link 5 URL",
+          "description": "URL path for the fifth sub-navigation link"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink6Label",
+          "label": "Sub-Link 6 Label",
+          "description": "Label for the sixth sub-navigation link (optional)"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "subLink6Url",
+          "label": "Sub-Link 6 URL",
+          "description": "URL path for the sixth sub-navigation link"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "site-nav-jg",
+      "components": [
+        "site-nav-jg-item"
+      ]
+    }
+  ]
+}

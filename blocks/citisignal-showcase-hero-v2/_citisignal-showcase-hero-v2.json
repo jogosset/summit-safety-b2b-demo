@@ -1,0 +1,190 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Hero V2",
+      "id": "citisignal-showcase-hero-v2",
+      "model": "citisignal-showcase-hero-v2",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-hero-v2",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "hero-badge",
+          "label": "Hero Badge",
+          "valueType": "string",
+          "value": "5G coverage just expanded"
+        },
+        {
+          "component": "text",
+          "name": "hero-title",
+          "label": "Hero Title",
+          "valueType": "string",
+          "value": "Stay Connected.|Stay"
+        },
+        {
+          "component": "text",
+          "name": "hero-highlighted-title",
+          "label": "Hero Highlighted Title",
+          "valueType": "string",
+          "value": "Ahead."
+        },
+        {
+          "component": "text",
+          "name": "hero-description",
+          "label": "Hero Description",
+          "valueType": "string",
+          "value": "Discover the expanded reach of CitiSignal's 5G network. Faster speeds, wider coverage, and smarter plans are just a click away."
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-label",
+          "label": "Hero Primary CTA Label",
+          "valueType": "string",
+          "value": "Find Your 5G Phone"
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-url",
+          "label": "Hero Primary CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-label",
+          "label": "Hero Secondary CTA Label",
+          "valueType": "string",
+          "value": "Explore Coverage"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-url",
+          "label": "Hero Secondary CTA URL",
+          "valueType": "string",
+          "value": "#network"
+        },
+        {
+          "component": "text",
+          "name": "hero-proof-stat-value",
+          "label": "Hero Proof Stat Value",
+          "valueType": "string",
+          "value": "2.4M+"
+        },
+        {
+          "component": "text",
+          "name": "hero-proof-stat-text",
+          "label": "Hero Proof Stat Text",
+          "valueType": "string",
+          "value": "new subscribers this year"
+        },
+        {
+          "component": "reference",
+          "name": "hero-visual-image",
+          "label": "Hero Visual Image",
+          "valueType": "string",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "name": "hero-visual-image-alt",
+          "label": "Hero Visual Image Alt",
+          "valueType": "string",
+          "value": "Featured CitiSignal device"
+        },
+        {
+          "component": "text",
+          "name": "hero-visual-tag",
+          "label": "Hero Visual Tag",
+          "valueType": "string",
+          "value": "Featured Device"
+        },
+        {
+          "component": "text",
+          "name": "hero-visual-title",
+          "label": "Hero Visual Title",
+          "valueType": "string",
+          "value": "CitiSignal Pro Max"
+        },
+        {
+          "component": "text",
+          "name": "hero-visual-description",
+          "label": "Hero Visual Description",
+          "valueType": "string",
+          "value": "48MP camera, titanium finish, and all-day battery on CitiSignal 5G."
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-1",
+          "label": "Hero Pill 1",
+          "valueType": "string",
+          "value": "5G Ultra Fast"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-2",
+          "label": "Hero Pill 2",
+          "valueType": "string",
+          "value": "Nationwide"
+        },
+        {
+          "component": "text",
+          "name": "hero-pill-3",
+          "label": "Hero Pill 3",
+          "valueType": "string",
+          "value": "No Contracts"
+        },
+        {
+          "component": "text",
+          "name": "partner-names",
+          "label": "Partner Names",
+          "valueType": "string",
+          "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-1-initials",
+          "label": "Testimonial 1 Initials",
+          "valueType": "string",
+          "value": "JR"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-2-initials",
+          "label": "Testimonial 2 Initials",
+          "valueType": "string",
+          "value": "MP"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-3-initials",
+          "label": "Testimonial 3 Initials",
+          "valueType": "string",
+          "value": "DL"
+        },
+        {
+          "component": "text",
+          "name": "testimonial-4-initials",
+          "label": "Testimonial 4 Initials",
+          "valueType": "string",
+          "value": "RK"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

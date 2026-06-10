@@ -1,0 +1,73 @@
+{
+  "definitions": [
+    {
+      "title": "Phone 3D Showcase",
+      "id": "phone-3d-showcase",
+      "model": "phone-3d-showcase",
+      "plugins": {
+        "da": {
+          "name": "phone-3d-showcase",
+          "rows": 7,
+          "columns": 2
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "phone-3d-showcase",
+      "fields": [
+        {
+          "component": "text",
+          "name": "badge",
+          "label": "Badge Text",
+          "value": "Now on CitiSignal 5G Ultra Network",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "heading",
+          "label": "Heading",
+          "value": "Feel Every Frequency.",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "description",
+          "label": "Description",
+          "value": "Drag to rotate. Scroll to zoom. Tap hotspots to explore every detail of the device.",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "cta-primary",
+          "label": "Primary CTA Label",
+          "value": "Pre-Order Now",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "cta-primary-href",
+          "label": "Primary CTA Link",
+          "value": "#",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "cta-secondary",
+          "label": "Secondary CTA Label",
+          "value": "Explore Plans",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "cta-secondary-href",
+          "label": "Secondary CTA Link",
+          "value": "#",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

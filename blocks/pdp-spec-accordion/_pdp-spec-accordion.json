@@ -1,0 +1,60 @@
+{
+  "definitions": [
+    {
+      "title": "PDP Spec Accordion",
+      "id": "pdp-spec-accordion",
+      "model": "pdp-spec-accordion",
+      "filter": "pdp-spec-accordion",
+      "plugins": {
+        "da": {
+          "name": "pdp-spec-accordion",
+          "rows": 1,
+          "columns": 2
+        }
+      }
+    },
+    {
+      "title": "PDP Spec Accordion Item",
+      "id": "pdp-spec-accordion-item",
+      "model": "pdp-spec-accordion-item",
+      "plugins": {
+        "da": {
+          "name": "pdp-spec-accordion-item",
+          "rows": 2,
+          "columns": 0,
+          "fields": [
+            { "name": "summary", "selector": "div:nth-child(1)" },
+            { "name": "specs", "selector": "div:nth-child(2)" }
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "pdp-spec-accordion-item",
+      "fields": [
+        {
+          "component": "richtext",
+          "name": "summary",
+          "label": "Summary (icon image, title as H4, subtitle as paragraph)",
+          "valueType": "string",
+          "required": true
+        },
+        {
+          "component": "richtext",
+          "name": "specs",
+          "label": "Spec Rows (each paragraph: bold label followed by value)",
+          "valueType": "string",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "pdp-spec-accordion",
+      "components": ["pdp-spec-accordion-item"]
+    }
+  ]
+}

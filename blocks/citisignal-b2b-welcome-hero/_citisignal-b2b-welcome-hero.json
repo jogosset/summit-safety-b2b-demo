@@ -1,0 +1,344 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal B2B Welcome Hero",
+      "id": "citisignal-b2b-welcome-hero",
+      "model": "citisignal-b2b-welcome-hero",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-b2b-welcome-hero",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "nav-brand",
+          "label": "Nav Brand",
+          "valueType": "string",
+          "value": "CitiSignal"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-1-label",
+          "label": "Nav Link 1 Label",
+          "valueType": "string",
+          "value": "Dashboard"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-1-url",
+          "label": "Nav Link 1 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-2-label",
+          "label": "Nav Link 2 Label",
+          "valueType": "string",
+          "value": "Lines"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-2-url",
+          "label": "Nav Link 2 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-3-label",
+          "label": "Nav Link 3 Label",
+          "valueType": "string",
+          "value": "Billing"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-3-url",
+          "label": "Nav Link 3 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-4-label",
+          "label": "Nav Link 4 Label",
+          "valueType": "string",
+          "value": "Support"
+        },
+        {
+          "component": "text",
+          "name": "nav-link-4-url",
+          "label": "Nav Link 4 Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "nav-cta-label",
+          "label": "Nav Cta Label",
+          "valueType": "string",
+          "value": "Add a Line"
+        },
+        {
+          "component": "text",
+          "name": "nav-cta-url",
+          "label": "Nav Cta Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "welcome-avatar-initials",
+          "label": "Welcome Avatar Initials",
+          "valueType": "string",
+          "value": "AC"
+        },
+        {
+          "component": "text",
+          "name": "welcome-company-name",
+          "label": "Welcome Company Name",
+          "valueType": "string",
+          "value": "Acme Corp"
+        },
+        {
+          "component": "text",
+          "name": "hero-title-line-1",
+          "label": "Hero Title Line 1",
+          "valueType": "string",
+          "value": "Your team's network."
+        },
+        {
+          "component": "text",
+          "name": "hero-title-gradient",
+          "label": "Hero Title Gradient",
+          "valueType": "string",
+          "value": "Optimized."
+        },
+        {
+          "component": "text",
+          "name": "hero-description",
+          "label": "Hero Description",
+          "valueType": "string",
+          "value": "Manage all 48 lines from one dashboard. Add new team members, track usage, and control costs with CitiSignal Business."
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-label",
+          "label": "Hero Primary Cta Label",
+          "valueType": "string",
+          "value": "Manage Account"
+        },
+        {
+          "component": "text",
+          "name": "hero-primary-cta-url",
+          "label": "Hero Primary Cta Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-label",
+          "label": "Hero Secondary Cta Label",
+          "valueType": "string",
+          "value": "Add New Lines"
+        },
+        {
+          "component": "text",
+          "name": "hero-secondary-cta-url",
+          "label": "Hero Secondary Cta Url",
+          "valueType": "string",
+          "value": "#"
+        },
+        {
+          "component": "text",
+          "name": "dash-avatar-initials",
+          "label": "Dash Avatar Initials",
+          "valueType": "string",
+          "value": "AC"
+        },
+        {
+          "component": "text",
+          "name": "dash-company-name",
+          "label": "Dash Company Name",
+          "valueType": "string",
+          "value": "Acme Corp"
+        },
+        {
+          "component": "text",
+          "name": "dash-plan",
+          "label": "Dash Plan",
+          "valueType": "string",
+          "value": "Business Unlimited+"
+        },
+        {
+          "component": "text",
+          "name": "dash-badge",
+          "label": "Dash Badge",
+          "valueType": "string",
+          "value": "Enterprise"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-1-value",
+          "label": "Dash Stat 1 Value",
+          "valueType": "string",
+          "value": "48"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-1-label",
+          "label": "Dash Stat 1 Label",
+          "valueType": "string",
+          "value": "Active Lines"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-2-value",
+          "label": "Dash Stat 2 Value",
+          "valueType": "string",
+          "value": "2.1"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-2-suffix",
+          "label": "Dash Stat 2 Suffix",
+          "valueType": "string",
+          "value": "TB"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-2-label",
+          "label": "Dash Stat 2 Label",
+          "valueType": "string",
+          "value": "Data Used"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-3-value",
+          "label": "Dash Stat 3 Value",
+          "valueType": "string",
+          "value": "$892"
+        },
+        {
+          "component": "text",
+          "name": "dash-stat-3-label",
+          "label": "Dash Stat 3 Label",
+          "valueType": "string",
+          "value": "Saved / Mo"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-1-icon",
+          "label": "Dash Line 1 Icon",
+          "valueType": "string",
+          "value": "📱"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-1-name",
+          "label": "Dash Line 1 Name",
+          "valueType": "string",
+          "value": "Sales Team"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-1-count",
+          "label": "Dash Line 1 Count",
+          "valueType": "string",
+          "value": "12 lines"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-1-usage",
+          "label": "Dash Line 1 Usage",
+          "valueType": "string",
+          "value": "82% used"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-2-icon",
+          "label": "Dash Line 2 Icon",
+          "valueType": "string",
+          "value": "💻"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-2-name",
+          "label": "Dash Line 2 Name",
+          "valueType": "string",
+          "value": "Engineering"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-2-count",
+          "label": "Dash Line 2 Count",
+          "valueType": "string",
+          "value": "18 lines"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-2-usage",
+          "label": "Dash Line 2 Usage",
+          "valueType": "string",
+          "value": "67% used"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-3-icon",
+          "label": "Dash Line 3 Icon",
+          "valueType": "string",
+          "value": "🏢"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-3-name",
+          "label": "Dash Line 3 Name",
+          "valueType": "string",
+          "value": "Operations"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-3-count",
+          "label": "Dash Line 3 Count",
+          "valueType": "string",
+          "value": "18 lines"
+        },
+        {
+          "component": "text",
+          "name": "dash-line-3-usage",
+          "label": "Dash Line 3 Usage",
+          "valueType": "string",
+          "value": "54% used"
+        },
+        {
+          "component": "text",
+          "name": "dash-card-cta-label",
+          "label": "Dash Card Cta Label",
+          "valueType": "string",
+          "value": "View Full Dashboard →"
+        },
+        {
+          "component": "text",
+          "name": "dash-card-cta-url",
+          "label": "Dash Card Cta Url",
+          "valueType": "string",
+          "value": "#"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

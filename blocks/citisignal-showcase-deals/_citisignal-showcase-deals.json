@@ -1,0 +1,190 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Deals",
+      "id": "citisignal-showcase-deals",
+      "model": "citisignal-showcase-deals",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-deals",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "deals-eyebrow",
+          "label": "Deals Eyebrow",
+          "valueType": "string",
+          "value": "// Deals"
+        },
+        {
+          "component": "text",
+          "name": "deals-title",
+          "label": "Deals Title",
+          "valueType": "string",
+          "value": "Save more, spend less."
+        },
+        {
+          "component": "text",
+          "name": "deals-description",
+          "label": "Deals Description",
+          "valueType": "string",
+          "value": "Exclusive offers on phones, accessories, and subscriptions. Only at CitiSignal."
+        },
+        {
+          "component": "text",
+          "name": "deal-1-icon-token",
+          "label": "Deal 1 Icon Token",
+          "valueType": "string",
+          "value": "music"
+        },
+        {
+          "component": "text",
+          "name": "deal-1-title",
+          "label": "Deal 1 Title",
+          "valueType": "string",
+          "value": "90 days of free music"
+        },
+        {
+          "component": "text",
+          "name": "deal-1-description",
+          "label": "Deal 1 Description",
+          "valueType": "string",
+          "value": "Stream your favorite artists with a free 90-day music subscription when you sign up for any plan."
+        },
+        {
+          "component": "text",
+          "name": "deal-1-cta-label",
+          "label": "Deal 1 CTA Label",
+          "valueType": "string",
+          "value": "Learn More"
+        },
+        {
+          "component": "text",
+          "name": "deal-1-cta-url",
+          "label": "Deal 1 CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "deal-2-icon-token",
+          "label": "Deal 2 Icon Token",
+          "valueType": "string",
+          "value": "phone"
+        },
+        {
+          "component": "text",
+          "name": "deal-2-title",
+          "label": "Deal 2 Title",
+          "valueType": "string",
+          "value": "New line? New phone on us."
+        },
+        {
+          "component": "text",
+          "name": "deal-2-description",
+          "label": "Deal 2 Description",
+          "valueType": "string",
+          "value": "Getting a new line? Get the latest smartphone on us with qualifying trade-in. Limited time offer."
+        },
+        {
+          "component": "text",
+          "name": "deal-2-cta-label",
+          "label": "Deal 2 CTA Label",
+          "valueType": "string",
+          "value": "See Offer"
+        },
+        {
+          "component": "text",
+          "name": "deal-2-cta-url",
+          "label": "Deal 2 CTA URL",
+          "valueType": "string",
+          "value": "#devices"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-icon-token",
+          "label": "Deal 3 Icon Token",
+          "valueType": "string",
+          "value": "savings"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-title",
+          "label": "Deal 3 Title",
+          "valueType": "string",
+          "value": "Family savings bundle"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-description",
+          "label": "Deal 3 Description",
+          "valueType": "string",
+          "value": "Add lines and save bigger. Our family plans give you more data and bigger discounts the more you add."
+        },
+        {
+          "component": "text",
+          "name": "deal-3-cta-label",
+          "label": "Deal 3 CTA Label",
+          "valueType": "string",
+          "value": "View Plans"
+        },
+        {
+          "component": "text",
+          "name": "deal-3-cta-url",
+          "label": "Deal 3 CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-icon-token",
+          "label": "Deal 4 Icon Token",
+          "valueType": "string",
+          "value": "watch"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-title",
+          "label": "Deal 4 Title",
+          "valueType": "string",
+          "value": "Exclusive smartwatch bundles"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-description",
+          "label": "Deal 4 Description",
+          "valueType": "string",
+          "value": "Pair your new phone with a connected smartwatch. Exclusive bundle pricing for CitiSignal members."
+        },
+        {
+          "component": "text",
+          "name": "deal-4-cta-label",
+          "label": "Deal 4 CTA Label",
+          "valueType": "string",
+          "value": "Shop Bundles"
+        },
+        {
+          "component": "text",
+          "name": "deal-4-cta-url",
+          "label": "Deal 4 CTA URL",
+          "valueType": "string",
+          "value": "#devices"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

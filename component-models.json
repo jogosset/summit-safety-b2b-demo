@@ -525,5 +525,5513 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "hero-v2",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "subtitle",
+        "label": "Subtitle",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "description",
+        "label": "Description",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "ctaLabel",
+        "label": "CTA Label",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "ctaUrl",
+        "label": "CTA URL",
+        "valueType": "string",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "product-teaser",
+    "fields": [
+      {
+        "component": "text",
+        "name": "sku",
+        "label": "Product SKU",
+        "required": true
+      },
+      {
+        "component": "boolean",
+        "name": "details-button",
+        "label": "Show Details Button",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "cart-button",
+        "label": "Show Add to Cart Button",
+        "valueType": "boolean"
+      }
+    ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quote",
+        "label": "Quote",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "author",
+        "label": "Author",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "fields": [
+      {
+        "component": "text",
+        "name": "searchUrlText",
+        "label": "Search URL Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "searchUrl",
+        "label": "Search URL",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "tabs-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "name",
+        "valueType": "string",
+        "label": "Tab Name"
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "video",
+    "fields": [
+      {
+        "component": "boolean",
+        "name": "classes_autoplay",
+        "label": "Autoplay Video",
+        "valueType": "boolean"
+      },
+      {
+        "component": "text",
+        "name": "videoUrl",
+        "label": "Video URL",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "videoUrlText",
+        "label": "Video URL Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "posterImage",
+        "label": "Poster Image",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "hero-jg",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "subtitle",
+        "label": "Subtitle",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "description",
+        "label": "Description",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "ctaLabel",
+        "label": "CTA Label",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "ctaUrl",
+        "label": "CTA URL",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "text-color",
+        "label": "Text Color (e.g. #ffffff or white)",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "cta-button-opacity",
+        "label": "CTA Button Opacity % (0-100, default 24)",
+        "valueType": "string",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "product-teaser-jg",
+    "fields": [
+      {
+        "component": "text",
+        "name": "sku",
+        "label": "Product SKU",
+        "required": true
+      },
+      {
+        "component": "boolean",
+        "name": "details-button",
+        "label": "Show Details Button",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "cart-button",
+        "label": "Show Add to Cart Button",
+        "valueType": "boolean"
+      },
+      {
+        "component": "text",
+        "name": "background-color",
+        "label": "Card Background Color (e.g. #ffffff or red)"
+      },
+      {
+        "component": "text",
+        "name": "text-color",
+        "label": "Card Text Color (e.g. #000000 or black)"
+      }
+    ]
+  },
+  {
+    "id": "promotional-hero-jg",
+    "fields": []
+  },
+  {
+    "id": "age-gate-jg",
+    "fields": [
+      {
+        "component": "text",
+        "name": "minimum-age",
+        "label": "Minimum Age Requirement (e.g. 16, 18, 21, 25)",
+        "valueType": "string",
+        "value": "21"
+      },
+      {
+        "component": "text",
+        "name": "heading",
+        "label": "Heading",
+        "valueType": "string",
+        "value": "Age Verification Required"
+      },
+      {
+        "component": "text",
+        "name": "subheading",
+        "label": "Subheading (leave blank to auto-generate from minimum age)",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "input-label",
+        "label": "Input Field Label",
+        "valueType": "string",
+        "value": "Enter your date of birth"
+      },
+      {
+        "component": "text",
+        "name": "button-text",
+        "label": "Button Text",
+        "valueType": "string",
+        "value": "Submit"
+      },
+      {
+        "component": "text",
+        "name": "underage-message",
+        "label": "Underage Message (leave blank to auto-generate from minimum age)",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "legal-text",
+        "label": "Legal Text",
+        "valueType": "string",
+        "value": "By entering this site you agree to our Terms of Use and Privacy Policy."
+      }
+    ]
+  },
+  {
+    "id": "citisignal-b2b-vip-hero",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "nav-brand",
+        "label": "Nav Brand",
+        "valueType": "string",
+        "value": "CitiSignal"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-1-label",
+        "label": "Nav Link 1 Label",
+        "valueType": "string",
+        "value": "Deals"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-1-url",
+        "label": "Nav Link 1 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-2-label",
+        "label": "Nav Link 2 Label",
+        "valueType": "string",
+        "value": "Devices"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-2-url",
+        "label": "Nav Link 2 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-3-label",
+        "label": "Nav Link 3 Label",
+        "valueType": "string",
+        "value": "Plans"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-3-url",
+        "label": "Nav Link 3 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-4-label",
+        "label": "Nav Link 4 Label",
+        "valueType": "string",
+        "value": "Network"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-4-url",
+        "label": "Nav Link 4 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-cta-label",
+        "label": "Nav Cta Label",
+        "valueType": "string",
+        "value": "VIP Perks"
+      },
+      {
+        "component": "text",
+        "name": "nav-cta-url",
+        "label": "Nav Cta Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "vip-badge-label",
+        "label": "Vip Badge Label",
+        "valueType": "string",
+        "value": "Platinum Member Exclusive"
+      },
+      {
+        "component": "text",
+        "name": "hero-title-line-1",
+        "label": "Hero Title Line 1",
+        "valueType": "string",
+        "value": "You've earned"
+      },
+      {
+        "component": "text",
+        "name": "hero-title-gradient",
+        "label": "Hero Title Gradient",
+        "valueType": "string",
+        "value": "early access."
+      },
+      {
+        "component": "text",
+        "name": "hero-description",
+        "label": "Hero Description",
+        "valueType": "string",
+        "value": "As a Platinum VIP, you get first look at our newest devices, exclusive plan upgrades, and members-only pricing before anyone else."
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-label",
+        "label": "Hero Primary Cta Label",
+        "valueType": "string",
+        "value": "Shop VIP Collection"
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-url",
+        "label": "Hero Primary Cta Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-label",
+        "label": "Hero Secondary Cta Label",
+        "valueType": "string",
+        "value": "Redeem Rewards"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-url",
+        "label": "Hero Secondary Cta Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "member-avatar-initials",
+        "label": "Member Avatar Initials",
+        "valueType": "string",
+        "value": "JH"
+      },
+      {
+        "component": "text",
+        "name": "member-name",
+        "label": "Member Name",
+        "valueType": "string",
+        "value": "Jenifer Hanki"
+      },
+      {
+        "component": "text",
+        "name": "member-tier",
+        "label": "Member Tier",
+        "valueType": "string",
+        "value": "Platinum Member"
+      },
+      {
+        "component": "text",
+        "name": "member-badge",
+        "label": "Member Badge",
+        "valueType": "string",
+        "value": "VIP"
+      },
+      {
+        "component": "text",
+        "name": "member-stat-1-value",
+        "label": "Member Stat 1 Value",
+        "valueType": "string",
+        "value": "24.8k"
+      },
+      {
+        "component": "text",
+        "name": "member-stat-1-label",
+        "label": "Member Stat 1 Label",
+        "valueType": "string",
+        "value": "Points"
+      },
+      {
+        "component": "text",
+        "name": "member-stat-2-value",
+        "label": "Member Stat 2 Value",
+        "valueType": "string",
+        "value": "6 yrs"
+      },
+      {
+        "component": "text",
+        "name": "member-stat-2-label",
+        "label": "Member Stat 2 Label",
+        "valueType": "string",
+        "value": "Member"
+      },
+      {
+        "component": "text",
+        "name": "member-stat-3-value",
+        "label": "Member Stat 3 Value",
+        "valueType": "string",
+        "value": "$2,140"
+      },
+      {
+        "component": "text",
+        "name": "member-stat-3-label",
+        "label": "Member Stat 3 Label",
+        "valueType": "string",
+        "value": "Saved"
+      },
+      {
+        "component": "text",
+        "name": "perk-1-icon",
+        "label": "Perk 1 Icon",
+        "valueType": "string",
+        "value": "★"
+      },
+      {
+        "component": "text",
+        "name": "perk-1-title",
+        "label": "Perk 1 Title",
+        "valueType": "string",
+        "value": "Priority Device Access"
+      },
+      {
+        "component": "text",
+        "name": "perk-1-desc",
+        "label": "Perk 1 Desc",
+        "valueType": "string",
+        "value": "New devices 48 hours before public launch"
+      },
+      {
+        "component": "text",
+        "name": "perk-2-icon",
+        "label": "Perk 2 Icon",
+        "valueType": "string",
+        "value": "♦"
+      },
+      {
+        "component": "text",
+        "name": "perk-2-title",
+        "label": "Perk 2 Title",
+        "valueType": "string",
+        "value": "Exclusive Pricing"
+      },
+      {
+        "component": "text",
+        "name": "perk-2-desc",
+        "label": "Perk 2 Desc",
+        "valueType": "string",
+        "value": "Up to 30% off select plans and accessories"
+      },
+      {
+        "component": "text",
+        "name": "perk-3-icon",
+        "label": "Perk 3 Icon",
+        "valueType": "string",
+        "value": "☎"
+      },
+      {
+        "component": "text",
+        "name": "perk-3-title",
+        "label": "Perk 3 Title",
+        "valueType": "string",
+        "value": "Concierge Support"
+      },
+      {
+        "component": "text",
+        "name": "perk-3-desc",
+        "label": "Perk 3 Desc",
+        "valueType": "string",
+        "value": "Dedicated VIP line with zero wait times"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-b2b-welcome-hero",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "nav-brand",
+        "label": "Nav Brand",
+        "valueType": "string",
+        "value": "CitiSignal"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-1-label",
+        "label": "Nav Link 1 Label",
+        "valueType": "string",
+        "value": "Dashboard"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-1-url",
+        "label": "Nav Link 1 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-2-label",
+        "label": "Nav Link 2 Label",
+        "valueType": "string",
+        "value": "Lines"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-2-url",
+        "label": "Nav Link 2 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-3-label",
+        "label": "Nav Link 3 Label",
+        "valueType": "string",
+        "value": "Billing"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-3-url",
+        "label": "Nav Link 3 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-4-label",
+        "label": "Nav Link 4 Label",
+        "valueType": "string",
+        "value": "Support"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-4-url",
+        "label": "Nav Link 4 Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-cta-label",
+        "label": "Nav Cta Label",
+        "valueType": "string",
+        "value": "Add a Line"
+      },
+      {
+        "component": "text",
+        "name": "nav-cta-url",
+        "label": "Nav Cta Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "welcome-avatar-initials",
+        "label": "Welcome Avatar Initials",
+        "valueType": "string",
+        "value": "AC"
+      },
+      {
+        "component": "text",
+        "name": "welcome-company-name",
+        "label": "Welcome Company Name",
+        "valueType": "string",
+        "value": "Acme Corp"
+      },
+      {
+        "component": "text",
+        "name": "hero-title-line-1",
+        "label": "Hero Title Line 1",
+        "valueType": "string",
+        "value": "Your team's network."
+      },
+      {
+        "component": "text",
+        "name": "hero-title-gradient",
+        "label": "Hero Title Gradient",
+        "valueType": "string",
+        "value": "Optimized."
+      },
+      {
+        "component": "text",
+        "name": "hero-description",
+        "label": "Hero Description",
+        "valueType": "string",
+        "value": "Manage all 48 lines from one dashboard. Add new team members, track usage, and control costs with CitiSignal Business."
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-label",
+        "label": "Hero Primary Cta Label",
+        "valueType": "string",
+        "value": "Manage Account"
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-url",
+        "label": "Hero Primary Cta Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-label",
+        "label": "Hero Secondary Cta Label",
+        "valueType": "string",
+        "value": "Add New Lines"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-url",
+        "label": "Hero Secondary Cta Url",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "dash-avatar-initials",
+        "label": "Dash Avatar Initials",
+        "valueType": "string",
+        "value": "AC"
+      },
+      {
+        "component": "text",
+        "name": "dash-company-name",
+        "label": "Dash Company Name",
+        "valueType": "string",
+        "value": "Acme Corp"
+      },
+      {
+        "component": "text",
+        "name": "dash-plan",
+        "label": "Dash Plan",
+        "valueType": "string",
+        "value": "Business Unlimited+"
+      },
+      {
+        "component": "text",
+        "name": "dash-badge",
+        "label": "Dash Badge",
+        "valueType": "string",
+        "value": "Enterprise"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-1-value",
+        "label": "Dash Stat 1 Value",
+        "valueType": "string",
+        "value": "48"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-1-label",
+        "label": "Dash Stat 1 Label",
+        "valueType": "string",
+        "value": "Active Lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-2-value",
+        "label": "Dash Stat 2 Value",
+        "valueType": "string",
+        "value": "2.1"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-2-suffix",
+        "label": "Dash Stat 2 Suffix",
+        "valueType": "string",
+        "value": "TB"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-2-label",
+        "label": "Dash Stat 2 Label",
+        "valueType": "string",
+        "value": "Data Used"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-3-value",
+        "label": "Dash Stat 3 Value",
+        "valueType": "string",
+        "value": "$892"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-3-label",
+        "label": "Dash Stat 3 Label",
+        "valueType": "string",
+        "value": "Saved / Mo"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-icon",
+        "label": "Dash Line 1 Icon",
+        "valueType": "string",
+        "value": "📱"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-name",
+        "label": "Dash Line 1 Name",
+        "valueType": "string",
+        "value": "Sales Team"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-count",
+        "label": "Dash Line 1 Count",
+        "valueType": "string",
+        "value": "12 lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-usage",
+        "label": "Dash Line 1 Usage",
+        "valueType": "string",
+        "value": "82% used"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-icon",
+        "label": "Dash Line 2 Icon",
+        "valueType": "string",
+        "value": "💻"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-name",
+        "label": "Dash Line 2 Name",
+        "valueType": "string",
+        "value": "Engineering"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-count",
+        "label": "Dash Line 2 Count",
+        "valueType": "string",
+        "value": "18 lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-usage",
+        "label": "Dash Line 2 Usage",
+        "valueType": "string",
+        "value": "67% used"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-icon",
+        "label": "Dash Line 3 Icon",
+        "valueType": "string",
+        "value": "🏢"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-name",
+        "label": "Dash Line 3 Name",
+        "valueType": "string",
+        "value": "Operations"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-count",
+        "label": "Dash Line 3 Count",
+        "valueType": "string",
+        "value": "18 lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-usage",
+        "label": "Dash Line 3 Usage",
+        "valueType": "string",
+        "value": "54% used"
+      },
+      {
+        "component": "text",
+        "name": "dash-card-cta-label",
+        "label": "Dash Card Cta Label",
+        "valueType": "string",
+        "value": "View Full Dashboard →"
+      },
+      {
+        "component": "text",
+        "name": "dash-card-cta-url",
+        "label": "Dash Card Cta Url",
+        "valueType": "string",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-deals",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "deals-eyebrow",
+        "label": "Deals Eyebrow",
+        "valueType": "string",
+        "value": "// Deals"
+      },
+      {
+        "component": "text",
+        "name": "deals-title",
+        "label": "Deals Title",
+        "valueType": "string",
+        "value": "Save more, spend less."
+      },
+      {
+        "component": "text",
+        "name": "deals-description",
+        "label": "Deals Description",
+        "valueType": "string",
+        "value": "Exclusive offers on phones, accessories, and subscriptions. Only at CitiSignal."
+      },
+      {
+        "component": "text",
+        "name": "deal-1-icon-token",
+        "label": "Deal 1 Icon Token",
+        "valueType": "string",
+        "value": "music"
+      },
+      {
+        "component": "text",
+        "name": "deal-1-title",
+        "label": "Deal 1 Title",
+        "valueType": "string",
+        "value": "90 days of free music"
+      },
+      {
+        "component": "text",
+        "name": "deal-1-description",
+        "label": "Deal 1 Description",
+        "valueType": "string",
+        "value": "Stream your favorite artists with a free 90-day music subscription when you sign up for any plan."
+      },
+      {
+        "component": "text",
+        "name": "deal-1-cta-label",
+        "label": "Deal 1 CTA Label",
+        "valueType": "string",
+        "value": "Learn More"
+      },
+      {
+        "component": "text",
+        "name": "deal-1-cta-url",
+        "label": "Deal 1 CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "deal-2-icon-token",
+        "label": "Deal 2 Icon Token",
+        "valueType": "string",
+        "value": "phone"
+      },
+      {
+        "component": "text",
+        "name": "deal-2-title",
+        "label": "Deal 2 Title",
+        "valueType": "string",
+        "value": "New line? New phone on us."
+      },
+      {
+        "component": "text",
+        "name": "deal-2-description",
+        "label": "Deal 2 Description",
+        "valueType": "string",
+        "value": "Getting a new line? Get the latest smartphone on us with qualifying trade-in. Limited time offer."
+      },
+      {
+        "component": "text",
+        "name": "deal-2-cta-label",
+        "label": "Deal 2 CTA Label",
+        "valueType": "string",
+        "value": "See Offer"
+      },
+      {
+        "component": "text",
+        "name": "deal-2-cta-url",
+        "label": "Deal 2 CTA URL",
+        "valueType": "string",
+        "value": "#devices"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-icon-token",
+        "label": "Deal 3 Icon Token",
+        "valueType": "string",
+        "value": "savings"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-title",
+        "label": "Deal 3 Title",
+        "valueType": "string",
+        "value": "Family savings bundle"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-description",
+        "label": "Deal 3 Description",
+        "valueType": "string",
+        "value": "Add lines and save bigger. Our family plans give you more data and bigger discounts the more you add."
+      },
+      {
+        "component": "text",
+        "name": "deal-3-cta-label",
+        "label": "Deal 3 CTA Label",
+        "valueType": "string",
+        "value": "View Plans"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-cta-url",
+        "label": "Deal 3 CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-icon-token",
+        "label": "Deal 4 Icon Token",
+        "valueType": "string",
+        "value": "watch"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-title",
+        "label": "Deal 4 Title",
+        "valueType": "string",
+        "value": "Exclusive smartwatch bundles"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-description",
+        "label": "Deal 4 Description",
+        "valueType": "string",
+        "value": "Pair your new phone with a connected smartwatch. Exclusive bundle pricing for CitiSignal members."
+      },
+      {
+        "component": "text",
+        "name": "deal-4-cta-label",
+        "label": "Deal 4 CTA Label",
+        "valueType": "string",
+        "value": "Shop Bundles"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-cta-url",
+        "label": "Deal 4 CTA URL",
+        "valueType": "string",
+        "value": "#devices"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-featured",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "featured-tag",
+        "label": "Featured Tag",
+        "valueType": "string",
+        "value": "New Arrival"
+      },
+      {
+        "component": "text",
+        "name": "featured-title",
+        "label": "Featured Title",
+        "valueType": "string",
+        "value": "Get the latest|technology."
+      },
+      {
+        "component": "text",
+        "name": "featured-description-1",
+        "label": "Featured Description 1",
+        "valueType": "string",
+        "value": "Check out the latest technology with the iPhone 16. Filled with modern features like an upgraded camera and blazing speed."
+      },
+      {
+        "component": "text",
+        "name": "featured-description-2",
+        "label": "Featured Description 2",
+        "valueType": "string",
+        "value": "Get the newest phone for your everyday life, now available at CitiSignal with exclusive offers for new and existing members."
+      },
+      {
+        "component": "text",
+        "name": "featured-feature-list",
+        "label": "Featured Feature List",
+        "valueType": "string",
+        "value": "48MP camera system with 5x optical zoom|A18 Pro chip for all-day performance|Titanium design, lighter than ever|Free with eligible trade-in at CitiSignal"
+      },
+      {
+        "component": "text",
+        "name": "featured-cta-label",
+        "label": "Featured CTA Label",
+        "valueType": "string",
+        "value": "Shop iPhone 16"
+      },
+      {
+        "component": "text",
+        "name": "featured-cta-url",
+        "label": "Featured CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-1-label",
+        "label": "Featured Card 1 Label",
+        "valueType": "string",
+        "value": "Download"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-1-value",
+        "label": "Featured Card 1 Value",
+        "valueType": "string",
+        "value": "4.2 Gbps"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-2-label",
+        "label": "Featured Card 2 Label",
+        "valueType": "string",
+        "value": "Coverage"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-2-value",
+        "label": "Featured Card 2 Value",
+        "valueType": "string",
+        "value": "Strong"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-2-meter",
+        "label": "Featured Card 2 Meter",
+        "valueType": "string",
+        "value": "92"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-3-label",
+        "label": "Featured Card 3 Label",
+        "valueType": "string",
+        "value": "Latency"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-3-value",
+        "label": "Featured Card 3 Value",
+        "valueType": "string",
+        "value": "2ms"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-final-cta",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "final-cta-heading",
+        "label": "Final CTA Heading",
+        "valueType": "string",
+        "value": "Ready to make|the switch?"
+      },
+      {
+        "component": "text",
+        "name": "final-cta-body",
+        "label": "Final CTA Body",
+        "valueType": "string",
+        "value": "Join 2.4 million people who chose better coverage and honest pricing. Setup takes five minutes."
+      },
+      {
+        "component": "text",
+        "name": "final-cta-label",
+        "label": "Final CTA Label",
+        "valueType": "string",
+        "value": "Get Started Today"
+      },
+      {
+        "component": "text",
+        "name": "final-cta-url",
+        "label": "Final CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-hero-v2",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "hero-badge",
+        "label": "Hero Badge",
+        "valueType": "string",
+        "value": "5G coverage just expanded"
+      },
+      {
+        "component": "text",
+        "name": "hero-title",
+        "label": "Hero Title",
+        "valueType": "string",
+        "value": "Stay Connected.|Stay"
+      },
+      {
+        "component": "text",
+        "name": "hero-highlighted-title",
+        "label": "Hero Highlighted Title",
+        "valueType": "string",
+        "value": "Ahead."
+      },
+      {
+        "component": "text",
+        "name": "hero-description",
+        "label": "Hero Description",
+        "valueType": "string",
+        "value": "Discover the expanded reach of CitiSignal's 5G network. Faster speeds, wider coverage, and smarter plans are just a click away."
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-label",
+        "label": "Hero Primary CTA Label",
+        "valueType": "string",
+        "value": "Find Your 5G Phone"
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-url",
+        "label": "Hero Primary CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-label",
+        "label": "Hero Secondary CTA Label",
+        "valueType": "string",
+        "value": "Explore Coverage"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-url",
+        "label": "Hero Secondary CTA URL",
+        "valueType": "string",
+        "value": "#network"
+      },
+      {
+        "component": "text",
+        "name": "hero-proof-stat-value",
+        "label": "Hero Proof Stat Value",
+        "valueType": "string",
+        "value": "2.4M+"
+      },
+      {
+        "component": "text",
+        "name": "hero-proof-stat-text",
+        "label": "Hero Proof Stat Text",
+        "valueType": "string",
+        "value": "new subscribers this year"
+      },
+      {
+        "component": "reference",
+        "name": "hero-visual-image",
+        "label": "Hero Visual Image",
+        "valueType": "string",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "hero-visual-image-alt",
+        "label": "Hero Visual Image Alt",
+        "valueType": "string",
+        "value": "Featured CitiSignal device"
+      },
+      {
+        "component": "text",
+        "name": "hero-visual-tag",
+        "label": "Hero Visual Tag",
+        "valueType": "string",
+        "value": "Featured Device"
+      },
+      {
+        "component": "text",
+        "name": "hero-visual-title",
+        "label": "Hero Visual Title",
+        "valueType": "string",
+        "value": "CitiSignal Pro Max"
+      },
+      {
+        "component": "text",
+        "name": "hero-visual-description",
+        "label": "Hero Visual Description",
+        "valueType": "string",
+        "value": "48MP camera, titanium finish, and all-day battery on CitiSignal 5G."
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-1",
+        "label": "Hero Pill 1",
+        "valueType": "string",
+        "value": "5G Ultra Fast"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-2",
+        "label": "Hero Pill 2",
+        "valueType": "string",
+        "value": "Nationwide"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-3",
+        "label": "Hero Pill 3",
+        "valueType": "string",
+        "value": "No Contracts"
+      },
+      {
+        "component": "text",
+        "name": "partner-names",
+        "label": "Partner Names",
+        "valueType": "string",
+        "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-initials",
+        "label": "Testimonial 1 Initials",
+        "valueType": "string",
+        "value": "JR"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-initials",
+        "label": "Testimonial 2 Initials",
+        "valueType": "string",
+        "value": "MP"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-initials",
+        "label": "Testimonial 3 Initials",
+        "valueType": "string",
+        "value": "DL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-initials",
+        "label": "Testimonial 4 Initials",
+        "valueType": "string",
+        "value": "RK"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-hero",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "hero-badge",
+        "label": "Hero Badge",
+        "valueType": "string",
+        "value": "5G coverage just expanded"
+      },
+      {
+        "component": "text",
+        "name": "hero-title",
+        "label": "Hero Title",
+        "valueType": "string",
+        "value": "Stay Connected.|Stay"
+      },
+      {
+        "component": "text",
+        "name": "hero-highlighted-title",
+        "label": "Hero Highlighted Title",
+        "valueType": "string",
+        "value": "Ahead."
+      },
+      {
+        "component": "text",
+        "name": "hero-description",
+        "label": "Hero Description",
+        "valueType": "string",
+        "value": "Discover the expanded reach of CitiSignal's 5G network. Faster speeds, wider coverage, and smarter plans are just a click away."
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-label",
+        "label": "Hero Primary CTA Label",
+        "valueType": "string",
+        "value": "Find Your 5G Phone"
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-url",
+        "label": "Hero Primary CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-label",
+        "label": "Hero Secondary CTA Label",
+        "valueType": "string",
+        "value": "Explore Coverage"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-url",
+        "label": "Hero Secondary CTA URL",
+        "valueType": "string",
+        "value": "#network"
+      },
+      {
+        "component": "text",
+        "name": "hero-proof-stat-value",
+        "label": "Hero Proof Stat Value",
+        "valueType": "string",
+        "value": "2.4M+"
+      },
+      {
+        "component": "text",
+        "name": "hero-proof-stat-text",
+        "label": "Hero Proof Stat Text",
+        "valueType": "string",
+        "value": "new subscribers this year"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-1",
+        "label": "Hero Pill 1",
+        "valueType": "string",
+        "value": "5G Ultra Fast"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-2",
+        "label": "Hero Pill 2",
+        "valueType": "string",
+        "value": "Nationwide"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-3",
+        "label": "Hero Pill 3",
+        "valueType": "string",
+        "value": "No Contracts"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-speed",
+        "label": "Hero Phone Speed",
+        "valueType": "string",
+        "value": "2.8"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-speed-unit",
+        "label": "Hero Phone Speed Unit",
+        "valueType": "string",
+        "value": "Gbps"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-label",
+        "label": "Hero Phone Label",
+        "valueType": "string",
+        "value": "Download speed"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-1-value",
+        "label": "Hero Phone Metric 1 Value",
+        "valueType": "string",
+        "value": "8ms"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-1-label",
+        "label": "Hero Phone Metric 1 Label",
+        "valueType": "string",
+        "value": "Ping"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-2-value",
+        "label": "Hero Phone Metric 2 Value",
+        "valueType": "string",
+        "value": "99.9%"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-2-label",
+        "label": "Hero Phone Metric 2 Label",
+        "valueType": "string",
+        "value": "Uptime"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-3-value",
+        "label": "Hero Phone Metric 3 Value",
+        "valueType": "string",
+        "value": "5G+"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-3-label",
+        "label": "Hero Phone Metric 3 Label",
+        "valueType": "string",
+        "value": "Band"
+      },
+      {
+        "component": "text",
+        "name": "partner-names",
+        "label": "Partner Names",
+        "valueType": "string",
+        "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-initials",
+        "label": "Testimonial 1 Initials",
+        "valueType": "string",
+        "value": "JR"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-initials",
+        "label": "Testimonial 2 Initials",
+        "valueType": "string",
+        "value": "MP"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-initials",
+        "label": "Testimonial 3 Initials",
+        "valueType": "string",
+        "value": "DL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-initials",
+        "label": "Testimonial 4 Initials",
+        "valueType": "string",
+        "value": "RK"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-network",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "network-eyebrow",
+        "label": "Network Eyebrow",
+        "valueType": "string",
+        "value": "// Network"
+      },
+      {
+        "component": "text",
+        "name": "network-title",
+        "label": "Network Title",
+        "valueType": "string",
+        "value": "Coverage you|can count on."
+      },
+      {
+        "component": "text",
+        "name": "network-description",
+        "label": "Network Description",
+        "valueType": "string",
+        "value": "Our 5G network keeps expanding. From downtown to the suburbs, from coast to coast, CitiSignal delivers speeds and reliability you can depend on every day."
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-value",
+        "label": "Network Stat 1 Value",
+        "valueType": "string",
+        "value": "99.9"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-suffix",
+        "label": "Network Stat 1 Suffix",
+        "valueType": "string",
+        "value": "%"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-decimals",
+        "label": "Network Stat 1 Decimals",
+        "valueType": "string",
+        "value": "1"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-label",
+        "label": "Network Stat 1 Label",
+        "valueType": "string",
+        "value": "Network reliability across all coverage areas, every quarter"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-sub-label",
+        "label": "Network Stat 1 Sub Label",
+        "valueType": "string",
+        "value": "INDUSTRY-LEADING UPTIME"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-value",
+        "label": "Network Stat 2 Value",
+        "valueType": "string",
+        "value": "320"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-suffix",
+        "label": "Network Stat 2 Suffix",
+        "valueType": "string",
+        "value": "M+"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-decimals",
+        "label": "Network Stat 2 Decimals",
+        "valueType": "string",
+        "value": "0"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-label",
+        "label": "Network Stat 2 Label",
+        "valueType": "string",
+        "value": "People covered by our 5G network"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-sub-label",
+        "label": "Network Stat 2 Sub Label",
+        "valueType": "string",
+        "value": "AND GROWING FAST"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-value",
+        "label": "Network Stat 3 Value",
+        "valueType": "string",
+        "value": "2.4"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-suffix",
+        "label": "Network Stat 3 Suffix",
+        "valueType": "string",
+        "value": "M"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-decimals",
+        "label": "Network Stat 3 Decimals",
+        "valueType": "string",
+        "value": "1"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-label",
+        "label": "Network Stat 3 Label",
+        "valueType": "string",
+        "value": "New subscribers in the last year"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-sub-label",
+        "label": "Network Stat 3 Sub Label",
+        "valueType": "string",
+        "value": "FASTEST-GROWING CARRIER"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-value",
+        "label": "Network Stat 4 Value",
+        "valueType": "string",
+        "value": "50"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-suffix",
+        "label": "Network Stat 4 Suffix",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-decimals",
+        "label": "Network Stat 4 Decimals",
+        "valueType": "string",
+        "value": "0"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-label",
+        "label": "Network Stat 4 Label",
+        "valueType": "string",
+        "value": "States with full 5G coverage"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-sub-label",
+        "label": "Network Stat 4 Sub Label",
+        "valueType": "string",
+        "value": "COAST TO COAST"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-partners",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "partners-label",
+        "label": "Partners Label",
+        "valueType": "string",
+        "value": "Partnered with top brands"
+      },
+      {
+        "component": "text",
+        "name": "partner-names",
+        "label": "Partner Names",
+        "valueType": "string",
+        "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-plans",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "plans-eyebrow",
+        "label": "Plans Eyebrow",
+        "valueType": "string",
+        "value": "// Plans"
+      },
+      {
+        "component": "text",
+        "name": "plans-title",
+        "label": "Plans Title",
+        "valueType": "string",
+        "value": "Plans that fit|your life."
+      },
+      {
+        "component": "text",
+        "name": "plans-description",
+        "label": "Plans Description",
+        "valueType": "string",
+        "value": "No hidden fees. No annual contracts. Switch, upgrade, or cancel anytime."
+      },
+      {
+        "component": "text",
+        "name": "plans-monthly-label",
+        "label": "Plans Monthly Label",
+        "valueType": "string",
+        "value": "Monthly"
+      },
+      {
+        "component": "text",
+        "name": "plans-annual-label",
+        "label": "Plans Annual Label",
+        "valueType": "string",
+        "value": "Annual"
+      },
+      {
+        "component": "text",
+        "name": "plans-saving-label",
+        "label": "Plans Saving Label",
+        "valueType": "string",
+        "value": "Save 20%"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-name",
+        "label": "Plan 1 Name",
+        "valueType": "string",
+        "value": "Essential"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-monthly-price",
+        "label": "Plan 1 Monthly Price",
+        "valueType": "string",
+        "value": "35"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-annual-price",
+        "label": "Plan 1 Annual Price",
+        "valueType": "string",
+        "value": "28"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-description",
+        "label": "Plan 1 Description",
+        "valueType": "string",
+        "value": "Reliable coverage and solid speeds for everyday use."
+      },
+      {
+        "component": "text",
+        "name": "plan-1-feature-list",
+        "label": "Plan 1 Feature List",
+        "valueType": "string",
+        "value": "50 GB high-speed data|5G access included|Spam call blocking|5 GB mobile hotspot"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-cta-label",
+        "label": "Plan 1 CTA Label",
+        "valueType": "string",
+        "value": "Choose Essential"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-cta-url",
+        "label": "Plan 1 CTA URL",
+        "valueType": "string",
+        "value": "#cta"
+      },
+      {
+        "component": "boolean",
+        "name": "plan-1-featured",
+        "label": "Plan 1 Featured",
+        "valueType": "boolean",
+        "value": false
+      },
+      {
+        "component": "text",
+        "name": "plan-2-name",
+        "label": "Plan 2 Name",
+        "valueType": "string",
+        "value": "Unlimited"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-monthly-price",
+        "label": "Plan 2 Monthly Price",
+        "valueType": "string",
+        "value": "55"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-annual-price",
+        "label": "Plan 2 Annual Price",
+        "valueType": "string",
+        "value": "44"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-description",
+        "label": "Plan 2 Description",
+        "valueType": "string",
+        "value": "Our most popular plan. More data, more perks, more freedom."
+      },
+      {
+        "component": "text",
+        "name": "plan-2-feature-list",
+        "label": "Plan 2 Feature List",
+        "valueType": "string",
+        "value": "Unlimited premium data|5G Ultra Wideband|25 GB hotspot|90-day free music subscription|International texting 30+ countries"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-cta-label",
+        "label": "Plan 2 CTA Label",
+        "valueType": "string",
+        "value": "Choose Unlimited"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-cta-url",
+        "label": "Plan 2 CTA URL",
+        "valueType": "string",
+        "value": "#cta"
+      },
+      {
+        "component": "boolean",
+        "name": "plan-2-featured",
+        "label": "Plan 2 Featured",
+        "valueType": "boolean",
+        "value": true
+      },
+      {
+        "component": "text",
+        "name": "plan-3-name",
+        "label": "Plan 3 Name",
+        "valueType": "string",
+        "value": "Unlimited+"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-monthly-price",
+        "label": "Plan 3 Monthly Price",
+        "valueType": "string",
+        "value": "75"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-annual-price",
+        "label": "Plan 3 Annual Price",
+        "valueType": "string",
+        "value": "60"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-description",
+        "label": "Plan 3 Description",
+        "valueType": "string",
+        "value": "The complete experience. Premium everything, no compromises."
+      },
+      {
+        "component": "text",
+        "name": "plan-3-feature-list",
+        "label": "Plan 3 Feature List",
+        "valueType": "string",
+        "value": "Truly unlimited everything|5G+ with priority access|Unlimited hotspot|Global roaming 60+ countries|Smartwatch bundle + device protection"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-cta-label",
+        "label": "Plan 3 CTA Label",
+        "valueType": "string",
+        "value": "Choose Unlimited+"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-cta-url",
+        "label": "Plan 3 CTA URL",
+        "valueType": "string",
+        "value": "#cta"
+      },
+      {
+        "component": "boolean",
+        "name": "plan-3-featured",
+        "label": "Plan 3 Featured",
+        "valueType": "boolean",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase-testimonials",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "testimonials-eyebrow",
+        "label": "Testimonials Eyebrow",
+        "valueType": "string",
+        "value": "// Reviews"
+      },
+      {
+        "component": "text",
+        "name": "testimonials-title",
+        "label": "Testimonials Title",
+        "valueType": "string",
+        "value": "People love|CitiSignal."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-quote",
+        "label": "Testimonial 1 Quote",
+        "valueType": "string",
+        "value": "Switched from my old carrier three months ago. Better signal, better price, and the free music subscription is a nice bonus."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-initials",
+        "label": "Testimonial 1 Initials",
+        "valueType": "string",
+        "value": "JR"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-name",
+        "label": "Testimonial 1 Name",
+        "valueType": "string",
+        "value": "Jason Reeves"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-role-location",
+        "label": "Testimonial 1 Role Location",
+        "valueType": "string",
+        "value": "Austin, TX"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-quote",
+        "label": "Testimonial 2 Quote",
+        "valueType": "string",
+        "value": "The family plan saved us almost $80 a month. Four lines, unlimited data, and no surprises on the bill."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-initials",
+        "label": "Testimonial 2 Initials",
+        "valueType": "string",
+        "value": "MP"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-name",
+        "label": "Testimonial 2 Name",
+        "valueType": "string",
+        "value": "Maria Perez"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-role-location",
+        "label": "Testimonial 2 Role Location",
+        "valueType": "string",
+        "value": "Miami, FL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-quote",
+        "label": "Testimonial 3 Quote",
+        "valueType": "string",
+        "value": "I got the iPhone 16 deal with trade-in and it was seamless. In-store setup took ten minutes. Really impressed."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-initials",
+        "label": "Testimonial 3 Initials",
+        "valueType": "string",
+        "value": "DL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-name",
+        "label": "Testimonial 3 Name",
+        "valueType": "string",
+        "value": "David Lee"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-role-location",
+        "label": "Testimonial 3 Role Location",
+        "valueType": "string",
+        "value": "Seattle, WA"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-quote",
+        "label": "Testimonial 4 Quote",
+        "valueType": "string",
+        "value": "5G coverage at my office and at home finally. CitiSignal's network expansion has been a game changer for me."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-initials",
+        "label": "Testimonial 4 Initials",
+        "valueType": "string",
+        "value": "RK"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-name",
+        "label": "Testimonial 4 Name",
+        "valueType": "string",
+        "value": "Rachel Kim"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-role-location",
+        "label": "Testimonial 4 Role Location",
+        "valueType": "string",
+        "value": "Chicago, IL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-quote",
+        "label": "Testimonial 5 Quote",
+        "valueType": "string",
+        "value": "No contracts, no hidden fees. They actually mean it. My bill has been the exact same every month for a year."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-initials",
+        "label": "Testimonial 5 Initials",
+        "valueType": "string",
+        "value": "TC"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-name",
+        "label": "Testimonial 5 Name",
+        "valueType": "string",
+        "value": "Tyler Chen"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-role-location",
+        "label": "Testimonial 5 Role Location",
+        "valueType": "string",
+        "value": "Denver, CO"
+      }
+    ]
+  },
+  {
+    "id": "citisignal-showcase",
+    "fields": [
+      {
+        "component": "text",
+        "name": "hero-badge",
+        "label": "Hero Badge",
+        "valueType": "string",
+        "value": "5G coverage just expanded"
+      },
+      {
+        "component": "text",
+        "name": "hero-title",
+        "label": "Hero Title",
+        "valueType": "string",
+        "value": "Stay Connected.|Stay"
+      },
+      {
+        "component": "text",
+        "name": "hero-highlighted-title",
+        "label": "Hero Highlighted Title",
+        "valueType": "string",
+        "value": "Ahead."
+      },
+      {
+        "component": "text",
+        "name": "hero-description",
+        "label": "Hero Description",
+        "valueType": "string",
+        "value": "Discover the expanded reach of CitiSignal's 5G network. Faster speeds, wider coverage, and smarter plans are just a click away."
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-label",
+        "label": "Hero Primary CTA Label",
+        "valueType": "string",
+        "value": "Find Your 5G Phone"
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-url",
+        "label": "Hero Primary CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-label",
+        "label": "Hero Secondary CTA Label",
+        "valueType": "string",
+        "value": "Explore Coverage"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-url",
+        "label": "Hero Secondary CTA URL",
+        "valueType": "string",
+        "value": "#network"
+      },
+      {
+        "component": "text",
+        "name": "hero-proof-stat-value",
+        "label": "Hero Proof Stat Value",
+        "valueType": "string",
+        "value": "2.4M+"
+      },
+      {
+        "component": "text",
+        "name": "hero-proof-stat-text",
+        "label": "Hero Proof Stat Text",
+        "valueType": "string",
+        "value": "new subscribers this year"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-1",
+        "label": "Hero Pill 1",
+        "valueType": "string",
+        "value": "5G Ultra Fast"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-2",
+        "label": "Hero Pill 2",
+        "valueType": "string",
+        "value": "Nationwide"
+      },
+      {
+        "component": "text",
+        "name": "hero-pill-3",
+        "label": "Hero Pill 3",
+        "valueType": "string",
+        "value": "No Contracts"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-speed",
+        "label": "Hero Phone Speed",
+        "valueType": "string",
+        "value": "2.8"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-speed-unit",
+        "label": "Hero Phone Speed Unit",
+        "valueType": "string",
+        "value": "Gbps"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-label",
+        "label": "Hero Phone Label",
+        "valueType": "string",
+        "value": "Download speed"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-1-value",
+        "label": "Hero Phone Metric 1 Value",
+        "valueType": "string",
+        "value": "8ms"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-1-label",
+        "label": "Hero Phone Metric 1 Label",
+        "valueType": "string",
+        "value": "Ping"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-2-value",
+        "label": "Hero Phone Metric 2 Value",
+        "valueType": "string",
+        "value": "99.9%"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-2-label",
+        "label": "Hero Phone Metric 2 Label",
+        "valueType": "string",
+        "value": "Uptime"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-3-value",
+        "label": "Hero Phone Metric 3 Value",
+        "valueType": "string",
+        "value": "5G+"
+      },
+      {
+        "component": "text",
+        "name": "hero-phone-metric-3-label",
+        "label": "Hero Phone Metric 3 Label",
+        "valueType": "string",
+        "value": "Band"
+      },
+      {
+        "component": "text",
+        "name": "partners-label",
+        "label": "Partners Label",
+        "valueType": "string",
+        "value": "Partnered with top brands"
+      },
+      {
+        "component": "text",
+        "name": "partner-names",
+        "label": "Partner Names",
+        "valueType": "string",
+        "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+      },
+      {
+        "component": "text",
+        "name": "deals-eyebrow",
+        "label": "Deals Eyebrow",
+        "valueType": "string",
+        "value": "// Deals"
+      },
+      {
+        "component": "text",
+        "name": "deals-title",
+        "label": "Deals Title",
+        "valueType": "string",
+        "value": "Save more, spend less."
+      },
+      {
+        "component": "text",
+        "name": "deals-description",
+        "label": "Deals Description",
+        "valueType": "string",
+        "value": "Exclusive offers on phones, accessories, and subscriptions. Only at CitiSignal."
+      },
+      {
+        "component": "text",
+        "name": "deal-1-icon-token",
+        "label": "Deal 1 Icon Token",
+        "valueType": "string",
+        "value": "music"
+      },
+      {
+        "component": "text",
+        "name": "deal-1-title",
+        "label": "Deal 1 Title",
+        "valueType": "string",
+        "value": "90 days of free music"
+      },
+      {
+        "component": "text",
+        "name": "deal-1-description",
+        "label": "Deal 1 Description",
+        "valueType": "string",
+        "value": "Stream your favorite artists with a free 90-day music subscription when you sign up for any plan."
+      },
+      {
+        "component": "text",
+        "name": "deal-1-cta-label",
+        "label": "Deal 1 CTA Label",
+        "valueType": "string",
+        "value": "Learn More"
+      },
+      {
+        "component": "text",
+        "name": "deal-1-cta-url",
+        "label": "Deal 1 CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "deal-2-icon-token",
+        "label": "Deal 2 Icon Token",
+        "valueType": "string",
+        "value": "phone"
+      },
+      {
+        "component": "text",
+        "name": "deal-2-title",
+        "label": "Deal 2 Title",
+        "valueType": "string",
+        "value": "New line? New phone on us."
+      },
+      {
+        "component": "text",
+        "name": "deal-2-description",
+        "label": "Deal 2 Description",
+        "valueType": "string",
+        "value": "Getting a new line? Get the latest smartphone on us with qualifying trade-in. Limited time offer."
+      },
+      {
+        "component": "text",
+        "name": "deal-2-cta-label",
+        "label": "Deal 2 CTA Label",
+        "valueType": "string",
+        "value": "See Offer"
+      },
+      {
+        "component": "text",
+        "name": "deal-2-cta-url",
+        "label": "Deal 2 CTA URL",
+        "valueType": "string",
+        "value": "#devices"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-icon-token",
+        "label": "Deal 3 Icon Token",
+        "valueType": "string",
+        "value": "savings"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-title",
+        "label": "Deal 3 Title",
+        "valueType": "string",
+        "value": "Family savings bundle"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-description",
+        "label": "Deal 3 Description",
+        "valueType": "string",
+        "value": "Add lines and save bigger. Our family plans give you more data and bigger discounts the more you add."
+      },
+      {
+        "component": "text",
+        "name": "deal-3-cta-label",
+        "label": "Deal 3 CTA Label",
+        "valueType": "string",
+        "value": "View Plans"
+      },
+      {
+        "component": "text",
+        "name": "deal-3-cta-url",
+        "label": "Deal 3 CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-icon-token",
+        "label": "Deal 4 Icon Token",
+        "valueType": "string",
+        "value": "watch"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-title",
+        "label": "Deal 4 Title",
+        "valueType": "string",
+        "value": "Exclusive smartwatch bundles"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-description",
+        "label": "Deal 4 Description",
+        "valueType": "string",
+        "value": "Pair your new phone with a connected smartwatch. Exclusive bundle pricing for CitiSignal members."
+      },
+      {
+        "component": "text",
+        "name": "deal-4-cta-label",
+        "label": "Deal 4 CTA Label",
+        "valueType": "string",
+        "value": "Shop Bundles"
+      },
+      {
+        "component": "text",
+        "name": "deal-4-cta-url",
+        "label": "Deal 4 CTA URL",
+        "valueType": "string",
+        "value": "#devices"
+      },
+      {
+        "component": "text",
+        "name": "featured-tag",
+        "label": "Featured Tag",
+        "valueType": "string",
+        "value": "New Arrival"
+      },
+      {
+        "component": "text",
+        "name": "featured-title",
+        "label": "Featured Title",
+        "valueType": "string",
+        "value": "Get the latest|technology."
+      },
+      {
+        "component": "text",
+        "name": "featured-description-1",
+        "label": "Featured Description 1",
+        "valueType": "string",
+        "value": "Check out the latest technology with the iPhone 16. Filled with modern features like an upgraded camera and blazing speed."
+      },
+      {
+        "component": "text",
+        "name": "featured-description-2",
+        "label": "Featured Description 2",
+        "valueType": "string",
+        "value": "Get the newest phone for your everyday life, now available at CitiSignal with exclusive offers for new and existing members."
+      },
+      {
+        "component": "text",
+        "name": "featured-feature-list",
+        "label": "Featured Feature List",
+        "valueType": "string",
+        "value": "48MP camera system with 5x optical zoom|A18 Pro chip for all-day performance|Titanium design, lighter than ever|Free with eligible trade-in at CitiSignal"
+      },
+      {
+        "component": "text",
+        "name": "featured-cta-label",
+        "label": "Featured CTA Label",
+        "valueType": "string",
+        "value": "Shop iPhone 16"
+      },
+      {
+        "component": "text",
+        "name": "featured-cta-url",
+        "label": "Featured CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-1-label",
+        "label": "Featured Card 1 Label",
+        "valueType": "string",
+        "value": "Download"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-1-value",
+        "label": "Featured Card 1 Value",
+        "valueType": "string",
+        "value": "4.2 Gbps"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-2-label",
+        "label": "Featured Card 2 Label",
+        "valueType": "string",
+        "value": "Coverage"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-2-value",
+        "label": "Featured Card 2 Value",
+        "valueType": "string",
+        "value": "Strong"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-2-meter",
+        "label": "Featured Card 2 Meter",
+        "valueType": "string",
+        "value": "92"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-3-label",
+        "label": "Featured Card 3 Label",
+        "valueType": "string",
+        "value": "Latency"
+      },
+      {
+        "component": "text",
+        "name": "featured-card-3-value",
+        "label": "Featured Card 3 Value",
+        "valueType": "string",
+        "value": "2ms"
+      },
+      {
+        "component": "text",
+        "name": "plans-eyebrow",
+        "label": "Plans Eyebrow",
+        "valueType": "string",
+        "value": "// Plans"
+      },
+      {
+        "component": "text",
+        "name": "plans-title",
+        "label": "Plans Title",
+        "valueType": "string",
+        "value": "Plans that fit|your life."
+      },
+      {
+        "component": "text",
+        "name": "plans-description",
+        "label": "Plans Description",
+        "valueType": "string",
+        "value": "No hidden fees. No annual contracts. Switch, upgrade, or cancel anytime."
+      },
+      {
+        "component": "text",
+        "name": "plans-monthly-label",
+        "label": "Plans Monthly Label",
+        "valueType": "string",
+        "value": "Monthly"
+      },
+      {
+        "component": "text",
+        "name": "plans-annual-label",
+        "label": "Plans Annual Label",
+        "valueType": "string",
+        "value": "Annual"
+      },
+      {
+        "component": "text",
+        "name": "plans-saving-label",
+        "label": "Plans Saving Label",
+        "valueType": "string",
+        "value": "Save 20%"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-name",
+        "label": "Plan 1 Name",
+        "valueType": "string",
+        "value": "Essential"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-monthly-price",
+        "label": "Plan 1 Monthly Price",
+        "valueType": "string",
+        "value": "35"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-annual-price",
+        "label": "Plan 1 Annual Price",
+        "valueType": "string",
+        "value": "28"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-description",
+        "label": "Plan 1 Description",
+        "valueType": "string",
+        "value": "Reliable coverage and solid speeds for everyday use."
+      },
+      {
+        "component": "text",
+        "name": "plan-1-feature-list",
+        "label": "Plan 1 Feature List",
+        "valueType": "string",
+        "value": "50 GB high-speed data|5G access included|Spam call blocking|5 GB mobile hotspot"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-cta-label",
+        "label": "Plan 1 CTA Label",
+        "valueType": "string",
+        "value": "Choose Essential"
+      },
+      {
+        "component": "text",
+        "name": "plan-1-cta-url",
+        "label": "Plan 1 CTA URL",
+        "valueType": "string",
+        "value": "#cta"
+      },
+      {
+        "component": "boolean",
+        "name": "plan-1-featured",
+        "label": "Plan 1 Featured",
+        "valueType": "boolean",
+        "value": false
+      },
+      {
+        "component": "text",
+        "name": "plan-2-name",
+        "label": "Plan 2 Name",
+        "valueType": "string",
+        "value": "Unlimited"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-monthly-price",
+        "label": "Plan 2 Monthly Price",
+        "valueType": "string",
+        "value": "55"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-annual-price",
+        "label": "Plan 2 Annual Price",
+        "valueType": "string",
+        "value": "44"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-description",
+        "label": "Plan 2 Description",
+        "valueType": "string",
+        "value": "Our most popular plan. More data, more perks, more freedom."
+      },
+      {
+        "component": "text",
+        "name": "plan-2-feature-list",
+        "label": "Plan 2 Feature List",
+        "valueType": "string",
+        "value": "Unlimited premium data|5G Ultra Wideband|25 GB hotspot|90-day free music subscription|International texting 30+ countries"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-cta-label",
+        "label": "Plan 2 CTA Label",
+        "valueType": "string",
+        "value": "Choose Unlimited"
+      },
+      {
+        "component": "text",
+        "name": "plan-2-cta-url",
+        "label": "Plan 2 CTA URL",
+        "valueType": "string",
+        "value": "#cta"
+      },
+      {
+        "component": "boolean",
+        "name": "plan-2-featured",
+        "label": "Plan 2 Featured",
+        "valueType": "boolean",
+        "value": true
+      },
+      {
+        "component": "text",
+        "name": "plan-3-name",
+        "label": "Plan 3 Name",
+        "valueType": "string",
+        "value": "Unlimited+"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-monthly-price",
+        "label": "Plan 3 Monthly Price",
+        "valueType": "string",
+        "value": "75"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-annual-price",
+        "label": "Plan 3 Annual Price",
+        "valueType": "string",
+        "value": "60"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-description",
+        "label": "Plan 3 Description",
+        "valueType": "string",
+        "value": "The complete experience. Premium everything, no compromises."
+      },
+      {
+        "component": "text",
+        "name": "plan-3-feature-list",
+        "label": "Plan 3 Feature List",
+        "valueType": "string",
+        "value": "Truly unlimited everything|5G+ with priority access|Unlimited hotspot|Global roaming 60+ countries|Smartwatch bundle + device protection"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-cta-label",
+        "label": "Plan 3 CTA Label",
+        "valueType": "string",
+        "value": "Choose Unlimited+"
+      },
+      {
+        "component": "text",
+        "name": "plan-3-cta-url",
+        "label": "Plan 3 CTA URL",
+        "valueType": "string",
+        "value": "#cta"
+      },
+      {
+        "component": "boolean",
+        "name": "plan-3-featured",
+        "label": "Plan 3 Featured",
+        "valueType": "boolean",
+        "value": false
+      },
+      {
+        "component": "text",
+        "name": "network-eyebrow",
+        "label": "Network Eyebrow",
+        "valueType": "string",
+        "value": "// Network"
+      },
+      {
+        "component": "text",
+        "name": "network-title",
+        "label": "Network Title",
+        "valueType": "string",
+        "value": "Coverage you|can count on."
+      },
+      {
+        "component": "text",
+        "name": "network-description",
+        "label": "Network Description",
+        "valueType": "string",
+        "value": "Our 5G network keeps expanding. From downtown to the suburbs, from coast to coast, CitiSignal delivers speeds and reliability you can depend on every day."
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-value",
+        "label": "Network Stat 1 Value",
+        "valueType": "string",
+        "value": "99.9"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-suffix",
+        "label": "Network Stat 1 Suffix",
+        "valueType": "string",
+        "value": "%"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-decimals",
+        "label": "Network Stat 1 Decimals",
+        "valueType": "string",
+        "value": "1"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-label",
+        "label": "Network Stat 1 Label",
+        "valueType": "string",
+        "value": "Network reliability across all coverage areas, every quarter"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-1-sub-label",
+        "label": "Network Stat 1 Sub Label",
+        "valueType": "string",
+        "value": "INDUSTRY-LEADING UPTIME"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-value",
+        "label": "Network Stat 2 Value",
+        "valueType": "string",
+        "value": "320"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-suffix",
+        "label": "Network Stat 2 Suffix",
+        "valueType": "string",
+        "value": "M+"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-decimals",
+        "label": "Network Stat 2 Decimals",
+        "valueType": "string",
+        "value": "0"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-label",
+        "label": "Network Stat 2 Label",
+        "valueType": "string",
+        "value": "People covered by our 5G network"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-2-sub-label",
+        "label": "Network Stat 2 Sub Label",
+        "valueType": "string",
+        "value": "AND GROWING FAST"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-value",
+        "label": "Network Stat 3 Value",
+        "valueType": "string",
+        "value": "2.4"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-suffix",
+        "label": "Network Stat 3 Suffix",
+        "valueType": "string",
+        "value": "M"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-decimals",
+        "label": "Network Stat 3 Decimals",
+        "valueType": "string",
+        "value": "1"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-label",
+        "label": "Network Stat 3 Label",
+        "valueType": "string",
+        "value": "New subscribers in the last year"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-3-sub-label",
+        "label": "Network Stat 3 Sub Label",
+        "valueType": "string",
+        "value": "FASTEST-GROWING CARRIER"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-value",
+        "label": "Network Stat 4 Value",
+        "valueType": "string",
+        "value": "50"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-suffix",
+        "label": "Network Stat 4 Suffix",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-decimals",
+        "label": "Network Stat 4 Decimals",
+        "valueType": "string",
+        "value": "0"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-label",
+        "label": "Network Stat 4 Label",
+        "valueType": "string",
+        "value": "States with full 5G coverage"
+      },
+      {
+        "component": "text",
+        "name": "network-stat-4-sub-label",
+        "label": "Network Stat 4 Sub Label",
+        "valueType": "string",
+        "value": "COAST TO COAST"
+      },
+      {
+        "component": "text",
+        "name": "testimonials-eyebrow",
+        "label": "Testimonials Eyebrow",
+        "valueType": "string",
+        "value": "// Reviews"
+      },
+      {
+        "component": "text",
+        "name": "testimonials-title",
+        "label": "Testimonials Title",
+        "valueType": "string",
+        "value": "People love|CitiSignal."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-quote",
+        "label": "Testimonial 1 Quote",
+        "valueType": "string",
+        "value": "Switched from my old carrier three months ago. Better signal, better price, and the free music subscription is a nice bonus."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-initials",
+        "label": "Testimonial 1 Initials",
+        "valueType": "string",
+        "value": "JR"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-name",
+        "label": "Testimonial 1 Name",
+        "valueType": "string",
+        "value": "Jason Reeves"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-1-role-location",
+        "label": "Testimonial 1 Role Location",
+        "valueType": "string",
+        "value": "Austin, TX"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-quote",
+        "label": "Testimonial 2 Quote",
+        "valueType": "string",
+        "value": "The family plan saved us almost $80 a month. Four lines, unlimited data, and no surprises on the bill."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-initials",
+        "label": "Testimonial 2 Initials",
+        "valueType": "string",
+        "value": "MP"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-name",
+        "label": "Testimonial 2 Name",
+        "valueType": "string",
+        "value": "Maria Perez"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-2-role-location",
+        "label": "Testimonial 2 Role Location",
+        "valueType": "string",
+        "value": "Miami, FL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-quote",
+        "label": "Testimonial 3 Quote",
+        "valueType": "string",
+        "value": "I got the iPhone 16 deal with trade-in and it was seamless. In-store setup took ten minutes. Really impressed."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-initials",
+        "label": "Testimonial 3 Initials",
+        "valueType": "string",
+        "value": "DL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-name",
+        "label": "Testimonial 3 Name",
+        "valueType": "string",
+        "value": "David Lee"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-3-role-location",
+        "label": "Testimonial 3 Role Location",
+        "valueType": "string",
+        "value": "Seattle, WA"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-quote",
+        "label": "Testimonial 4 Quote",
+        "valueType": "string",
+        "value": "5G coverage at my office and at home finally. CitiSignal's network expansion has been a game changer for me."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-initials",
+        "label": "Testimonial 4 Initials",
+        "valueType": "string",
+        "value": "RK"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-name",
+        "label": "Testimonial 4 Name",
+        "valueType": "string",
+        "value": "Rachel Kim"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-4-role-location",
+        "label": "Testimonial 4 Role Location",
+        "valueType": "string",
+        "value": "Chicago, IL"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-quote",
+        "label": "Testimonial 5 Quote",
+        "valueType": "string",
+        "value": "No contracts, no hidden fees. They actually mean it. My bill has been the exact same every month for a year."
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-initials",
+        "label": "Testimonial 5 Initials",
+        "valueType": "string",
+        "value": "TC"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-name",
+        "label": "Testimonial 5 Name",
+        "valueType": "string",
+        "value": "Tyler Chen"
+      },
+      {
+        "component": "text",
+        "name": "testimonial-5-role-location",
+        "label": "Testimonial 5 Role Location",
+        "valueType": "string",
+        "value": "Denver, CO"
+      },
+      {
+        "component": "text",
+        "name": "final-cta-heading",
+        "label": "Final CTA Heading",
+        "valueType": "string",
+        "value": "Ready to make|the switch?"
+      },
+      {
+        "component": "text",
+        "name": "final-cta-body",
+        "label": "Final CTA Body",
+        "valueType": "string",
+        "value": "Join 2.4 million people who chose better coverage and honest pricing. Setup takes five minutes."
+      },
+      {
+        "component": "text",
+        "name": "final-cta-label",
+        "label": "Final CTA Label",
+        "valueType": "string",
+        "value": "Get Started Today"
+      },
+      {
+        "component": "text",
+        "name": "final-cta-url",
+        "label": "Final CTA URL",
+        "valueType": "string",
+        "value": "#plans"
+      }
+    ]
+  },
+  {
+    "id": "hero-b2b-returning",
+    "fields": [
+      {
+        "component": "text",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "valueType": "string",
+        "value": "citisignal-showcase-1"
+      },
+      {
+        "component": "text",
+        "name": "nav-brand",
+        "label": "Nav Brand",
+        "valueType": "string",
+        "value": "CitiSignal"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-1-label",
+        "label": "Nav Link 1 Label",
+        "valueType": "string",
+        "value": "Dashboard"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-1-url",
+        "label": "Nav Link 1 URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-2-label",
+        "label": "Nav Link 2 Label",
+        "valueType": "string",
+        "value": "Lines"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-2-url",
+        "label": "Nav Link 2 URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-3-label",
+        "label": "Nav Link 3 Label",
+        "valueType": "string",
+        "value": "Billing"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-3-url",
+        "label": "Nav Link 3 URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-4-label",
+        "label": "Nav Link 4 Label",
+        "valueType": "string",
+        "value": "Support"
+      },
+      {
+        "component": "text",
+        "name": "nav-link-4-url",
+        "label": "Nav Link 4 URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "nav-cta-label",
+        "label": "Nav CTA Label",
+        "valueType": "string",
+        "value": "Add a Line"
+      },
+      {
+        "component": "text",
+        "name": "nav-cta-url",
+        "label": "Nav CTA URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "welcome-avatar-initials",
+        "label": "Welcome Avatar Initials",
+        "valueType": "string",
+        "value": "AC"
+      },
+      {
+        "component": "text",
+        "name": "welcome-company-name",
+        "label": "Welcome Company Name",
+        "valueType": "string",
+        "value": "Acme Corp"
+      },
+      {
+        "component": "text",
+        "name": "hero-title-line-1",
+        "label": "Hero Title Line 1",
+        "valueType": "string",
+        "value": "Your team's network."
+      },
+      {
+        "component": "text",
+        "name": "hero-title-gradient",
+        "label": "Hero Title Gradient",
+        "valueType": "string",
+        "value": "Optimized."
+      },
+      {
+        "component": "text",
+        "name": "hero-description",
+        "label": "Hero Description",
+        "valueType": "string",
+        "value": "Manage all 48 lines from one dashboard. Add new team members, track usage, and control costs with CitiSignal Business."
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-label",
+        "label": "Hero Primary CTA Label",
+        "valueType": "string",
+        "value": "Manage Account"
+      },
+      {
+        "component": "text",
+        "name": "hero-primary-cta-url",
+        "label": "Hero Primary CTA URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-label",
+        "label": "Hero Secondary CTA Label",
+        "valueType": "string",
+        "value": "Add New Lines"
+      },
+      {
+        "component": "text",
+        "name": "hero-secondary-cta-url",
+        "label": "Hero Secondary CTA URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "dash-avatar-initials",
+        "label": "Dash Avatar Initials",
+        "valueType": "string",
+        "value": "AC"
+      },
+      {
+        "component": "text",
+        "name": "dash-company-name",
+        "label": "Dash Company Name",
+        "valueType": "string",
+        "value": "Acme Corp"
+      },
+      {
+        "component": "text",
+        "name": "dash-plan",
+        "label": "Dash Plan",
+        "valueType": "string",
+        "value": "Business Unlimited+"
+      },
+      {
+        "component": "text",
+        "name": "dash-badge",
+        "label": "Dash Badge",
+        "valueType": "string",
+        "value": "Enterprise"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-1-value",
+        "label": "Dash Stat 1 Value",
+        "valueType": "string",
+        "value": "48"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-1-label",
+        "label": "Dash Stat 1 Label",
+        "valueType": "string",
+        "value": "Active Lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-2-value",
+        "label": "Dash Stat 2 Value",
+        "valueType": "string",
+        "value": "2.1"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-2-suffix",
+        "label": "Dash Stat 2 Suffix",
+        "valueType": "string",
+        "value": "TB"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-2-label",
+        "label": "Dash Stat 2 Label",
+        "valueType": "string",
+        "value": "Data Used"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-3-value",
+        "label": "Dash Stat 3 Value",
+        "valueType": "string",
+        "value": "$892"
+      },
+      {
+        "component": "text",
+        "name": "dash-stat-3-label",
+        "label": "Dash Stat 3 Label",
+        "valueType": "string",
+        "value": "Saved / Mo"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-icon",
+        "label": "Dash Line 1 Icon",
+        "valueType": "string",
+        "value": "📱"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-name",
+        "label": "Dash Line 1 Name",
+        "valueType": "string",
+        "value": "Sales Team"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-count",
+        "label": "Dash Line 1 Count",
+        "valueType": "string",
+        "value": "12 lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-1-usage",
+        "label": "Dash Line 1 Usage",
+        "valueType": "string",
+        "value": "82% used"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-icon",
+        "label": "Dash Line 2 Icon",
+        "valueType": "string",
+        "value": "💻"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-name",
+        "label": "Dash Line 2 Name",
+        "valueType": "string",
+        "value": "Engineering"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-count",
+        "label": "Dash Line 2 Count",
+        "valueType": "string",
+        "value": "18 lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-2-usage",
+        "label": "Dash Line 2 Usage",
+        "valueType": "string",
+        "value": "67% used"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-icon",
+        "label": "Dash Line 3 Icon",
+        "valueType": "string",
+        "value": "🏢"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-name",
+        "label": "Dash Line 3 Name",
+        "valueType": "string",
+        "value": "Operations"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-count",
+        "label": "Dash Line 3 Count",
+        "valueType": "string",
+        "value": "18 lines"
+      },
+      {
+        "component": "text",
+        "name": "dash-line-3-usage",
+        "label": "Dash Line 3 Usage",
+        "valueType": "string",
+        "value": "54% used"
+      },
+      {
+        "component": "text",
+        "name": "dash-card-cta-label",
+        "label": "Dash Card CTA Label",
+        "valueType": "string",
+        "value": "View Full Dashboard →"
+      },
+      {
+        "component": "text",
+        "name": "dash-card-cta-url",
+        "label": "Dash Card CTA URL",
+        "valueType": "string",
+        "value": "#"
+      }
+    ]
+  },
+  {
+    "id": "pdp-feature-showcase-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Text Content",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt Text",
+        "valueType": "string",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "pdp-highlight-stats",
+    "fields": [
+      {
+        "component": "text",
+        "name": "headline",
+        "label": "Headline",
+        "valueType": "string",
+        "value": "Built to perform."
+      },
+      {
+        "component": "text",
+        "name": "subtitle",
+        "label": "Subtitle",
+        "valueType": "string",
+        "value": "Every component engineered for speed, clarity, and endurance."
+      },
+      {
+        "component": "text",
+        "name": "stat-1-value",
+        "label": "Stat 1 — Value",
+        "valueType": "string",
+        "value": "6.1"
+      },
+      {
+        "component": "text",
+        "name": "stat-1-unit",
+        "label": "Stat 1 — Unit",
+        "valueType": "string",
+        "value": "\""
+      },
+      {
+        "component": "text",
+        "name": "stat-1-label",
+        "label": "Stat 1 — Label",
+        "valueType": "string",
+        "value": "Super Retina XDR OLED display"
+      },
+      {
+        "component": "text",
+        "name": "stat-1-sub",
+        "label": "Stat 1 — Sub-label",
+        "valueType": "string",
+        "value": "2556 × 1179 px · 460 ppi"
+      },
+      {
+        "component": "text",
+        "name": "stat-2-value",
+        "label": "Stat 2 — Value",
+        "valueType": "string",
+        "value": "48"
+      },
+      {
+        "component": "text",
+        "name": "stat-2-unit",
+        "label": "Stat 2 — Unit",
+        "valueType": "string",
+        "value": "MP"
+      },
+      {
+        "component": "text",
+        "name": "stat-2-label",
+        "label": "Stat 2 — Label",
+        "valueType": "string",
+        "value": "Advanced dual camera with Smart HDR 5"
+      },
+      {
+        "component": "text",
+        "name": "stat-2-sub",
+        "label": "Stat 2 — Sub-label",
+        "valueType": "string",
+        "value": "ƒ/1.6 aperture · 2x optical zoom"
+      },
+      {
+        "component": "text",
+        "name": "stat-3-value",
+        "label": "Stat 3 — Value",
+        "valueType": "string",
+        "value": "A16"
+      },
+      {
+        "component": "text",
+        "name": "stat-3-unit",
+        "label": "Stat 3 — Unit",
+        "valueType": "string",
+        "value": " Bionic"
+      },
+      {
+        "component": "text",
+        "name": "stat-3-label",
+        "label": "Stat 3 — Label",
+        "valueType": "string",
+        "value": "6-core CPU, 5-core GPU, 16-core Neural Engine"
+      },
+      {
+        "component": "text",
+        "name": "stat-3-sub",
+        "label": "Stat 3 — Sub-label",
+        "valueType": "string",
+        "value": "4nm process · 15.8B transistors"
+      },
+      {
+        "component": "text",
+        "name": "stat-4-value",
+        "label": "Stat 4 — Value",
+        "valueType": "string",
+        "value": "26"
+      },
+      {
+        "component": "text",
+        "name": "stat-4-unit",
+        "label": "Stat 4 — Unit",
+        "valueType": "string",
+        "value": "hr"
+      },
+      {
+        "component": "text",
+        "name": "stat-4-label",
+        "label": "Stat 4 — Label",
+        "valueType": "string",
+        "value": "Video playback on a single charge"
+      },
+      {
+        "component": "text",
+        "name": "stat-4-sub",
+        "label": "Stat 4 — Sub-label",
+        "valueType": "string",
+        "value": "USB-C fast charge · MagSafe wireless"
+      }
+    ]
+  },
+  {
+    "id": "pdp-reviews",
+    "fields": [
+      {
+        "component": "text",
+        "name": "section-title",
+        "label": "Section Title",
+        "valueType": "string",
+        "value": "Customer reviews"
+      },
+      {
+        "component": "text",
+        "name": "overall-rating",
+        "label": "Overall Rating (e.g. 4.2)",
+        "valueType": "string",
+        "value": "4.2"
+      },
+      {
+        "component": "text",
+        "name": "total-reviews",
+        "label": "Total Reviews",
+        "valueType": "string",
+        "value": "1,247"
+      },
+      {
+        "component": "text",
+        "name": "stars-5-percent",
+        "label": "5 Star %",
+        "valueType": "string",
+        "value": "58"
+      },
+      {
+        "component": "text",
+        "name": "stars-4-percent",
+        "label": "4 Star %",
+        "valueType": "string",
+        "value": "22"
+      },
+      {
+        "component": "text",
+        "name": "stars-3-percent",
+        "label": "3 Star %",
+        "valueType": "string",
+        "value": "11"
+      },
+      {
+        "component": "text",
+        "name": "stars-2-percent",
+        "label": "2 Star %",
+        "valueType": "string",
+        "value": "5"
+      },
+      {
+        "component": "text",
+        "name": "stars-1-percent",
+        "label": "1 Star %",
+        "valueType": "string",
+        "value": "4"
+      },
+      {
+        "component": "text",
+        "name": "write-review-label",
+        "label": "Write Review Button Label",
+        "valueType": "string",
+        "value": "Write a Review"
+      },
+      {
+        "component": "text",
+        "name": "write-review-url",
+        "label": "Write Review URL",
+        "valueType": "string",
+        "value": "#"
+      },
+      {
+        "component": "text",
+        "name": "review-1-name",
+        "label": "Review 1 — Name",
+        "valueType": "string",
+        "value": "Michael R."
+      },
+      {
+        "component": "text",
+        "name": "review-1-date",
+        "label": "Review 1 — Date",
+        "valueType": "string",
+        "value": "March 28, 2026"
+      },
+      {
+        "component": "text",
+        "name": "review-1-rating",
+        "label": "Review 1 — Rating (1-5)",
+        "valueType": "string",
+        "value": "5"
+      },
+      {
+        "component": "text",
+        "name": "review-1-verified",
+        "label": "Review 1 — Verified (true/false)",
+        "valueType": "string",
+        "value": "true"
+      },
+      {
+        "component": "text",
+        "name": "review-1-initials",
+        "label": "Review 1 — Initials",
+        "valueType": "string",
+        "value": "MR"
+      },
+      {
+        "component": "text",
+        "name": "review-1-title",
+        "label": "Review 1 — Title",
+        "valueType": "string",
+        "value": "Best phone I've owned in years"
+      },
+      {
+        "component": "text",
+        "name": "review-1-text",
+        "label": "Review 1 — Text",
+        "valueType": "string",
+        "value": "Switched from a three-year-old phone and the difference is night and day. Camera is incredible in low light, battery easily lasts a full day, and the screen is stunning."
+      },
+      {
+        "component": "text",
+        "name": "review-2-name",
+        "label": "Review 2 — Name",
+        "valueType": "string",
+        "value": "Sarah K."
+      },
+      {
+        "component": "text",
+        "name": "review-2-date",
+        "label": "Review 2 — Date",
+        "valueType": "string",
+        "value": "March 15, 2026"
+      },
+      {
+        "component": "text",
+        "name": "review-2-rating",
+        "label": "Review 2 — Rating (1-5)",
+        "valueType": "string",
+        "value": "4"
+      },
+      {
+        "component": "text",
+        "name": "review-2-verified",
+        "label": "Review 2 — Verified (true/false)",
+        "valueType": "string",
+        "value": "true"
+      },
+      {
+        "component": "text",
+        "name": "review-2-initials",
+        "label": "Review 2 — Initials",
+        "valueType": "string",
+        "value": "SK"
+      },
+      {
+        "component": "text",
+        "name": "review-2-title",
+        "label": "Review 2 — Title",
+        "valueType": "string",
+        "value": "Great camera, solid daily driver"
+      },
+      {
+        "component": "text",
+        "name": "review-2-text",
+        "label": "Review 2 — Text",
+        "valueType": "string",
+        "value": "The camera is the standout feature for me — photos look professional without any editing. Battery gets me through a full work day with about 30% left."
+      },
+      {
+        "component": "text",
+        "name": "review-3-name",
+        "label": "Review 3 — Name",
+        "valueType": "string",
+        "value": "James T."
+      },
+      {
+        "component": "text",
+        "name": "review-3-date",
+        "label": "Review 3 — Date",
+        "valueType": "string",
+        "value": "February 22, 2026"
+      },
+      {
+        "component": "text",
+        "name": "review-3-rating",
+        "label": "Review 3 — Rating (1-5)",
+        "valueType": "string",
+        "value": "5"
+      },
+      {
+        "component": "text",
+        "name": "review-3-verified",
+        "label": "Review 3 — Verified (true/false)",
+        "valueType": "string",
+        "value": "true"
+      },
+      {
+        "component": "text",
+        "name": "review-3-initials",
+        "label": "Review 3 — Initials",
+        "valueType": "string",
+        "value": "JT"
+      },
+      {
+        "component": "text",
+        "name": "review-3-title",
+        "label": "Review 3 — Title",
+        "valueType": "string",
+        "value": "The Sage color is gorgeous"
+      },
+      {
+        "component": "text",
+        "name": "review-3-text",
+        "label": "Review 3 — Text",
+        "valueType": "string",
+        "value": "Went with the Sage colorway and get compliments on it constantly. Performance-wise it handles everything I throw at it — heavy multitasking, gaming, lots of photos."
+      }
+    ]
+  },
+  {
+    "id": "pdp-spec-accordion-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "summary",
+        "label": "Summary (icon image, title as H4, subtitle as paragraph)",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "name": "specs",
+        "label": "Spec Rows (each paragraph: bold label followed by value)",
+        "valueType": "string",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "phone-3d-showcase",
+    "fields": [
+      {
+        "component": "text",
+        "name": "badge",
+        "label": "Badge Text",
+        "value": "Now on CitiSignal 5G Ultra Network",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "heading",
+        "label": "Heading",
+        "value": "Feel Every Frequency.",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "description",
+        "label": "Description",
+        "value": "Drag to rotate. Scroll to zoom. Tap hotspots to explore every detail of the device.",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "cta-primary",
+        "label": "Primary CTA Label",
+        "value": "Pre-Order Now",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "cta-primary-href",
+        "label": "Primary CTA Link",
+        "value": "#",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "cta-secondary",
+        "label": "Secondary CTA Label",
+        "value": "Explore Plans",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "cta-secondary-href",
+        "label": "Secondary CTA Link",
+        "value": "#",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "product-skew-reveal-header",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "subtitleLines",
+        "label": "Subtitle Lines",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "alignment",
+        "label": "Alignment",
+        "valueType": "string",
+        "value": "left",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "product-skew-reveal-tile",
+    "fields": [
+      {
+        "component": "select",
+        "name": "variant",
+        "label": "Variant",
+        "valueType": "string",
+        "value": "product",
+        "options": [
+          {
+            "name": "Product",
+            "value": "product"
+          },
+          {
+            "name": "Media",
+            "value": "media"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "span",
+        "label": "Span",
+        "valueType": "string",
+        "value": "standard",
+        "options": [
+          {
+            "name": "Standard",
+            "value": "standard"
+          },
+          {
+            "name": "Wide",
+            "value": "wide"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "label",
+        "label": "Label",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "name",
+        "label": "Name",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "link",
+        "label": "Link",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "backgroundStyle",
+        "label": "Background Style",
+        "valueType": "string",
+        "value": "neutral",
+        "options": [
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Neutral",
+            "value": "neutral"
+          },
+          {
+            "name": "Green",
+            "value": "green"
+          },
+          {
+            "name": "Peach",
+            "value": "peach"
+          },
+          {
+            "name": "Pink",
+            "value": "pink"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "valueType": "string",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt Text",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "videoUrl",
+        "label": "Video URL",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "component": "select",
+        "name": "fallbackShape",
+        "label": "Fallback Shape",
+        "valueType": "string",
+        "value": "none",
+        "options": [
+          {
+            "name": "None",
+            "value": "none"
+          },
+          {
+            "name": "Bottle",
+            "value": "bottle"
+          },
+          {
+            "name": "Can",
+            "value": "can"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "search-bar",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "placeholder",
+        "value": "Search Products",
+        "label": "Placeholder Text",
+        "description": "The placeholder text shown in the search input",
+        "required": false
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "alignment",
+        "value": "center",
+        "label": "Alignment",
+        "description": "Horizontal alignment of the search bar",
+        "required": false,
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "resultCount",
+        "value": 8,
+        "label": "Results Count",
+        "description": "Number of products to show in search results",
+        "required": false,
+        "validation": {
+          "numberMin": 2,
+          "numberMax": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "blog-post",
+    "fields": []
+  },
+  {
+    "id": "blog-tiles",
+    "fields": []
+  },
+  {
+    "id": "circle-carousel",
+    "fields": [
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "alignment",
+        "label": "Alignment",
+        "description": "Horizontal alignment of the carousel",
+        "value": "center",
+        "required": false,
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "autoplay",
+        "label": "Enable Autoplay",
+        "description": "Automatically cycle through items every 4 seconds",
+        "value": true,
+        "required": false
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "itemsMobile",
+        "label": "Items Per View (Mobile)",
+        "description": "Number of circles visible on mobile screens",
+        "value": 2,
+        "required": false,
+        "validation": {
+          "numberMin": 1,
+          "numberMax": 4
+        }
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "itemsTablet",
+        "label": "Items Per View (Tablet)",
+        "description": "Number of circles visible on tablet screens",
+        "value": 4,
+        "required": false,
+        "validation": {
+          "numberMin": 2,
+          "numberMax": 6
+        }
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "itemsDesktop",
+        "label": "Items Per View (Desktop)",
+        "description": "Number of circles visible on desktop screens",
+        "value": 6,
+        "required": false,
+        "validation": {
+          "numberMin": 3,
+          "numberMax": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "hero-cta",
+    "fields": []
+  },
+  {
+    "id": "newsletter",
+    "fields": [
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "align",
+        "label": "Content Alignment",
+        "description": "Horizontal alignment for the text and form",
+        "value": "center",
+        "required": false,
+        "options": [
+          {
+            "name": "Start (logical)",
+            "value": "start"
+          },
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          },
+          {
+            "name": "End (logical)",
+            "value": "end"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "backgroundColor",
+        "label": "Background Color",
+        "description": "Use a named variant or override with Section Metadata for custom hex",
+        "value": "neutral",
+        "required": false,
+        "options": [
+          {
+            "name": "Neutral",
+            "value": "neutral"
+          },
+          {
+            "name": "Light",
+            "value": "light"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Brand",
+            "value": "brand"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Accent",
+            "value": "accent"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "backgroundStyle",
+        "label": "Background Style",
+        "description": "Visual treatment layered on top of background color",
+        "value": "solid",
+        "required": false,
+        "options": [
+          {
+            "name": "None",
+            "value": "none"
+          },
+          {
+            "name": "Solid",
+            "value": "solid"
+          },
+          {
+            "name": "Subtle Gradient",
+            "value": "subtle-gradient"
+          },
+          {
+            "name": "Mesh Gradient",
+            "value": "mesh-gradient"
+          },
+          {
+            "name": "Noise Texture",
+            "value": "noise-texture"
+          },
+          {
+            "name": "Split Tone",
+            "value": "split-tone"
+          },
+          {
+            "name": "Radial Glow",
+            "value": "radial-glow"
+          },
+          {
+            "name": "Duotone",
+            "value": "duotone"
+          },
+          {
+            "name": "Top Glow",
+            "value": "top-glow"
+          },
+          {
+            "name": "Bottom Fade",
+            "value": "bottom-fade"
+          },
+          {
+            "name": "Diagonal Sweep",
+            "value": "diagonal-sweep"
+          },
+          {
+            "name": "Grid Fade",
+            "value": "grid-fade"
+          },
+          {
+            "name": "Image Wash",
+            "value": "image-wash"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "backgroundImage",
+        "label": "Background Image URL",
+        "description": "Used when Background Style is Image Wash",
+        "value": "",
+        "required": false
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "buttonStyle",
+        "label": "Button Style",
+        "description": "Corner style for the sign up button",
+        "value": "default",
+        "required": false,
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Pill",
+            "value": "pill"
+          },
+          {
+            "name": "Sharp",
+            "value": "sharp"
+          },
+          {
+            "name": "Soft",
+            "value": "soft"
+          },
+          {
+            "name": "Rounded Large",
+            "value": "rounded-lg"
+          },
+          {
+            "name": "Outline",
+            "value": "outline"
+          },
+          {
+            "name": "Ghost",
+            "value": "ghost"
+          },
+          {
+            "name": "Elevated",
+            "value": "elevated"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "buttonWidth",
+        "label": "Button Width",
+        "description": "Width preset for the sign up button",
+        "value": "medium",
+        "required": false,
+        "options": [
+          {
+            "name": "Auto",
+            "value": "auto"
+          },
+          {
+            "name": "Narrow",
+            "value": "narrow"
+          },
+          {
+            "name": "Medium",
+            "value": "medium"
+          },
+          {
+            "name": "Wide",
+            "value": "wide"
+          },
+          {
+            "name": "Fluid",
+            "value": "fluid"
+          },
+          {
+            "name": "Fit Content",
+            "value": "fit-content"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "density",
+        "label": "Spacing Density",
+        "description": "Adjust vertical rhythm and control height",
+        "value": "comfortable",
+        "required": false,
+        "options": [
+          {
+            "name": "XX-Compact",
+            "value": "xx-compact"
+          },
+          {
+            "name": "Compact",
+            "value": "compact"
+          },
+          {
+            "name": "X-Compact",
+            "value": "x-compact"
+          },
+          {
+            "name": "Comfortable",
+            "value": "comfortable"
+          },
+          {
+            "name": "Spacious",
+            "value": "spacious"
+          },
+          {
+            "name": "X-Spacious",
+            "value": "x-spacious"
+          },
+          {
+            "name": "XX-Spacious",
+            "value": "xx-spacious"
+          },
+          {
+            "name": "Responsive",
+            "value": "responsive"
+          },
+          {
+            "name": "Adaptive",
+            "value": "adaptive"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "formGap",
+        "label": "Form Gap",
+        "description": "Horizontal gap between email field and button",
+        "value": "auto",
+        "required": false,
+        "options": [
+          {
+            "name": "Auto (from Density)",
+            "value": "auto"
+          },
+          {
+            "name": "None",
+            "value": "none"
+          },
+          {
+            "name": "XX-Small",
+            "value": "xxsmall"
+          },
+          {
+            "name": "X-Small",
+            "value": "xsmall"
+          },
+          {
+            "name": "Small",
+            "value": "small"
+          },
+          {
+            "name": "Medium",
+            "value": "medium"
+          },
+          {
+            "name": "Large",
+            "value": "large"
+          },
+          {
+            "name": "X-Large",
+            "value": "xlarge"
+          },
+          {
+            "name": "XX-Large",
+            "value": "xxlarge"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "emailStyle",
+        "label": "Email Field Style",
+        "description": "Visual style for the email input field",
+        "value": "outlined",
+        "required": false,
+        "options": [
+          {
+            "name": "Outlined",
+            "value": "outlined"
+          },
+          {
+            "name": "Filled",
+            "value": "filled"
+          },
+          {
+            "name": "Underlined",
+            "value": "underlined"
+          },
+          {
+            "name": "Pill",
+            "value": "pill"
+          },
+          {
+            "name": "Sharp",
+            "value": "sharp"
+          },
+          {
+            "name": "Minimal",
+            "value": "minimal"
+          },
+          {
+            "name": "Inset",
+            "value": "inset"
+          },
+          {
+            "name": "Soft",
+            "value": "soft"
+          },
+          {
+            "name": "Glass",
+            "value": "glass"
+          },
+          {
+            "name": "High Contrast",
+            "value": "high-contrast"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "buttonColorEmpty",
+        "label": "Button Color (Empty)",
+        "description": "Button color before any email is entered",
+        "value": "muted",
+        "required": false,
+        "options": [
+          {
+            "name": "Muted",
+            "value": "muted"
+          },
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Transparent",
+            "value": "transparent"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Brand",
+            "value": "brand"
+          },
+          {
+            "name": "Accent",
+            "value": "accent"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Outline Dark",
+            "value": "outline-dark"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Negative",
+            "value": "negative"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Inherit",
+            "value": "inherit"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "buttonColorFilled",
+        "label": "Button Color (Filled)",
+        "description": "Button color after email text is entered",
+        "value": "dark",
+        "required": false,
+        "options": [
+          {
+            "name": "Muted",
+            "value": "muted"
+          },
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Transparent",
+            "value": "transparent"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          },
+          {
+            "name": "Brand",
+            "value": "brand"
+          },
+          {
+            "name": "Accent",
+            "value": "accent"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Outline Dark",
+            "value": "outline-dark"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Negative",
+            "value": "negative"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Inherit",
+            "value": "inherit"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "fullWidth",
+        "label": "Full Width Background",
+        "description": "Expand the newsletter background band to full viewport width",
+        "value": false,
+        "required": false
+      }
+    ]
+  },
+  {
+    "id": "promotional-hero",
+    "fields": []
+  },
+  {
+    "id": "store-locator",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "googleMapsApiKey",
+        "label": "Google Maps API Key",
+        "description": "API key for Maps JavaScript API and Places API (New)",
+        "value": "",
+        "required": false
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "defaultView",
+        "label": "Default View",
+        "description": "Initial display layout for the store locator",
+        "value": "split",
+        "required": false,
+        "options": [
+          {
+            "name": "Split View (50/50)",
+            "value": "split"
+          },
+          {
+            "name": "Map Focused (Sidebar)",
+            "value": "map"
+          },
+          {
+            "name": "List Only (No Map)",
+            "value": "list"
+          }
+        ]
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "searchRadius",
+        "label": "Search Radius",
+        "description": "Default radius (set 0 for All stores)",
+        "value": 0,
+        "required": false,
+        "validation": {
+          "numberMin": 0,
+          "numberMax": 100
+        }
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "maxResults",
+        "label": "Maximum Results",
+        "description": "Maximum number of stores to display",
+        "value": 10,
+        "required": false,
+        "validation": {
+          "numberMin": 5,
+          "numberMax": 50
+        }
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "autoDetect",
+        "label": "Auto-Detect Location",
+        "description": "Automatically use browser geolocation on page load",
+        "value": true,
+        "required": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "defaultLocation",
+        "label": "Default Location",
+        "description": "Fallback location if geolocation is denied (e.g., 'Portland, OR')",
+        "value": "Portland, OR",
+        "required": false
+      },
+      {
+        "component": "multiselect",
+        "valueType": "string",
+        "name": "servicesFilter",
+        "label": "Available Service Filters",
+        "description": "Services that users can filter stores by",
+        "value": [
+          "pharmacy",
+          "pickup",
+          "delivery",
+          "24-hour",
+          "deli",
+          "bakery"
+        ],
+        "required": false,
+        "options": [
+          {
+            "name": "Pharmacy",
+            "value": "pharmacy"
+          },
+          {
+            "name": "Pickup",
+            "value": "pickup"
+          },
+          {
+            "name": "Delivery",
+            "value": "delivery"
+          },
+          {
+            "name": "24 Hour",
+            "value": "24-hour"
+          },
+          {
+            "name": "Deli",
+            "value": "deli"
+          },
+          {
+            "name": "Bakery",
+            "value": "bakery"
+          },
+          {
+            "name": "Organic",
+            "value": "organic"
+          },
+          {
+            "name": "Gas Station",
+            "value": "gas-station"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "experienceMode",
+        "label": "Experience Mode",
+        "description": "Fast = lighter payloads; Rich = photos and reviews",
+        "value": "fast",
+        "required": false,
+        "options": [
+          {
+            "name": "Fast",
+            "value": "fast"
+          },
+          {
+            "name": "Rich",
+            "value": "rich"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "radiusPresets",
+        "label": "Radius Presets",
+        "description": "Comma-separated radius options shown in the UI (example: 0,5,10,25,50)",
+        "value": "0,5,10,25,50",
+        "required": false
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "units",
+        "label": "Distance Units",
+        "description": "Unit for distance display and radius filtering",
+        "value": "miles",
+        "required": false,
+        "options": [
+          {
+            "name": "Miles",
+            "value": "miles"
+          },
+          {
+            "name": "Kilometers",
+            "value": "km"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "noResultsMessage",
+        "label": "No Results Message",
+        "description": "Message shown when no stores match current filters",
+        "value": "No stores found matching your criteria. Please try a different search or remove some filters.",
+        "required": false
+      },
+      {
+        "component": "number",
+        "valueType": "number",
+        "name": "maxReviewsPerStore",
+        "label": "Max Reviews Per Store",
+        "description": "Maximum review count to render in rich details",
+        "value": 5,
+        "required": false,
+        "validation": {
+          "numberMin": 1,
+          "numberMax": 20
+        }
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "mapStyle",
+        "label": "Map Style",
+        "description": "Map visual style (uses configured map IDs)",
+        "value": "default",
+        "required": false,
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Muted",
+            "value": "muted"
+          },
+          {
+            "name": "Minimal",
+            "value": "minimal"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "primaryCtaLabel",
+        "label": "Primary CTA Label",
+        "description": "Primary action label on store cards and info window links",
+        "value": "Get Directions",
+        "required": false
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "cardDensity",
+        "label": "Store Card Density",
+        "description": "Adjust card spacing for list layout",
+        "value": "comfortable",
+        "required": false,
+        "options": [
+          {
+            "name": "Comfortable",
+            "value": "comfortable"
+          },
+          {
+            "name": "Compact",
+            "value": "compact"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "top-banner",
+    "fields": []
+  },
+  {
+    "id": "company-myaccount-banner",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "bgcolor",
+        "label": "Background Color",
+        "value": "#f5f5f5",
+        "description": "Any valid CSS color (e.g. #003087, white, rgb(0,48,135))"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text-color",
+        "label": "Text Color",
+        "value": "#2b2b2b",
+        "description": "Any valid CSS color for all text in the banner"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "logo",
+        "label": "Logo Image",
+        "multi": false,
+        "rootPath": "https://author-p158081-e1683323.adobeaemcloud.com/content/dam",
+        "description": "Select a logo from the AEM Assets repository. Banner height follows the image height."
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "logo-alt",
+        "label": "Logo Alt Text",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "content",
+        "label": "Banner Text",
+        "description": "Freeform rich text — supports bold, italic, alignment, headings, and links"
+      }
+    ]
+  },
+  {
+    "id": "product-hero",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sku",
+        "label": "Product SKU",
+        "value": "",
+        "description": "SKU used to fetch name, price, and description from the catalog. Not displayed on the page."
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Product Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "alt",
+        "label": "Image Alt Text",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cta-text",
+        "label": "CTA Button Text",
+        "value": "Shop Now"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cta-href",
+        "label": "CTA Button URL",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "product-teaser-v2",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sku",
+        "label": "Product SKU",
+        "description": "The SKU of the product to display",
+        "required": true
+      },
+      {
+        "component": "boolean",
+        "name": "details-button",
+        "label": "Show Details Button",
+        "valueType": "boolean",
+        "value": false
+      },
+      {
+        "component": "boolean",
+        "name": "cart-button",
+        "label": "Show Add to Cart Button",
+        "valueType": "boolean",
+        "value": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "background-color",
+        "label": "Background Color",
+        "value": "#003087",
+        "description": "Any valid CSS color (e.g. #003087, blue, rgb(0,48,135))"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text-color",
+        "label": "Text Color",
+        "value": "#ffffff",
+        "description": "Any valid CSS color for the product name, SKU, price, and description"
+      }
+    ]
+  },
+  {
+    "id": "promotional-hero-v2",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "bgcolor",
+        "label": "Background Color",
+        "value": "#003087",
+        "description": "Any valid CSS color (e.g. #003087, blue, rgb(0,48,135))"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text-color",
+        "label": "Text Color",
+        "value": "#ffffff",
+        "description": "Any valid CSS color for the main description text"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "columns",
+        "label": "Columns (side by side)",
+        "value": "3",
+        "options": [
+          {
+            "name": "1",
+            "value": "1"
+          },
+          {
+            "name": "2",
+            "value": "2"
+          },
+          {
+            "name": "3",
+            "value": "3"
+          },
+          {
+            "name": "4",
+            "value": "4"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cta-button-color",
+        "label": "CTA Button Color",
+        "value": "#ff6b00",
+        "description": "Any valid CSS color for the CTA button background"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cta-text-color",
+        "label": "CTA Button Text Color",
+        "value": "#ffffff",
+        "description": "Any valid CSS color for the CTA button label text"
+      }
+    ]
+  },
+  {
+    "id": "showcase-feature",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "anchor-namespace",
+        "label": "Anchor Namespace",
+        "description": "Unique ID used to anchor this block on the page",
+        "value": "showcase-feature"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "badge-label",
+        "label": "Badge Label",
+        "description": "Small pill badge displayed above the title (e.g. 'Capability Spotlight')",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "description": "Main headline text",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "description-1",
+        "label": "Description (Primary)",
+        "description": "First body paragraph below the title",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "description-2",
+        "label": "Description (Secondary)",
+        "description": "Optional second body paragraph",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "feature-1",
+        "label": "Feature 1",
+        "description": "First bullet-point feature item",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "feature-2",
+        "label": "Feature 2",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "feature-3",
+        "label": "Feature 3",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "feature-4",
+        "label": "Feature 4",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cta-label",
+        "label": "CTA Button Label",
+        "description": "Text for the call-to-action button",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cta-url",
+        "label": "CTA Button URL",
+        "description": "Link for the call-to-action button",
+        "value": "#"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "background-image",
+        "label": "Background Image",
+        "description": "Optional image displayed in the media panel behind the metric cards. Select from AEM Assets.",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "background-image-alt",
+        "label": "Background Image Alt Text",
+        "description": "Accessibility alt text for the background image",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-1-value",
+        "label": "Metric Card 1 — Value",
+        "description": "Value shown in the first frosted-glass metric card (e.g. '862 Days')",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-1-label",
+        "label": "Metric Card 1 — Label",
+        "description": "Label shown below the value in card 1 (e.g. 'Average TAT')",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-2-value",
+        "label": "Metric Card 2 — Value",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-2-label",
+        "label": "Metric Card 2 — Label",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-3-value",
+        "label": "Metric Card 3 — Value",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card-3-label",
+        "label": "Metric Card 3 — Label",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "site-nav-jg",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "backgroundColor",
+        "label": "Background Color",
+        "description": "Hex color for the navigation bar background (e.g., #000000)",
+        "value": "#000000"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "textColor",
+        "label": "Text Color",
+        "description": "Hex color for the navigation text (e.g., #ffffff)",
+        "value": "#ffffff"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hoverAccentColor",
+        "label": "Hover Accent Color",
+        "description": "Hex color for the hover underline accent (e.g., #fefefe)",
+        "value": "#fefefe"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "breadcrumb",
+        "label": "Breadcrumb",
+        "description": "Optional breadcrumb trail with links separated by >. Example: Home > Category > Page"
+      }
+    ]
+  },
+  {
+    "id": "site-nav-jg-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "categoryName",
+        "label": "Category Name",
+        "description": "Top-level navigation category name (e.g., Aviation Parts)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink1Label",
+        "label": "Sub-Link 1 Label",
+        "description": "Label for the first sub-navigation link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink1Url",
+        "label": "Sub-Link 1 URL",
+        "description": "URL path for the first sub-navigation link (e.g., /plp/tires)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink2Label",
+        "label": "Sub-Link 2 Label",
+        "description": "Label for the second sub-navigation link (optional)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink2Url",
+        "label": "Sub-Link 2 URL",
+        "description": "URL path for the second sub-navigation link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink3Label",
+        "label": "Sub-Link 3 Label",
+        "description": "Label for the third sub-navigation link (optional)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink3Url",
+        "label": "Sub-Link 3 URL",
+        "description": "URL path for the third sub-navigation link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink4Label",
+        "label": "Sub-Link 4 Label",
+        "description": "Label for the fourth sub-navigation link (optional)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink4Url",
+        "label": "Sub-Link 4 URL",
+        "description": "URL path for the fourth sub-navigation link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink5Label",
+        "label": "Sub-Link 5 Label",
+        "description": "Label for the fifth sub-navigation link (optional)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink5Url",
+        "label": "Sub-Link 5 URL",
+        "description": "URL path for the fifth sub-navigation link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink6Label",
+        "label": "Sub-Link 6 Label",
+        "description": "Label for the sixth sub-navigation link (optional)"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subLink6Url",
+        "label": "Sub-Link 6 URL",
+        "description": "URL path for the sixth sub-navigation link"
+      }
+    ]
   }
 ]

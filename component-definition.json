@@ -571,6 +571,575 @@
               "type": "key-value-block"
             }
           }
+        },
+        {
+          "title": "Hero V2",
+          "id": "hero-v2",
+          "model": "hero-v2",
+          "plugins": {
+            "da": {
+              "rows": 1,
+              "columns": 1,
+              "fields": [
+                {
+                  "name": "image",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(1)>img[src]"
+                },
+                {
+                  "name": "imageAlt",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(1)>img[alt]"
+                },
+                {
+                  "name": "title",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>h2:nth-child(2)"
+                },
+                {
+                  "name": "subtitle",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>h3:nth-child(3)"
+                },
+                {
+                  "name": "description",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(4)"
+                },
+                {
+                  "name": "ctaLabel",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(5)>a:nth-child(1)"
+                },
+                {
+                  "name": "ctaUrl",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(5)>a:nth-child(1)[href]"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Quote",
+          "id": "quote",
+          "model": "quote",
+          "plugins": {
+            "da": {
+              "name": "quote",
+              "rows": 1,
+              "columns": 1,
+              "fields": [
+                {
+                  "name": "quote",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)"
+                },
+                {
+                  "name": "author",
+                  "selector": "div:nth-child(2)>div:nth-child(1)>p:nth-child(1)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Tabs",
+          "id": "tabs",
+          "model": "tabs",
+          "filter": "tabs",
+          "plugins": {
+            "da": {
+              "columns": 1,
+              "rows": 2
+            }
+          }
+        },
+        {
+          "title": "Tabs Item",
+          "id": "tabs-item",
+          "model": "tabs-item",
+          "plugins": {
+            "da": {
+              "columns": 0,
+              "rows": 2,
+              "fields": [
+                {
+                  "name": "name",
+                  "selector": "div:nth-child(1)>p:nth-child(1)"
+                },
+                {
+                  "name": "content",
+                  "selector": "div:nth-child(2)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Video",
+          "id": "video",
+          "model": "video",
+          "plugins": {
+            "da": {
+              "name": "video",
+              "rows": 1,
+              "columns": 1,
+              "fields": [
+                {
+                  "name": "videoUrl",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]"
+                },
+                {
+                  "name": "videoUrlText",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)"
+                },
+                {
+                  "name": "posterImage",
+                  "selector": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(2)>img:nth-child(3)[src]"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase",
+          "id": "citisignal-showcase",
+          "model": "citisignal-showcase",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Deals",
+          "id": "citisignal-showcase-deals",
+          "model": "citisignal-showcase-deals",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Featured Product",
+          "id": "citisignal-showcase-featured",
+          "model": "citisignal-showcase-featured",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Final CTA",
+          "id": "citisignal-showcase-final-cta",
+          "model": "citisignal-showcase-final-cta",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Hero V2",
+          "id": "citisignal-showcase-hero-v2",
+          "model": "citisignal-showcase-hero-v2",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Hero",
+          "id": "citisignal-showcase-hero",
+          "model": "citisignal-showcase-hero",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Network",
+          "id": "citisignal-showcase-network",
+          "model": "citisignal-showcase-network",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Partners",
+          "id": "citisignal-showcase-partners",
+          "model": "citisignal-showcase-partners",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Plans",
+          "id": "citisignal-showcase-plans",
+          "model": "citisignal-showcase-plans",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal Showcase Testimonials",
+          "id": "citisignal-showcase-testimonials",
+          "model": "citisignal-showcase-testimonials",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal B2B VIP Hero",
+          "id": "citisignal-b2b-vip-hero",
+          "model": "citisignal-b2b-vip-hero",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "CitiSignal B2B Welcome Hero",
+          "id": "citisignal-b2b-welcome-hero",
+          "model": "citisignal-b2b-welcome-hero",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "Hero B2B Returning",
+          "id": "hero-b2b-returning",
+          "model": "hero-b2b-returning",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "PDP Feature Showcase",
+          "id": "pdp-feature-showcase",
+          "model": "pdp-feature-showcase",
+          "filter": "pdp-feature-showcase",
+          "plugins": {
+            "da": {
+              "name": "pdp-feature-showcase",
+              "rows": 1,
+              "columns": 2
+            }
+          }
+        },
+        {
+          "title": "PDP Feature Showcase Item",
+          "id": "pdp-feature-showcase-item",
+          "model": "pdp-feature-showcase-item",
+          "plugins": {
+            "da": {
+              "name": "pdp-feature-showcase-item",
+              "rows": 1,
+              "columns": 2,
+              "fields": [
+                {
+                  "name": "text",
+                  "selector": "div:nth-child(1)"
+                },
+                {
+                  "name": "image",
+                  "selector": "div:nth-child(2)>picture>img[src]"
+                },
+                {
+                  "name": "imageAlt",
+                  "selector": "div:nth-child(2)>picture>img[alt]"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "PDP Highlight Stats",
+          "id": "pdp-highlight-stats",
+          "model": "pdp-highlight-stats",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "PDP Reviews",
+          "id": "pdp-reviews",
+          "model": "pdp-reviews",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "PDP Spec Accordion",
+          "id": "pdp-spec-accordion",
+          "model": "pdp-spec-accordion",
+          "filter": "pdp-spec-accordion",
+          "plugins": {
+            "da": {
+              "name": "pdp-spec-accordion",
+              "rows": 1,
+              "columns": 2
+            }
+          }
+        },
+        {
+          "title": "PDP Spec Accordion Item",
+          "id": "pdp-spec-accordion-item",
+          "model": "pdp-spec-accordion-item",
+          "plugins": {
+            "da": {
+              "name": "pdp-spec-accordion-item",
+              "rows": 2,
+              "columns": 0,
+              "fields": [
+                {
+                  "name": "summary",
+                  "selector": "div:nth-child(1)"
+                },
+                {
+                  "name": "specs",
+                  "selector": "div:nth-child(2)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Blog Post",
+          "id": "blog-post",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"blog-post\"><div><div><p>Layout</p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Blog Tiles",
+          "id": "blog-tiles",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"blog-tiles\"><div><div><p>Category</p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Circle Carousel",
+          "id": "circle-carousel",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"circle-carousel\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div><p></p></div></div></div>",
+              "behaviour": "columns"
+            }
+          }
+        },
+        {
+          "title": "Circle Carousel Item",
+          "id": "circle-carousel-item",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div><p></p></div></div>",
+              "behaviour": "columns-row"
+            }
+          }
+        },
+        {
+          "title": "Circle Carousel Cell",
+          "id": "circle-carousel-cell",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div></div>",
+              "behaviour": "columns-cell"
+            }
+          }
+        },
+        {
+          "title": "Hero CTA",
+          "id": "hero-cta",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"hero-cta\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div><h1></h1><p></p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Newsletter",
+          "id": "newsletter",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"newsletter\"><div><div><p>Heading</p></div></div><div><div><p>Subheading</p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Promotional Hero",
+          "id": "promotional-hero",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"promotional-hero\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div><h2></h2><p></p></div><div><p></p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Store Locator",
+          "id": "store-locator",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"store-locator\"><div><div><p>Store Name</p></div><div><p>Address</p></div><div><p>City</p></div><div><p>State</p></div><div><p>Zip</p></div><div><p>Phone</p></div></div></div>",
+              "behaviour": "columns"
+            }
+          }
+        },
+        {
+          "title": "Store Locator Item",
+          "id": "store-locator-item",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div><div><p>Store Name</p></div><div><p>Address</p></div><div><p>City</p></div><div><p>State</p></div><div><p>Zip</p></div><div><p>Phone</p></div></div>",
+              "behaviour": "columns-row"
+            }
+          }
+        },
+        {
+          "title": "Store Locator Cell",
+          "id": "store-locator-cell",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div></div>",
+              "behaviour": "columns-cell"
+            }
+          }
+        },
+        {
+          "title": "Top Banner",
+          "id": "top-banner",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"top-banner\"><div><div><p>Message</p></div><div><p></p></div><div><p></p></div><div><p></p></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Promotional Hero V2",
+          "id": "promotional-hero-v2",
+          "model": "promotional-hero-v2",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"promotional-hero-v2\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div><h2></h2><p></p></div><div><p></p></div></div><div><div>bgcolor</div><div>#003087</div></div><div><div>text-color</div><div>#ffffff</div></div><div><div>columns</div><div>3</div></div><div><div>cta-button-color</div><div>#ff6b00</div></div><div><div>cta-text-color</div><div>#ffffff</div></div></div>",
+              "fields": [
+                {
+                  "name": "bgcolor",
+                  "selector": "div:nth-child(2)>div:nth-child(2)"
+                },
+                {
+                  "name": "text-color",
+                  "selector": "div:nth-child(3)>div:nth-child(2)"
+                },
+                {
+                  "name": "columns",
+                  "selector": "div:nth-child(4)>div:nth-child(2)"
+                },
+                {
+                  "name": "cta-button-color",
+                  "selector": "div:nth-child(5)>div:nth-child(2)"
+                },
+                {
+                  "name": "cta-text-color",
+                  "selector": "div:nth-child(6)>div:nth-child(2)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Company My Account Banner",
+          "id": "company-myaccount-banner",
+          "model": "company-myaccount-banner",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"company-myaccount-banner\"><div><div>bgcolor</div><div>#f5f5f5</div></div><div><div>text-color</div><div>#2b2b2b</div></div><div><div><p>Logo image here</p></div><div><p>Enter your banner text here</p></div></div></div>",
+              "fields": [
+                {
+                  "name": "bgcolor",
+                  "selector": "div:nth-child(1)>div:nth-child(2)"
+                },
+                {
+                  "name": "text-color",
+                  "selector": "div:nth-child(2)>div:nth-child(2)"
+                },
+                {
+                  "name": "logo",
+                  "selector": "div:nth-child(3)>div:nth-child(1)>picture>img[src]"
+                },
+                {
+                  "name": "logo-alt",
+                  "selector": "div:nth-child(3)>div:nth-child(1)>picture>img[alt]"
+                },
+                {
+                  "name": "content",
+                  "selector": "div:nth-child(3)>div:nth-child(2)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Showcase Feature",
+          "id": "showcase-feature",
+          "model": "showcase-feature",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "Site Nav (JG)",
+          "id": "site-nav-jg",
+          "model": "site-nav-jg",
+          "filter": "site-nav-jg",
+          "plugins": {
+            "da": {
+              "title": "Site Nav (JG)",
+              "rows": 10,
+              "columns": 2
+            }
+          }
+        },
+        {
+          "title": "Site Nav Item (JG)",
+          "id": "site-nav-jg-item",
+          "model": "site-nav-jg-item",
+          "plugins": {
+            "da": {
+              "title": "Site Nav Item (JG)",
+              "rows": 1,
+              "columns": 2,
+              "fields": [
+                {
+                  "name": "categoryName",
+                  "selector": "div:nth-child(1)"
+                },
+                {
+                  "name": "subLinks",
+                  "selector": "div:nth-child(2)"
+                }
+              ]
+            }
+          }
         }
       ]
     },
@@ -605,6 +1174,307 @@
           "plugins": {
             "da": {
               "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "Product Teaser",
+          "id": "product-teaser",
+          "model": "product-teaser",
+          "plugins": {
+            "da": {
+              "type": "key-value-block"
+            }
+          }
+        },
+        {
+          "title": "Product Skew Reveal",
+          "id": "product-skew-reveal",
+          "model": "product-skew-reveal",
+          "filter": "product-skew-reveal",
+          "plugins": {
+            "da": {
+              "name": "product-skew-reveal",
+              "rows": 1,
+              "columns": 3
+            }
+          }
+        },
+        {
+          "title": "Product Skew Reveal Header",
+          "id": "product-skew-reveal-header",
+          "model": "product-skew-reveal-header",
+          "plugins": {
+            "da": {
+              "name": "product-skew-reveal-header",
+              "rows": 1,
+              "columns": 3,
+              "fields": [
+                {
+                  "name": "title",
+                  "selector": "div:nth-child(1)"
+                },
+                {
+                  "name": "subtitleLines",
+                  "selector": "div:nth-child(2)"
+                },
+                {
+                  "name": "alignment",
+                  "selector": "div:nth-child(3)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Product Skew Reveal Tile",
+          "id": "product-skew-reveal-tile",
+          "model": "product-skew-reveal-tile",
+          "plugins": {
+            "da": {
+              "name": "product-skew-reveal-tile",
+              "rows": 1,
+              "columns": 10,
+              "fields": [
+                {
+                  "name": "variant",
+                  "selector": "div:nth-child(1)"
+                },
+                {
+                  "name": "span",
+                  "selector": "div:nth-child(2)"
+                },
+                {
+                  "name": "label",
+                  "selector": "div:nth-child(3)"
+                },
+                {
+                  "name": "name",
+                  "selector": "div:nth-child(4)"
+                },
+                {
+                  "name": "link",
+                  "selector": "div:nth-child(5)"
+                },
+                {
+                  "name": "backgroundStyle",
+                  "selector": "div:nth-child(6)"
+                },
+                {
+                  "name": "image",
+                  "selector": "div:nth-child(7)>picture>img[src]"
+                },
+                {
+                  "name": "imageAlt",
+                  "selector": "div:nth-child(8)"
+                },
+                {
+                  "name": "videoUrl",
+                  "selector": "div:nth-child(9)"
+                },
+                {
+                  "name": "fallbackShape",
+                  "selector": "div:nth-child(10)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Product Hero",
+          "id": "product-hero",
+          "model": "product-hero",
+          "plugins": {
+            "da": {
+              "rows": 2,
+              "columns": 2,
+              "fields": [
+                {
+                  "name": "sku",
+                  "selector": "div:nth-child(1)>div:nth-child(2)"
+                },
+                {
+                  "name": "image",
+                  "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[src]"
+                },
+                {
+                  "name": "alt",
+                  "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[alt]"
+                },
+                {
+                  "name": "cta-text",
+                  "selector": "div:nth-child(2)>div:nth-child(2)>p>a"
+                },
+                {
+                  "name": "cta-href",
+                  "selector": "div:nth-child(2)>div:nth-child(2)>p>a[href]"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Product Hero (Dark)",
+          "id": "product-hero-dark",
+          "model": "product-hero",
+          "plugins": {
+            "da": {
+              "rows": 2,
+              "columns": 2,
+              "fields": [
+                {
+                  "name": "sku",
+                  "selector": "div:nth-child(1)>div:nth-child(2)"
+                },
+                {
+                  "name": "image",
+                  "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[src]"
+                },
+                {
+                  "name": "alt",
+                  "selector": "div:nth-child(2)>div:nth-child(1)>picture>img[alt]"
+                },
+                {
+                  "name": "cta-text",
+                  "selector": "div:nth-child(2)>div:nth-child(2)>p>a"
+                },
+                {
+                  "name": "cta-href",
+                  "selector": "div:nth-child(2)>div:nth-child(2)>p>a[href]"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Product Teaser V2",
+          "id": "product-teaser-v2",
+          "model": "product-teaser-v2",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"product-teaser-v2\"><div><div>sku</div><div></div></div><div><div>details-button</div><div>false</div></div><div><div>cart-button</div><div>false</div></div><div><div>background-color</div><div>#003087</div></div><div><div>text-color</div><div>#ffffff</div></div></div>",
+              "fields": [
+                {
+                  "name": "sku",
+                  "selector": "div:nth-child(1)>div:nth-child(2)"
+                },
+                {
+                  "name": "details-button",
+                  "selector": "div:nth-child(2)>div:nth-child(2)"
+                },
+                {
+                  "name": "cart-button",
+                  "selector": "div:nth-child(3)>div:nth-child(2)"
+                },
+                {
+                  "name": "background-color",
+                  "selector": "div:nth-child(4)>div:nth-child(2)"
+                },
+                {
+                  "name": "text-color",
+                  "selector": "div:nth-child(5)>div:nth-child(2)"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "custom-blocks-jg",
+      "title": "Custom Blocks (JG)",
+      "components": [
+        {
+          "title": "Hero (JPG)",
+          "id": "hero-jg",
+          "model": "hero-jg",
+          "plugins": {
+            "da": {
+              "rows": 1,
+              "columns": 1,
+              "fields": [
+                {
+                  "name": "image",
+                  "selector": "div:nth-child(1)>picture>img[src]"
+                },
+                {
+                  "name": "imageAlt",
+                  "selector": "div:nth-child(1)>picture>img[alt]"
+                },
+                {
+                  "name": "heading",
+                  "selector": "div:nth-child(1)>h2"
+                },
+                {
+                  "name": "subtitle",
+                  "selector": "div:nth-child(1)>h3"
+                },
+                {
+                  "name": "text",
+                  "selector": "div:nth-child(1)>p:not(:last-child)"
+                },
+                {
+                  "name": "ctaText",
+                  "selector": "div:nth-child(1)>p:last-child>a"
+                },
+                {
+                  "name": "ctaUrl",
+                  "selector": "div:nth-child(1)>p:last-child>a[href]"
+                },
+                {
+                  "name": "textColor",
+                  "selector": "div:nth-child(2)>div:nth-child(2)"
+                },
+                {
+                  "name": "ctaButtonOpacity",
+                  "selector": "div:nth-child(3)>div:nth-child(2)"
+                }
+              ],
+              "unsafeHTML": "<div class=\"hero-jg\"><div><div><picture></picture><h2>Hero Title</h2><h3>Subtitle</h3><p>A short description of the hero section.</p><p><a href=\"#\">Learn More</a></p></div></div><div><div>text-color</div><div>#ffffff</div></div><div><div>cta-button-opacity</div><div>24</div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Cards (JPG)",
+          "id": "cards-jg",
+          "filter": "cards-jg",
+          "plugins": {
+            "da": {
+              "title": "Cards V3",
+              "rows": 1,
+              "columns": 5,
+              "unsafeHTML": "<div class=\"cards-jg\"><div><div><picture></picture></div><div>Card Title</div><div><p>Card body text goes here.</p></div><div>#f5f5f5</div><div>#333333</div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Product Teaser (JPG)",
+          "id": "product-teaser-jg",
+          "model": "product-teaser-jg",
+          "plugins": {
+            "da": {
+              "type": "key-value-block",
+              "unsafeHTML": "<div class=\"product-teaser-jg\"><div><div>sku</div><div>YOUR-SKU-HERE</div></div><div><div>details-button</div><div>true</div></div><div><div>cart-button</div><div>true</div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Promotional Hero (JPG)",
+          "id": "promotional-hero-jg",
+          "plugins": {
+            "da": {
+              "unsafeHTML": "<div class=\"promotional-hero-jg\"><div><div><picture></picture></div><div><h2></h2><p></p></div><div><p></p></div></div><div><div>cta-button-color</div><div></div></div><div><div>cta-text-color</div><div></div></div></div>"
+            }
+          }
+        },
+        {
+          "title": "Age Gate (JPG)",
+          "id": "age-gate-jg",
+          "model": "age-gate-jg",
+          "plugins": {
+            "da": {
+              "type": "key-value-block",
+              "unsafeHTML": "<div class=\"age-gate-jg\"><div><div>minimum-age</div><div>21</div></div><div><div>heading</div><div>Age Verification Required</div></div><div><div>subheading</div><div></div></div><div><div>input-label</div><div>Enter your date of birth</div></div><div><div>button-text</div><div>Submit</div></div></div>"
             }
           }
         }

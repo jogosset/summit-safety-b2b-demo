@@ -1,0 +1,50 @@
+{
+  "definitions": [
+    {
+      "title": "PDP Feature Showcase",
+      "id": "pdp-feature-showcase",
+      "model": "pdp-feature-showcase",
+      "filter": "pdp-feature-showcase",
+      "plugins": {
+        "da": {
+          "name": "pdp-feature-showcase",
+          "rows": 1,
+          "columns": 2
+        }
+      }
+    },
+    {
+      "title": "PDP Feature Showcase Item",
+      "id": "pdp-feature-showcase-item",
+      "model": "pdp-feature-showcase-item",
+      "plugins": {
+        "da": {
+          "name": "pdp-feature-showcase-item",
+          "rows": 1,
+          "columns": 2,
+          "fields": [
+            { "name": "text", "selector": "div:nth-child(1)" },
+            { "name": "image", "selector": "div:nth-child(2)>picture>img[src]" },
+            { "name": "imageAlt", "selector": "div:nth-child(2)>picture>img[alt]" }
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "pdp-feature-showcase-item",
+      "fields": [
+        { "component": "richtext", "name": "text", "label": "Text Content", "valueType": "string", "required": true },
+        { "component": "reference", "name": "image", "label": "Image", "multi": false },
+        { "component": "text", "name": "imageAlt", "label": "Image Alt Text", "valueType": "string", "value": "" }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "pdp-feature-showcase",
+      "components": ["pdp-feature-showcase-item"]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+/* ============================================================
+   Product Hero — base (light theme)
+   ============================================================ */
+
+main .product-hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xbig);
+  padding-block: var(--spacing-xxbig);
+  padding-inline: var(--spacing-small);
+  background-color: var(--background-color);
+  color: var(--color-neutral-800);
+  border-radius: var(--shape-border-radius-2);
+}
+
+/* ============================================================
+   Dark theme
+   ============================================================ */
+
+main .product-hero[data-theme="dark"] {
+  background-color: var(--color-brand-700);
+  color: var(--color-neutral-50);
+}
+
+/* ============================================================
+   Media (image)
+   ============================================================ */
+
+main .product-hero .ph-media {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+main .product-hero .ph-media picture {
+  display: block;
+  width: 100%;
+}
+
+main .product-hero .ph-media picture > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--shape-border-radius-2);
+}
+
+/* ============================================================
+   Content (name, description, CTA)
+   ============================================================ */
+
+main .product-hero .ph-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-medium);
+}
+
+main .product-hero .ph-name {
+  font: var(--type-display-2-font);
+  letter-spacing: var(--type-display-2-letter-spacing);
+  color: inherit;
+  margin: 0;
+}
+
+main .product-hero[data-theme="dark"] .ph-name {
+  color: var(--color-neutral-50);
+}
+
+main .product-hero .ph-price {
+  font: var(--type-headline-1-font);
+  letter-spacing: var(--type-headline-1-letter-spacing);
+  color: inherit;
+  margin: 0;
+}
+
+main .product-hero .ph-price .price-regular {
+  font: var(--type-headline-2-default-font);
+  letter-spacing: var(--type-headline-2-default-letter-spacing);
+  color: inherit;
+  opacity: 0.6;
+  text-decoration: line-through;
+  margin-inline-end: var(--spacing-xsmall);
+}
+
+main .product-hero .ph-price .price-range {
+  display: flex;
+  gap: var(--spacing-xsmall);
+  align-items: baseline;
+}
+
+main .product-hero[data-theme="dark"] .ph-price {
+  color: var(--color-neutral-50);
+}
+
+main .product-hero .ph-description {
+  font: var(--type-body-1-default-font);
+  letter-spacing: var(--type-body-1-default-letter-spacing);
+  color: inherit;
+  opacity: 0.85;
+  margin: 0;
+}
+
+main .product-hero[data-theme="dark"] .ph-description {
+  color: var(--color-neutral-200);
+}
+
+main .product-hero .ph-cta {
+  margin-block-start: var(--spacing-xsmall);
+}
+
+/* Override global button color to use background-color so it
+   contrasts against both light and dark hero backgrounds */
+main .product-hero[data-theme="dark"] .ph-cta .button.primary {
+  background-color: var(--color-neutral-50);
+  color: var(--color-brand-700);
+  border-color: var(--color-neutral-50);
+}
+
+main .product-hero[data-theme="dark"] .ph-cta .button.primary:hover {
+  background-color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
+}
+
+/* ============================================================
+   Tablet and up
+   ============================================================ */
+
+@media (min-width: 600px) {
+  main .product-hero {
+    padding-inline: var(--spacing-big);
+  }
+}
+
+/* ============================================================
+   Desktop and up — side-by-side layout
+   ============================================================ */
+
+@media (min-width: 900px) {
+  main .product-hero {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-xxlarge);
+    padding-block: var(--spacing-huge);
+    padding-inline: var(--spacing-large);
+  }
+
+  main .product-hero .ph-media {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  main .product-hero .ph-content {
+    flex: 1;
+  }
+}

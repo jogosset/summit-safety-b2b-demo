@@ -1,0 +1,57 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Final CTA",
+      "id": "citisignal-showcase-final-cta",
+      "model": "citisignal-showcase-final-cta",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-final-cta",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "final-cta-heading",
+          "label": "Final CTA Heading",
+          "valueType": "string",
+          "value": "Ready to make|the switch?"
+        },
+        {
+          "component": "text",
+          "name": "final-cta-body",
+          "label": "Final CTA Body",
+          "valueType": "string",
+          "value": "Join 2.4 million people who chose better coverage and honest pricing. Setup takes five minutes."
+        },
+        {
+          "component": "text",
+          "name": "final-cta-label",
+          "label": "Final CTA Label",
+          "valueType": "string",
+          "value": "Get Started Today"
+        },
+        {
+          "component": "text",
+          "name": "final-cta-url",
+          "label": "Final CTA URL",
+          "valueType": "string",
+          "value": "#plans"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

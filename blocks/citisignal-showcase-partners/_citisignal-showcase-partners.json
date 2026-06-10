@@ -1,0 +1,43 @@
+{
+  "definitions": [
+    {
+      "title": "CitiSignal Showcase Partners",
+      "id": "citisignal-showcase-partners",
+      "model": "citisignal-showcase-partners",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "citisignal-showcase-partners",
+      "fields": [
+        {
+          "component": "text",
+          "name": "anchor-namespace",
+          "label": "Anchor Namespace",
+          "valueType": "string",
+          "value": "citisignal-showcase-1"
+        },
+        {
+          "component": "text",
+          "name": "partners-label",
+          "label": "Partners Label",
+          "valueType": "string",
+          "value": "Partnered with top brands"
+        },
+        {
+          "component": "text",
+          "name": "partner-names",
+          "label": "Partner Names",
+          "valueType": "string",
+          "value": "Apple|Samsung|Google|Qualcomm|Ericsson|Nokia|Spotify|YouTube|Disney+|Netflix|Hulu|Xbox"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

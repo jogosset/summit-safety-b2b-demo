@@ -1,0 +1,53 @@
+{
+  "definitions": [
+    {
+      "title": "PDP Reviews",
+      "id": "pdp-reviews",
+      "model": "pdp-reviews",
+      "plugins": {
+        "da": {
+          "type": "key-value-block"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "pdp-reviews",
+      "fields": [
+        { "component": "text", "name": "section-title", "label": "Section Title", "valueType": "string", "value": "Customer reviews" },
+        { "component": "text", "name": "overall-rating", "label": "Overall Rating (e.g. 4.2)", "valueType": "string", "value": "4.2" },
+        { "component": "text", "name": "total-reviews", "label": "Total Reviews", "valueType": "string", "value": "1,247" },
+        { "component": "text", "name": "stars-5-percent", "label": "5 Star %", "valueType": "string", "value": "58" },
+        { "component": "text", "name": "stars-4-percent", "label": "4 Star %", "valueType": "string", "value": "22" },
+        { "component": "text", "name": "stars-3-percent", "label": "3 Star %", "valueType": "string", "value": "11" },
+        { "component": "text", "name": "stars-2-percent", "label": "2 Star %", "valueType": "string", "value": "5" },
+        { "component": "text", "name": "stars-1-percent", "label": "1 Star %", "valueType": "string", "value": "4" },
+        { "component": "text", "name": "write-review-label", "label": "Write Review Button Label", "valueType": "string", "value": "Write a Review" },
+        { "component": "text", "name": "write-review-url", "label": "Write Review URL", "valueType": "string", "value": "#" },
+        { "component": "text", "name": "review-1-name", "label": "Review 1 — Name", "valueType": "string", "value": "Michael R." },
+        { "component": "text", "name": "review-1-date", "label": "Review 1 — Date", "valueType": "string", "value": "March 28, 2026" },
+        { "component": "text", "name": "review-1-rating", "label": "Review 1 — Rating (1-5)", "valueType": "string", "value": "5" },
+        { "component": "text", "name": "review-1-verified", "label": "Review 1 — Verified (true/false)", "valueType": "string", "value": "true" },
+        { "component": "text", "name": "review-1-initials", "label": "Review 1 — Initials", "valueType": "string", "value": "MR" },
+        { "component": "text", "name": "review-1-title", "label": "Review 1 — Title", "valueType": "string", "value": "Best phone I've owned in years" },
+        { "component": "text", "name": "review-1-text", "label": "Review 1 — Text", "valueType": "string", "value": "Switched from a three-year-old phone and the difference is night and day. Camera is incredible in low light, battery easily lasts a full day, and the screen is stunning." },
+        { "component": "text", "name": "review-2-name", "label": "Review 2 — Name", "valueType": "string", "value": "Sarah K." },
+        { "component": "text", "name": "review-2-date", "label": "Review 2 — Date", "valueType": "string", "value": "March 15, 2026" },
+        { "component": "text", "name": "review-2-rating", "label": "Review 2 — Rating (1-5)", "valueType": "string", "value": "4" },
+        { "component": "text", "name": "review-2-verified", "label": "Review 2 — Verified (true/false)", "valueType": "string", "value": "true" },
+        { "component": "text", "name": "review-2-initials", "label": "Review 2 — Initials", "valueType": "string", "value": "SK" },
+        { "component": "text", "name": "review-2-title", "label": "Review 2 — Title", "valueType": "string", "value": "Great camera, solid daily driver" },
+        { "component": "text", "name": "review-2-text", "label": "Review 2 — Text", "valueType": "string", "value": "The camera is the standout feature for me — photos look professional without any editing. Battery gets me through a full work day with about 30% left." },
+        { "component": "text", "name": "review-3-name", "label": "Review 3 — Name", "valueType": "string", "value": "James T." },
+        { "component": "text", "name": "review-3-date", "label": "Review 3 — Date", "valueType": "string", "value": "February 22, 2026" },
+        { "component": "text", "name": "review-3-rating", "label": "Review 3 — Rating (1-5)", "valueType": "string", "value": "5" },
+        { "component": "text", "name": "review-3-verified", "label": "Review 3 — Verified (true/false)", "valueType": "string", "value": "true" },
+        { "component": "text", "name": "review-3-initials", "label": "Review 3 — Initials", "valueType": "string", "value": "JT" },
+        { "component": "text", "name": "review-3-title", "label": "Review 3 — Title", "valueType": "string", "value": "The Sage color is gorgeous" },
+        { "component": "text", "name": "review-3-text", "label": "Review 3 — Text", "valueType": "string", "value": "Went with the Sage colorway and get compliments on it constantly. Performance-wise it handles everything I throw at it — heavy multitasking, gaming, lots of photos." }
+      ]
+    }
+  ],
+  "filters": []
+}

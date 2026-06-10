@@ -1,0 +1,295 @@
+@import url('../citisignal-showcase/citisignal-showcase.css');
+
+.citisignal-showcase-hero-v2-container .citisignal-showcase-hero-v2-wrapper {
+  box-sizing: border-box;
+  max-width: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero {
+  min-height: clamp(62rem, calc(100vh - var(--nav-height) - 8rem), 76rem);
+  padding: max(3.2rem, calc(var(--nav-height) - 2rem)) 0 5rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-grid {
+  min-height: clamp(54rem, calc(100vh - var(--nav-height) - 12rem), 68rem);
+  gap: clamp(2.8rem, 4vw, 5.6rem);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-copy {
+  gap: 2rem;
+  max-width: 55rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-proof {
+  margin-top: 0.4rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-visual {
+  align-self: center;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene {
+  position: relative;
+  width: min(100%, 54rem);
+  min-height: 58rem;
+  padding: 4.8rem 0 6rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-signal-ring--1 {
+  width: 38rem;
+  height: 38rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-signal-ring--2 {
+  width: 50rem;
+  height: 50rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-signal-ring--3 {
+  width: 62rem;
+  height: 62rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 34rem);
+  margin: 0 auto;
+  animation: cs-float-up 6s ease-in-out infinite 0.25s;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-media-frame {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgb(255 255 255 / 55%);
+  border-radius: 2.8rem;
+  background:
+    radial-gradient(circle at 18% 18%, rgb(255 255 255 / 70%), transparent 30%),
+    linear-gradient(145deg, rgb(124 58 237 / 18%), rgb(6 182 212 / 16%) 54%, rgb(255 255 255 / 72%));
+  box-shadow:
+    0 2.4rem 6rem rgb(17 17 24 / 18%),
+    inset 0 0.1rem 0 rgb(255 255 255 / 80%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-picture,
+.citisignal-showcase-hero-v2 .cs-hero-v2-picture picture,
+.citisignal-showcase-hero-v2 .cs-hero-v2-picture img,
+.citisignal-showcase-hero-v2 .cs-hero-v2-media-frame picture,
+.citisignal-showcase-hero-v2 .cs-hero-v2-media-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-media-frame img {
+  object-fit: cover;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-meta {
+  position: relative;
+  z-index: 2;
+  width: calc(100% - 3.2rem);
+  margin: -2.4rem auto 0;
+  padding: 1.8rem 2rem 2rem;
+  border: 1px solid rgb(17 17 24 / 8%);
+  border-radius: 2rem;
+  background: rgb(255 255 255 / 90%);
+  box-shadow: 0 2rem 4.4rem rgb(17 17 24 / 12%);
+  backdrop-filter: blur(1.6rem);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-tag {
+  margin: 0;
+  color: var(--cs-primary);
+  font: var(--type-details-overline-font);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-title {
+  margin: 0.5rem 0 0;
+  color: var(--cs-text);
+  font-size: clamp(2.2rem, 2.6vw, 2.8rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-description {
+  margin: 0.9rem 0 0;
+  color: var(--cs-text-muted);
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background:
+    radial-gradient(circle at 18% 20%, rgb(255 255 255 / 72%), transparent 26%),
+    radial-gradient(circle at 78% 22%, rgb(56 189 248 / 28%), transparent 24%),
+    linear-gradient(155deg, #f8f5ff 6%, #e8f1ff 48%, #fff1de 100%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-badge {
+  position: absolute;
+  top: 1.6rem;
+  left: 1.6rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  min-height: 3.2rem;
+  padding: 0 1.2rem;
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 70%);
+  color: var(--cs-primary-dark);
+  font: var(--type-body-2-strong-font);
+  box-shadow: 0 1rem 2.4rem rgb(17 17 24 / 8%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-disc,
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-shine {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-disc--1 {
+  right: 3.2rem;
+  bottom: 4.6rem;
+  width: 18rem;
+  height: 18rem;
+  background: radial-gradient(circle, rgb(124 58 237 / 18%), rgb(124 58 237 / 0%) 72%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-disc--2 {
+  right: 6rem;
+  top: 7rem;
+  width: 10rem;
+  height: 10rem;
+  background: radial-gradient(circle, rgb(6 182 212 / 20%), rgb(6 182 212 / 0%) 72%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-shine {
+  inset: auto auto 3rem 3rem;
+  width: 22rem;
+  height: 22rem;
+  background: radial-gradient(circle, rgb(255 255 255 / 64%), rgb(255 255 255 / 0%) 76%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-panel {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 1rem;
+  width: min(100%, 22rem);
+  padding: 1.6rem;
+  border: 1px solid rgb(255 255 255 / 65%);
+  border-radius: 2rem;
+  background: rgb(255 255 255 / 72%);
+  box-shadow: 0 1.6rem 4rem rgb(17 17 24 / 10%);
+  backdrop-filter: blur(1rem);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-line {
+  display: block;
+  height: 1rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgb(124 58 237 / 22%), rgb(6 182 212 / 14%));
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-line--strong {
+  width: 72%;
+  height: 1.3rem;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-placeholder-line--short {
+  width: 56%;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-hero-pill {
+  box-shadow: 0 1.4rem 3.4rem rgb(17 17 24 / 10%);
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-hero-pill--1 {
+  top: 7%;
+  right: 4%;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-hero-pill--2 {
+  bottom: 30%;
+  left: -2%;
+}
+
+.citisignal-showcase-hero-v2 .cs-hero-v2-scene .cs-hero-pill--3 {
+  right: 2%;
+  bottom: 7%;
+}
+
+@media (max-width: 1024px) {
+  .citisignal-showcase-hero-v2 .cs-hero {
+    min-height: auto;
+    padding-bottom: 4.8rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-grid {
+    min-height: auto;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-scene {
+    width: min(100%, 44rem);
+    min-height: 52rem;
+    padding: 3.6rem 0 5.2rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-card {
+    width: min(100%, 32rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .citisignal-showcase-hero-v2 .cs-hero {
+    padding: 3.4rem 0 4.2rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-grid {
+    gap: 3.2rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-copy {
+    gap: 1.8rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-scene {
+    width: min(100%, 38rem);
+    min-height: 42rem;
+    padding: 1.6rem 0 0;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-card {
+    width: min(100%, 28rem);
+    animation: none;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-media-frame {
+    border-radius: 2.2rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-meta {
+    width: calc(100% - 2rem);
+    margin-top: -1.8rem;
+    padding: 1.6rem 1.8rem 1.8rem;
+  }
+
+  .citisignal-showcase-hero-v2 .cs-hero-v2-title {
+    font-size: 2.1rem;
+  }
+}
