@@ -123,6 +123,17 @@ function decorateButtons(main) {
 }
 
 /**
+ * Applies authored section-metadata `color` values as CSS custom properties so
+ * style variants like `highlight` can use `var(--section-color)` for theming.
+ * @param {Element} main The main element
+ */
+function decorateSectionColors(main) {
+  main.querySelectorAll('.section[data-color]').forEach((section) => {
+    section.style.setProperty('--section-color', section.dataset.color);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -131,6 +142,7 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSectionColors(main);
   decorateBlocks(main);
   decorateButtons(main);
 }
