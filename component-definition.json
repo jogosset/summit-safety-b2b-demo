@@ -1140,7 +1140,14 @@
               ]
             }
           }
-        }
+        },
+        { "title": "SS Hero", "id": "ss-hero", "plugins": { "da": { "name": "ss-hero", "rows": 10, "columns": 2 } } },
+        { "title": "SS Trust Bar", "id": "ss-trust-bar", "plugins": { "da": { "name": "ss-trust-bar", "rows": 4, "columns": 3 } } },
+        { "title": "SS Categories", "id": "ss-categories", "plugins": { "da": { "name": "ss-categories", "rows": 6, "columns": 4 } } },
+        { "title": "SS Value Props", "id": "ss-value-props", "plugins": { "da": { "name": "ss-value-props", "rows": 12, "columns": 2 } } },
+        { "title": "SS Product Cards", "id": "ss-product-cards", "plugins": { "da": { "name": "ss-product-cards", "rows": 4, "columns": 6 } } },
+        { "title": "SS Testimonials", "id": "ss-testimonials", "plugins": { "da": { "name": "ss-testimonials", "rows": 3, "columns": 4 } } },
+        { "title": "SS CTA Banner", "id": "ss-cta-banner", "plugins": { "da": { "name": "ss-cta-banner", "rows": 4, "columns": 1 } } }
       ]
     },
     {
