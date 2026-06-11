@@ -1,0 +1,21 @@
+/* Summit Safety Brand Tokens — Alpine Professional palette */
+
+/* Extends the Adobe Commerce dropin token set in styles.css  */
+:root {
+  --ss-color-navy: #0b3d5e;
+  --ss-color-navy-deep: #071824;
+  --ss-color-navy-mid: #0d5480;
+  --ss-color-gold: #e8a020;
+  --ss-color-gold-deep: #c98010;
+  --ss-color-sky: #00b4d8;
+  --ss-color-sky-deep: #0077a8;
+  --ss-color-white: #fafcff;
+  --ss-color-surface: #f0f5fa;
+  --ss-font-display: 'Barlow Condensed', sans-serif;
+  --ss-font-body: 'Barlow', sans-serif;
+  --ss-shadow-card: 0 2px 12px rgb(11 61 94 / 10%);
+  --ss-shadow-card-hover: 0 8px 32px rgb(11 61 94 / 20%);
+  --ss-shadow-gold: 0 4px 20px rgb(232 160 32 / 30%);
+  --ss-transition-mid: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  --ss-transition-slow: 480ms cubic-bezier(0.4, 0, 0.2, 1);
+}
